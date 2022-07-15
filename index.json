@@ -1,0 +1,612 @@
+{
+  "api/Firefly.Art.ArtPipelineSettings.html": {
+    "href": "api/Firefly.Art.ArtPipelineSettings.html",
+    "title": "Class ArtPipelineSettings | Firefly documentation",
+    "keywords": "Class ArtPipelineSettings Inheritance Object ScriptableSingletonEditor < ArtPipelineSettings > ArtPipelineSettings Inherited Members ScriptableSingletonEditor<ArtPipelineSettings>.Instance Namespace : Firefly.Art Assembly : cs.temp.dll.dll Syntax public class ArtPipelineSettings : ScriptableSingletonEditor<ArtPipelineSettings> Fields toonModelImportSetting Declaration public ToonModelImportSetting toonModelImportSetting Field Value Type Description ToonModelImportSetting"
+  },
+  "api/Firefly.Art.ForderPath.html": {
+    "href": "api/Firefly.Art.ForderPath.html",
+    "title": "Class ForderPath | Firefly documentation",
+    "keywords": "Class ForderPath Inheritance Object ForderPath Namespace : Firefly.Art Assembly : cs.temp.dll.dll Syntax public class ForderPath Fields folderPath Declaration public string folderPath Field Value Type Description String useTangent Declaration public bool useTangent Field Value Type Description Boolean"
+  },
+  "api/Firefly.Art.html": {
+    "href": "api/Firefly.Art.html",
+    "title": "Namespace Firefly.Art | Firefly documentation",
+    "keywords": "Namespace Firefly.Art Classes ArtPipelineSettings ForderPath ModelImportUtilities ToonModelImporter 对卡通风格的模型导入时自动计算平滑法线存放于UV2和UV3中。 注意并没有替换模型, 仅对生成GameObject后做处理, 存储于Library中. fbx文件无损. 临时会拷贝一份模型, 利用Unity导入自动计算平滑法线(速度比手动计算更快). 自动区分SkinedMesh还是StaticMesh ToonModelImportSetting"
+  },
+  "api/Firefly.Art.ModelImportUtilities.html": {
+    "href": "api/Firefly.Art.ModelImportUtilities.html",
+    "title": "Class ModelImportUtilities | Firefly documentation",
+    "keywords": "Class ModelImportUtilities Inheritance Object ModelImportUtilities Namespace : Firefly.Art Assembly : cs.temp.dll.dll Syntax public static class ModelImportUtilities Methods IsSkinnedMesh(String) Declaration public static bool IsSkinnedMesh(string assetPath) Parameters Type Name Description String assetPath Returns Type Description Boolean IsStaticMesh(String) Declaration public static bool IsStaticMesh(string assetPath) Parameters Type Name Description String assetPath Returns Type Description Boolean IsUseTangent(String) Declaration public static bool IsUseTangent(string assetPath) Parameters Type Name Description String assetPath Returns Type Description Boolean NeedToCaculateSmoothNormal(String) Declaration public static bool NeedToCaculateSmoothNormal(string assetPath) Parameters Type Name Description String assetPath Returns Type Description Boolean SetDefaultImportSetting(ref ModelImporter) Declaration public static void SetDefaultImportSetting(ref ModelImporter model) Parameters Type Name Description ModelImporter model"
+  },
+  "api/Firefly.Art.ToonModelImporter.html": {
+    "href": "api/Firefly.Art.ToonModelImporter.html",
+    "title": "Class ToonModelImporter | Firefly documentation",
+    "keywords": "Class ToonModelImporter 对卡通风格的模型导入时自动计算平滑法线存放于UV2和UV3中。 注意并没有替换模型, 仅对生成GameObject后做处理, 存储于Library中. fbx文件无损. 临时会拷贝一份模型, 利用Unity导入自动计算平滑法线(速度比手动计算更快). 自动区分SkinedMesh还是StaticMesh Inheritance Object ToonModelImporter Namespace : Firefly.Art Assembly : cs.temp.dll.dll Syntax public class ToonModelImporter : AssetPostprocessor"
+  },
+  "api/Firefly.Art.ToonModelImportSetting.html": {
+    "href": "api/Firefly.Art.ToonModelImportSetting.html",
+    "title": "Class ToonModelImportSetting | Firefly documentation",
+    "keywords": "Class ToonModelImportSetting Inheritance Object ToonModelImportSetting Namespace : Firefly.Art Assembly : cs.temp.dll.dll Syntax public class ToonModelImportSetting : ScriptableObject Fields toonMeshFolderPath Declaration public List<ForderPath> toonMeshFolderPath Field Value Type Description List < ForderPath >"
+  },
+  "api/Firefly.CreateShadersTemplate.html": {
+    "href": "api/Firefly.CreateShadersTemplate.html",
+    "title": "Class CreateShadersTemplate | Firefly documentation",
+    "keywords": "Class CreateShadersTemplate Inheritance Object CreateShadersTemplate Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public static class CreateShadersTemplate"
+  },
+  "api/Firefly.Editor.html": {
+    "href": "api/Firefly.Editor.html",
+    "title": "Namespace Firefly.Editor | Firefly documentation",
+    "keywords": "Namespace Firefly.Editor Classes MeshNormalVisualizer"
+  },
+  "api/Firefly.Editor.MeshNormalVisualizer.html": {
+    "href": "api/Firefly.Editor.MeshNormalVisualizer.html",
+    "title": "Class MeshNormalVisualizer | Firefly documentation",
+    "keywords": "Class MeshNormalVisualizer Inheritance Object MeshNormalVisualizer Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public class MeshNormalVisualizer : Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
+  "api/Firefly.EditorGraphicUtilities.html": {
+    "href": "api/Firefly.EditorGraphicUtilities.html",
+    "title": "Class EditorGraphicUtilities | Firefly documentation",
+    "keywords": "Class EditorGraphicUtilities Inheritance Object EditorGraphicUtilities Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public static class EditorGraphicUtilities Methods RepaintGameView() Declaration public static void RepaintGameView()"
+  },
+  "api/Firefly.EditorGUIEx.EditorGUIIndentLevel.html": {
+    "href": "api/Firefly.EditorGUIEx.EditorGUIIndentLevel.html",
+    "title": "Class EditorGUIEx.EditorGUIIndentLevel | Firefly documentation",
+    "keywords": "Class EditorGUIEx.EditorGUIIndentLevel Inheritance Object EditorGUIEx.EditorGUIIndentLevel Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class EditorGUIIndentLevel : IDisposable Constructors EditorGUIIndentLevel(Int32) Declaration public EditorGUIIndentLevel(int newIndent) Parameters Type Name Description Int32 newIndent Methods Dispose() Declaration public void Dispose()"
+  },
+  "api/Firefly.EditorGUIEx.EditorGUILayoutHorizontal.html": {
+    "href": "api/Firefly.EditorGUIEx.EditorGUILayoutHorizontal.html",
+    "title": "Class EditorGUIEx.EditorGUILayoutHorizontal | Firefly documentation",
+    "keywords": "Class EditorGUIEx.EditorGUILayoutHorizontal Inheritance Object EditorGUIEx.EditorGUILayoutHorizontal Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class EditorGUILayoutHorizontal : IDisposable Constructors EditorGUILayoutHorizontal() Declaration public EditorGUILayoutHorizontal() EditorGUILayoutHorizontal(GUILayoutOption[]) Declaration public EditorGUILayoutHorizontal(params GUILayoutOption[] options) Parameters Type Name Description GUILayoutOption [] options EditorGUILayoutHorizontal(GUIStyle, GUILayoutOption[]) Declaration public EditorGUILayoutHorizontal(GUIStyle style, params GUILayoutOption[] options) Parameters Type Name Description GUIStyle style GUILayoutOption [] options Methods Dispose() Declaration public void Dispose()"
+  },
+  "api/Firefly.EditorGUIEx.EditorGUILayoutVertical.html": {
+    "href": "api/Firefly.EditorGUIEx.EditorGUILayoutVertical.html",
+    "title": "Class EditorGUIEx.EditorGUILayoutVertical | Firefly documentation",
+    "keywords": "Class EditorGUIEx.EditorGUILayoutVertical Inheritance Object EditorGUIEx.EditorGUILayoutVertical Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class EditorGUILayoutVertical : IDisposable Constructors EditorGUILayoutVertical() Declaration public EditorGUILayoutVertical() EditorGUILayoutVertical(GUILayoutOption[]) Declaration public EditorGUILayoutVertical(params GUILayoutOption[] options) Parameters Type Name Description GUILayoutOption [] options EditorGUILayoutVertical(GUIStyle, GUILayoutOption[]) Declaration public EditorGUILayoutVertical(GUIStyle style, params GUILayoutOption[] options) Parameters Type Name Description GUIStyle style GUILayoutOption [] options Methods Dispose() Declaration public void Dispose()"
+  },
+  "api/Firefly.EditorGUIEx.GUIBackgroundColor.html": {
+    "href": "api/Firefly.EditorGUIEx.GUIBackgroundColor.html",
+    "title": "Class EditorGUIEx.GUIBackgroundColor | Firefly documentation",
+    "keywords": "Class EditorGUIEx.GUIBackgroundColor Inheritance Object EditorGUIEx.GUIBackgroundColor Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class GUIBackgroundColor : IDisposable Constructors GUIBackgroundColor(Color) Declaration public GUIBackgroundColor(Color newColor) Parameters Type Name Description Color newColor Methods Dispose() Declaration public void Dispose()"
+  },
+  "api/Firefly.EditorGUIEx.GUIColor.html": {
+    "href": "api/Firefly.EditorGUIEx.GUIColor.html",
+    "title": "Class EditorGUIEx.GUIColor | Firefly documentation",
+    "keywords": "Class EditorGUIEx.GUIColor Inheritance Object EditorGUIEx.GUIColor Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class GUIColor : IDisposable Constructors GUIColor(Color) Declaration public GUIColor(Color newColor) Parameters Type Name Description Color newColor Methods Dispose() Declaration public void Dispose()"
+  },
+  "api/Firefly.EditorGUIEx.GUIEnabled.html": {
+    "href": "api/Firefly.EditorGUIEx.GUIEnabled.html",
+    "title": "Class EditorGUIEx.GUIEnabled | Firefly documentation",
+    "keywords": "Class EditorGUIEx.GUIEnabled Inheritance Object EditorGUIEx.GUIEnabled Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class GUIEnabled : IDisposable Constructors GUIEnabled(Boolean) Declaration public GUIEnabled(bool newState) Parameters Type Name Description Boolean newState Methods Dispose() Declaration public void Dispose()"
+  },
+  "api/Firefly.EditorGUIEx.GUILayoutHorizontal.html": {
+    "href": "api/Firefly.EditorGUIEx.GUILayoutHorizontal.html",
+    "title": "Class EditorGUIEx.GUILayoutHorizontal | Firefly documentation",
+    "keywords": "Class EditorGUIEx.GUILayoutHorizontal Inheritance Object EditorGUIEx.GUILayoutHorizontal Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class GUILayoutHorizontal : IDisposable Constructors GUILayoutHorizontal() Declaration public GUILayoutHorizontal() GUILayoutHorizontal(GUILayoutOption[]) Declaration public GUILayoutHorizontal(params GUILayoutOption[] layoutOptions) Parameters Type Name Description GUILayoutOption [] layoutOptions GUILayoutHorizontal(GUIStyle, GUILayoutOption[]) Declaration public GUILayoutHorizontal(GUIStyle style, params GUILayoutOption[] options) Parameters Type Name Description GUIStyle style GUILayoutOption [] options GUILayoutHorizontal(String, GUIStyle, GUILayoutOption[]) Declaration public GUILayoutHorizontal(string text, GUIStyle style, params GUILayoutOption[] options) Parameters Type Name Description String text GUIStyle style GUILayoutOption [] options Methods Dispose() Declaration public void Dispose()"
+  },
+  "api/Firefly.EditorGUIEx.GUILayoutVertical.html": {
+    "href": "api/Firefly.EditorGUIEx.GUILayoutVertical.html",
+    "title": "Class EditorGUIEx.GUILayoutVertical | Firefly documentation",
+    "keywords": "Class EditorGUIEx.GUILayoutVertical Inheritance Object EditorGUIEx.GUILayoutVertical Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class GUILayoutVertical : IDisposable Constructors GUILayoutVertical() Declaration public GUILayoutVertical() GUILayoutVertical(GUILayoutOption[]) Declaration public GUILayoutVertical(params GUILayoutOption[] options) Parameters Type Name Description GUILayoutOption [] options GUILayoutVertical(GUIStyle, GUILayoutOption[]) Declaration public GUILayoutVertical(GUIStyle style, params GUILayoutOption[] options) Parameters Type Name Description GUIStyle style GUILayoutOption [] options GUILayoutVertical(String, GUIStyle, GUILayoutOption[]) Declaration public GUILayoutVertical(string text, GUIStyle style, params GUILayoutOption[] options) Parameters Type Name Description String text GUIStyle style GUILayoutOption [] options Methods Dispose() Declaration public void Dispose()"
+  },
+  "api/Firefly.EditorGUIEx.GUISkinLabelNormalTextColor.html": {
+    "href": "api/Firefly.EditorGUIEx.GUISkinLabelNormalTextColor.html",
+    "title": "Class EditorGUIEx.GUISkinLabelNormalTextColor | Firefly documentation",
+    "keywords": "Class EditorGUIEx.GUISkinLabelNormalTextColor Inheritance Object EditorGUIEx.GUISkinLabelNormalTextColor Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class GUISkinLabelNormalTextColor : IDisposable Constructors GUISkinLabelNormalTextColor(Color) Declaration public GUISkinLabelNormalTextColor(Color newColor) Parameters Type Name Description Color newColor Methods Dispose() Declaration public void Dispose()"
+  },
+  "api/Firefly.EditorGUIEx.html": {
+    "href": "api/Firefly.EditorGUIEx.html",
+    "title": "Class EditorGUIEx | Firefly documentation",
+    "keywords": "Class EditorGUIEx using (new AmazingAssets.EditorGUIUtility.EditorGUILayoutHorizontal()) { Your GUI Layout. } EditorGUILayoutVertical EditorGUILayoutHorizontal GUILayoutVertical GUILayoutHorizontal EditorGUIIndentLevel GUIColor GUIBackgroundColor GUIEnabled Inheritance Object EditorGUIEx Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class EditorGUIEx"
+  },
+  "api/Firefly.FireflyEditorAssets.FireflyConfigs.html": {
+    "href": "api/Firefly.FireflyEditorAssets.FireflyConfigs.html",
+    "title": "Class FireflyEditorAssets.FireflyConfigs | Firefly documentation",
+    "keywords": "Class FireflyEditorAssets.FireflyConfigs Inheritance Object FireflyEditorAssets.FireflyConfigs Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public sealed class FireflyConfigs Fields artMenuItems Declaration public string artMenuItems Field Value Type Description String renderMenuItems Declaration public string renderMenuItems Field Value Type Description String"
+  },
+  "api/Firefly.FireflyEditorAssets.html": {
+    "href": "api/Firefly.FireflyEditorAssets.html",
+    "title": "Class FireflyEditorAssets | Firefly documentation",
+    "keywords": "Class FireflyEditorAssets Inheritance Object FireflyEditorAssets Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class FireflyEditorAssets : ScriptableObject Fields configs Declaration public FireflyEditorAssets.FireflyConfigs configs Field Value Type Description FireflyEditorAssets.FireflyConfigs materials Declaration public FireflyEditorAssets.SMaterialResources materials Field Value Type Description FireflyEditorAssets.SMaterialResources shaders Declaration public FireflyEditorAssets.ShaderResources shaders Field Value Type Description FireflyEditorAssets.ShaderResources textures Declaration public FireflyEditorAssets.TextureResources textures Field Value Type Description FireflyEditorAssets.TextureResources Properties Instance Declaration public static FireflyEditorAssets Instance { get; } Property Value Type Description FireflyEditorAssets"
+  },
+  "api/Firefly.FireflyEditorAssets.ShaderResources.html": {
+    "href": "api/Firefly.FireflyEditorAssets.ShaderResources.html",
+    "title": "Class FireflyEditorAssets.ShaderResources | Firefly documentation",
+    "keywords": "Class FireflyEditorAssets.ShaderResources Inheritance Object FireflyEditorAssets.ShaderResources Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public sealed class ShaderResources Fields shader Declaration public Shader shader Field Value Type Description Shader"
+  },
+  "api/Firefly.FireflyEditorAssets.SMaterialResources.html": {
+    "href": "api/Firefly.FireflyEditorAssets.SMaterialResources.html",
+    "title": "Class FireflyEditorAssets.SMaterialResources | Firefly documentation",
+    "keywords": "Class FireflyEditorAssets.SMaterialResources Inheritance Object FireflyEditorAssets.SMaterialResources Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public sealed class SMaterialResources Fields mat Declaration public Material mat Field Value Type Description Material"
+  },
+  "api/Firefly.FireflyEditorAssets.TextureResources.html": {
+    "href": "api/Firefly.FireflyEditorAssets.TextureResources.html",
+    "title": "Class FireflyEditorAssets.TextureResources | Firefly documentation",
+    "keywords": "Class FireflyEditorAssets.TextureResources Inheritance Object FireflyEditorAssets.TextureResources Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public sealed class TextureResources Fields fireflyIcon Declaration public Texture2D fireflyIcon Field Value Type Description Texture2D"
+  },
+  "api/Firefly.GamePlay.FireflyJoystick.html": {
+    "href": "api/Firefly.GamePlay.FireflyJoystick.html",
+    "title": "Class FireflyJoystick | Firefly documentation",
+    "keywords": "Class FireflyJoystick Inheritance Object FireflyJoystick Namespace : Firefly.GamePlay Assembly : cs.temp.dll.dll Syntax public class FireflyJoystick : MonoBehaviour Fields moveSpeed Declaration public float moveSpeed Field Value Type Description Single player Declaration public Transform player Field Value Type Description Transform scaleSpeed Declaration public float scaleSpeed Field Value Type Description Single"
+  },
+  "api/Firefly.GamePlay.html": {
+    "href": "api/Firefly.GamePlay.html",
+    "title": "Namespace Firefly.GamePlay | Firefly documentation",
+    "keywords": "Namespace Firefly.GamePlay Classes FireflyJoystick"
+  },
+  "api/Firefly.GUIStyleEx.html": {
+    "href": "api/Firefly.GUIStyleEx.html",
+    "title": "Class GUIStyleEx | Firefly documentation",
+    "keywords": "Class GUIStyleEx Inheritance Object GUIStyleEx Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class GUIStyleEx : MonoBehaviour Properties HeaderCenter Declaration public static GUIStyle HeaderCenter { get; } Property Value Type Description GUIStyle HeaderLeft Declaration public static GUIStyle HeaderLeft { get; } Property Value Type Description GUIStyle ToggleStyle Declaration public static GUIStyle ToggleStyle { get; } Property Value Type Description GUIStyle"
+  },
+  "api/Firefly.html": {
+    "href": "api/Firefly.html",
+    "title": "Namespace Firefly | Firefly documentation",
+    "keywords": "Namespace Firefly Classes CreateShadersTemplate EditorGraphicUtilities EditorGUIEx using (new AmazingAssets.EditorGUIUtility.EditorGUILayoutHorizontal()) { Your GUI Layout. } EditorGUILayoutVertical EditorGUILayoutHorizontal GUILayoutVertical GUILayoutHorizontal EditorGUIIndentLevel GUIColor GUIBackgroundColor GUIEnabled EditorGUIEx.EditorGUIIndentLevel EditorGUIEx.EditorGUILayoutHorizontal EditorGUIEx.EditorGUILayoutVertical EditorGUIEx.GUIBackgroundColor EditorGUIEx.GUIColor EditorGUIEx.GUIEnabled EditorGUIEx.GUILayoutHorizontal EditorGUIEx.GUILayoutVertical EditorGUIEx.GUISkinLabelNormalTextColor FireflyEditorAssets FireflyEditorAssets.FireflyConfigs FireflyEditorAssets.ShaderResources FireflyEditorAssets.SMaterialResources FireflyEditorAssets.TextureResources GUIStyleEx InspectorUtils InspectorUtils.SplitterStyles SceneViewCameraSync ScriptableSingletonEditor<T> TemplateShaderGUI TemplateShaderGUI.Styles Enums TemplateShaderGUI.BlendMode TemplateShaderGUI.RenderFace TemplateShaderGUI.SurfaceType"
+  },
+  "api/Firefly.InspectorUtils.html": {
+    "href": "api/Firefly.InspectorUtils.html",
+    "title": "Class InspectorUtils | Firefly documentation",
+    "keywords": "Class InspectorUtils Inheritance Object InspectorUtils Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public static class InspectorUtils Fields _helpBoxStyle Declaration public static GUIStyle _helpBoxStyle Field Value Type Description GUIStyle SplitterHeight Declaration public static float SplitterHeight Field Value Type Description Single Properties HeaderCheckboxShuriken Declaration public static GUIStyle HeaderCheckboxShuriken { get; } Property Value Type Description GUIStyle HeaderLabel Declaration public static GUIStyle HeaderLabel { get; } Property Value Type Description GUIStyle HeaderShuriken Declaration public static GUIStyle HeaderShuriken { get; } Property Value Type Description GUIStyle HelpBoxStyle Declaration public static GUIStyle HelpBoxStyle { get; } Property Value Type Description GUIStyle LineStyle Declaration public static GUIStyle LineStyle { get; } Property Value Type Description GUIStyle Methods DrawPreviewTexture(Texture, Single, Material) Declaration public static void DrawPreviewTexture(Texture texture, float previewSize, Material mat = null) Parameters Type Name Description Texture texture Single previewSize Material mat DrawVerticalSplitter(GUIContent, Single, Single, Single, Single, ref Boolean) Draws a vertical dragable splitter. Declaration public static float DrawVerticalSplitter(GUIContent title, float inputPosition, float minPosition, float maxPosition, float height, ref bool isDraggin) Parameters Type Name Description GUIContent title Title. Single inputPosition Input vertical position. Single minPosition Minimum position. Single maxPosition Max position. Single height Splitter height. Boolean isDraggin Is splitter being dragged. Returns Type Description Single The vertical splitter position. GUIContentWithTooltip(String) Declaration public static GUIContent GUIContentWithTooltip(string label) Parameters Type Name Description String label Returns Type Description GUIContent GUILine(Color, Single) Declaration public static void GUILine(Color color, float height = 2F) Parameters Type Name Description Color color Single height GUILine(Rect, Color, Single) Declaration public static void GUILine(Rect position, Color color, float height = 2F) Parameters Type Name Description Rect position Color color Single height GUILine(Single) Declaration public static void GUILine(float height = 2F) Parameters Type Name Description Single height Header(Rect, String, String, Boolean) Declaration public static void Header(Rect position, string header, string tooltip = null, bool expandWidth = false) Parameters Type Name Description Rect position String header String tooltip Boolean expandWidth Header(String, String, Boolean) Declaration public static void Header(string header, string tooltip = null, bool expandWidth = false) Parameters Type Name Description String header String tooltip Boolean expandWidth HeaderBox(Rect, String, String, Boolean) Declaration public static void HeaderBox(Rect position, string header, string tooltip = null, bool expandWidth = false) Parameters Type Name Description Rect position String header String tooltip Boolean expandWidth Separator() Declaration public static void Separator() Separator(Rect) Declaration public static void Separator(Rect position) Parameters Type Name Description Rect position SeparatorBig() Declaration public static void SeparatorBig() ToggleHeaderBox(Rect, String, Boolean, String, Boolean) Declaration public static bool ToggleHeaderBox(Rect position, string header, bool enabled, string tooltip = null, bool expandWidth = false) Parameters Type Name Description Rect position String header Boolean enabled String tooltip Boolean expandWidth Returns Type Description Boolean"
+  },
+  "api/Firefly.InspectorUtils.SplitterStyles.html": {
+    "href": "api/Firefly.InspectorUtils.SplitterStyles.html",
+    "title": "Class InspectorUtils.SplitterStyles | Firefly documentation",
+    "keywords": "Class InspectorUtils.SplitterStyles Inheritance Object InspectorUtils.SplitterStyles Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public static class SplitterStyles Fields backgroundStyle Declaration public static GUIStyle backgroundStyle Field Value Type Description GUIStyle handleStyle Declaration public static GUIStyle handleStyle Field Value Type Description GUIStyle titleStyle Declaration public static GUIStyle titleStyle Field Value Type Description GUIStyle"
+  },
+  "api/Firefly.Rendering.CameraExtension.html": {
+    "href": "api/Firefly.Rendering.CameraExtension.html",
+    "title": "Class CameraExtension | Firefly documentation",
+    "keywords": "Class CameraExtension Inheritance Object CameraExtension Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public static class CameraExtension Methods GetJitteredProjectionMatrix(Camera, Matrix4x4, Single, Single) Declaration public static Matrix4x4 GetJitteredProjectionMatrix(this Camera camera, Matrix4x4 origProj, float texelOffsetX, float texelOffsetY) Parameters Type Name Description Camera camera Matrix4x4 origProj Single texelOffsetX Single texelOffsetY Returns Type Description Matrix4x4 GetProjectionExtents(Camera, Single, Single) Declaration public static Vector4 GetProjectionExtents(this Camera camera, float texelOffsetX, float texelOffsetY) Parameters Type Name Description Camera camera Single texelOffsetX Single texelOffsetY Returns Type Description Vector4 GetProjectionMatrix(Camera) Declaration public static Matrix4x4 GetProjectionMatrix(this Camera camera) Parameters Type Name Description Camera camera Returns Type Description Matrix4x4 GetProjectionMatrix(Camera, Single, Single) Declaration public static Matrix4x4 GetProjectionMatrix(this Camera camera, float texelOffsetX, float texelOffsetY) Parameters Type Name Description Camera camera Single texelOffsetX Single texelOffsetY Returns Type Description Matrix4x4"
+  },
+  "api/Firefly.Rendering.DebugMode.html": {
+    "href": "api/Firefly.Rendering.DebugMode.html",
+    "title": "Enum DebugMode | Firefly documentation",
+    "keywords": "Enum DebugMode Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public enum DebugMode Fields Name Description HBAO Normal TAA"
+  },
+  "api/Firefly.Rendering.DebugModeParameter.html": {
+    "href": "api/Firefly.Rendering.DebugModeParameter.html",
+    "title": "Class DebugModeParameter | Firefly documentation",
+    "keywords": "Class DebugModeParameter Inheritance Object DebugModeParameter Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public sealed class DebugModeParameter : VolumeParameter<DebugMode> Constructors DebugModeParameter(DebugMode, Boolean) Declaration public DebugModeParameter(DebugMode value, bool overrideState = false) Parameters Type Name Description DebugMode value Boolean overrideState"
+  },
+  "api/Firefly.Rendering.EtyDocsDecorator.html": {
+    "href": "api/Firefly.Rendering.EtyDocsDecorator.html",
+    "title": "Class EtyDocsDecorator | Firefly documentation",
+    "keywords": "Class EtyDocsDecorator Inheritance Object EtyDocsDecorator Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtyDocsDecorator : MaterialPropertyDrawer Constructors EtyDocsDecorator(String, String) Declaration public EtyDocsDecorator(string id, string sub) Parameters Type Name Description String id String sub Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty prop, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty prop String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty prop, String label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty prop String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtyHeaderDecorator.html": {
+    "href": "api/Firefly.Rendering.EtyHeaderDecorator.html",
+    "title": "Class EtyHeaderDecorator | Firefly documentation",
+    "keywords": "Class EtyHeaderDecorator Inheritance Object EtyHeaderDecorator Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtyHeaderDecorator : MaterialPropertyDrawer Constructors EtyHeaderDecorator(String) Declaration public EtyHeaderDecorator(string header) Parameters Type Name Description String header Fields header Declaration protected readonly string header Field Value Type Description String Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty property String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtyIndent2Drawer.html": {
+    "href": "api/Firefly.Rendering.EtyIndent2Drawer.html",
+    "title": "Class EtyIndent2Drawer | Firefly documentation",
+    "keywords": "Class EtyIndent2Drawer Inheritance Object EtyIndent2Drawer Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtyIndent2Drawer : MaterialPropertyDrawer Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty property String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtyIndentBeginDecorator.html": {
+    "href": "api/Firefly.Rendering.EtyIndentBeginDecorator.html",
+    "title": "Class EtyIndentBeginDecorator | Firefly documentation",
+    "keywords": "Class EtyIndentBeginDecorator Inheritance Object EtyIndentBeginDecorator Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtyIndentBeginDecorator : MaterialPropertyDrawer Constructors EtyIndentBeginDecorator() Declaration public EtyIndentBeginDecorator() EtyIndentBeginDecorator(String) Declaration public EtyIndentBeginDecorator(string name) Parameters Type Name Description String name Fields mode Declaration protected readonly int mode Field Value Type Description Int32 name Declaration protected readonly string name Field Value Type Description String Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty property String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtyIndentDrawer.html": {
+    "href": "api/Firefly.Rendering.EtyIndentDrawer.html",
+    "title": "Class EtyIndentDrawer | Firefly documentation",
+    "keywords": "Class EtyIndentDrawer Inheritance Object EtyIndentDrawer Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtyIndentDrawer : MaterialPropertyDrawer Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty property String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtyIndentEndDecorator.html": {
+    "href": "api/Firefly.Rendering.EtyIndentEndDecorator.html",
+    "title": "Class EtyIndentEndDecorator | Firefly documentation",
+    "keywords": "Class EtyIndentEndDecorator Inheritance Object EtyIndentEndDecorator Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtyIndentEndDecorator : MaterialPropertyDrawer Constructors EtyIndentEndDecorator() Declaration public EtyIndentEndDecorator() Fields mode Declaration protected readonly int mode Field Value Type Description Int32 name Declaration protected readonly string name Field Value Type Description String Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty property String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtySeparatorDecorator.html": {
+    "href": "api/Firefly.Rendering.EtySeparatorDecorator.html",
+    "title": "Class EtySeparatorDecorator | Firefly documentation",
+    "keywords": "Class EtySeparatorDecorator Inheritance Object EtySeparatorDecorator Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtySeparatorDecorator : MaterialPropertyDrawer Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty property String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtySetTextureDrawer.html": {
+    "href": "api/Firefly.Rendering.EtySetTextureDrawer.html",
+    "title": "Class EtySetTextureDrawer | Firefly documentation",
+    "keywords": "Class EtySetTextureDrawer Inheritance Object EtySetTextureDrawer Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtySetTextureDrawer : MaterialPropertyDrawer Constructors EtySetTextureDrawer(String) Declaration public EtySetTextureDrawer(string path) Parameters Type Name Description String path EtySetTextureDrawer(String, String) Declaration public EtySetTextureDrawer(string path, string show) Parameters Type Name Description String path String show Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty prop, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty prop String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtyShaderGUIBasic.html": {
+    "href": "api/Firefly.Rendering.EtyShaderGUIBasic.html",
+    "title": "Class EtyShaderGUIBasic | Firefly documentation",
+    "keywords": "Class EtyShaderGUIBasic Inheritance Object EtyShaderGUIBasic Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtyShaderGUIBasic : ShaderGUI Fields _editor Declaration protected MaterialEditor _editor Field Value Type Description MaterialEditor _properties Declaration protected MaterialProperty[] _properties Field Value Type Description MaterialProperty [] _target Declaration protected Material _target Field Value Type Description Material k_StaticLabel Declaration protected static GUIContent k_StaticLabel Field Value Type Description GUIContent Methods DoPopup(GUIContent, MaterialProperty, String[]) Declaration protected void DoPopup(GUIContent label, MaterialProperty property, string[] options) Parameters Type Name Description GUIContent label MaterialProperty property String [] options DoPopup(GUIContent, MaterialProperty, String[], MaterialEditor) Declaration public static void DoPopup(GUIContent label, MaterialProperty property, string[] options, MaterialEditor materialEditor) Parameters Type Name Description GUIContent label MaterialProperty property String [] options MaterialEditor materialEditor FindProperties() Declaration public virtual void FindProperties() FindProperty(String) Declaration protected MaterialProperty FindProperty(string name) Parameters Type Name Description String name Returns Type Description MaterialProperty IsKeywordEnabled(String) Declaration protected bool IsKeywordEnabled(string keyword) Parameters Type Name Description String keyword Returns Type Description Boolean MakeLabel(MaterialProperty, String) Declaration protected static GUIContent MakeLabel(MaterialProperty property, string tooltip = null) Parameters Type Name Description MaterialProperty property String tooltip Returns Type Description GUIContent MakeLabel(String, String) Declaration protected static GUIContent MakeLabel(string text, string tooltip = null) Parameters Type Name Description String text String tooltip Returns Type Description GUIContent OnGUI(MaterialEditor, MaterialProperty[]) Declaration public override void OnGUI(MaterialEditor editor, MaterialProperty[] properties) Parameters Type Name Description MaterialEditor editor MaterialProperty [] properties PreOnGUI() Declaration public virtual void PreOnGUI() RecordAction(String) Declaration protected void RecordAction(string label) Parameters Type Name Description String label SetKeyword(String, Boolean) Declaration protected void SetKeyword(string keyword, bool state) Parameters Type Name Description String keyword Boolean state"
+  },
+  "api/Firefly.Rendering.EtySingleLineTextureDrawer.html": {
+    "href": "api/Firefly.Rendering.EtySingleLineTextureDrawer.html",
+    "title": "Class EtySingleLineTextureDrawer | Firefly documentation",
+    "keywords": "Class EtySingleLineTextureDrawer Inheritance Object EtySingleLineTextureDrawer Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtySingleLineTextureDrawer : MaterialPropertyDrawer Constructors EtySingleLineTextureDrawer() Declaration public EtySingleLineTextureDrawer() EtySingleLineTextureDrawer(String) Declaration public EtySingleLineTextureDrawer(string extraPropertyName0) Parameters Type Name Description String extraPropertyName0 EtySingleLineTextureDrawer(String, String) Declaration public EtySingleLineTextureDrawer(string extraPropertyName0, string extraPropertyName1) Parameters Type Name Description String extraPropertyName0 String extraPropertyName1 Fields extraPropertyName0 Declaration protected readonly string extraPropertyName0 Field Value Type Description String extraPropertyName1 Declaration protected readonly string extraPropertyName1 Field Value Type Description String Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty property String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtySingleLineTextureKeywordDrawer.html": {
+    "href": "api/Firefly.Rendering.EtySingleLineTextureKeywordDrawer.html",
+    "title": "Class EtySingleLineTextureKeywordDrawer | Firefly documentation",
+    "keywords": "Class EtySingleLineTextureKeywordDrawer Inheritance Object EtySingleLineTextureKeywordDrawer Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtySingleLineTextureKeywordDrawer : MaterialPropertyDrawer Constructors EtySingleLineTextureKeywordDrawer(String) Declaration public EtySingleLineTextureKeywordDrawer(string keyword) Parameters Type Name Description String keyword Fields extraPropertyName1 Declaration protected readonly string extraPropertyName1 Field Value Type Description String keyword Declaration protected readonly string keyword Field Value Type Description String Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty property String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtySingleLineTextureWithScaleDrawer.html": {
+    "href": "api/Firefly.Rendering.EtySingleLineTextureWithScaleDrawer.html",
+    "title": "Class EtySingleLineTextureWithScaleDrawer | Firefly documentation",
+    "keywords": "Class EtySingleLineTextureWithScaleDrawer Inheritance Object EtySingleLineTextureWithScaleDrawer Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtySingleLineTextureWithScaleDrawer : MaterialPropertyDrawer Constructors EtySingleLineTextureWithScaleDrawer() Declaration public EtySingleLineTextureWithScaleDrawer() EtySingleLineTextureWithScaleDrawer(String) Declaration public EtySingleLineTextureWithScaleDrawer(string extraPropertyName0) Parameters Type Name Description String extraPropertyName0 EtySingleLineTextureWithScaleDrawer(String, String) Declaration public EtySingleLineTextureWithScaleDrawer(string extraPropertyName0, string extraPropertyName1) Parameters Type Name Description String extraPropertyName0 String extraPropertyName1 Fields extraPropertyName0 Declaration protected readonly string extraPropertyName0 Field Value Type Description String extraPropertyName1 Declaration protected readonly string extraPropertyName1 Field Value Type Description String Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty property String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtySingleLineTextureWithScaleKeywordDrawer.html": {
+    "href": "api/Firefly.Rendering.EtySingleLineTextureWithScaleKeywordDrawer.html",
+    "title": "Class EtySingleLineTextureWithScaleKeywordDrawer | Firefly documentation",
+    "keywords": "Class EtySingleLineTextureWithScaleKeywordDrawer Inheritance Object EtySingleLineTextureWithScaleKeywordDrawer Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtySingleLineTextureWithScaleKeywordDrawer : MaterialPropertyDrawer Constructors EtySingleLineTextureWithScaleKeywordDrawer(String) Declaration public EtySingleLineTextureWithScaleKeywordDrawer(string keyword) Parameters Type Name Description String keyword Fields keyword Declaration protected readonly string keyword Field Value Type Description String Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty property String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtyToggleBeginDecorator.html": {
+    "href": "api/Firefly.Rendering.EtyToggleBeginDecorator.html",
+    "title": "Class EtyToggleBeginDecorator | Firefly documentation",
+    "keywords": "Class EtyToggleBeginDecorator Inheritance Object EtyToggleBeginDecorator Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtyToggleBeginDecorator : MaterialPropertyDrawer Constructors EtyToggleBeginDecorator(String, Single) Declaration public EtyToggleBeginDecorator(string keyword, float mode) Parameters Type Name Description String keyword Single mode EtyToggleBeginDecorator(String, String) Declaration public EtyToggleBeginDecorator(string keyword, string mode) Parameters Type Name Description String keyword String mode Fields isKeyword Declaration protected readonly bool isKeyword Field Value Type Description Boolean keyword Declaration protected readonly string keyword Field Value Type Description String mode Declaration protected readonly int mode Field Value Type Description Int32 Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty property String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtyToggleDrawer.html": {
+    "href": "api/Firefly.Rendering.EtyToggleDrawer.html",
+    "title": "Class EtyToggleDrawer | Firefly documentation",
+    "keywords": "Class EtyToggleDrawer Inheritance Object EtyToggleDrawer Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtyToggleDrawer : MaterialPropertyDrawer Methods OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty prop, String label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty prop String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtyToggleEndDecorator.html": {
+    "href": "api/Firefly.Rendering.EtyToggleEndDecorator.html",
+    "title": "Class EtyToggleEndDecorator | Firefly documentation",
+    "keywords": "Class EtyToggleEndDecorator Inheritance Object EtyToggleEndDecorator Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtyToggleEndDecorator : MaterialPropertyDrawer Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty property String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.EtyToggleHeaderDrawer.html": {
+    "href": "api/Firefly.Rendering.EtyToggleHeaderDrawer.html",
+    "title": "Class EtyToggleHeaderDrawer | Firefly documentation",
+    "keywords": "Class EtyToggleHeaderDrawer Inheritance Object EtyToggleHeaderDrawer Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class EtyToggleHeaderDrawer : MaterialPropertyDrawer Constructors EtyToggleHeaderDrawer(String, String) Declaration public EtyToggleHeaderDrawer(string header, string keyword) Parameters Type Name Description String header String keyword Fields header Declaration protected readonly string header Field Value Type Description String keyword Declaration protected readonly string keyword Field Value Type Description String Methods GetPropertyHeight(MaterialProperty, String, MaterialEditor) Declaration public override float GetPropertyHeight(MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description MaterialProperty property String label MaterialEditor editor Returns Type Description Single OnGUI(Rect, MaterialProperty, String, MaterialEditor) Declaration public override void OnGUI(Rect position, MaterialProperty property, string label, MaterialEditor editor) Parameters Type Name Description Rect position MaterialProperty property String label MaterialEditor editor"
+  },
+  "api/Firefly.Rendering.FireflyDepthNormalsFeature.html": {
+    "href": "api/Firefly.Rendering.FireflyDepthNormalsFeature.html",
+    "title": "Class FireflyDepthNormalsFeature | Firefly documentation",
+    "keywords": "Class FireflyDepthNormalsFeature Draw Depth Normal Manully. Inheritance Object FireflyDepthNormalsFeature Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class FireflyDepthNormalsFeature : ScriptableRendererFeature Methods AddRenderPasses(ScriptableRenderer, ref RenderingData) Declaration public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData) Parameters Type Name Description ScriptableRenderer renderer RenderingData renderingData Create() Declaration public override void Create()"
+  },
+  "api/Firefly.Rendering.FireflyGrassTrackFeature.html": {
+    "href": "api/Firefly.Rendering.FireflyGrassTrackFeature.html",
+    "title": "Class FireflyGrassTrackFeature | Firefly documentation",
+    "keywords": "Class FireflyGrassTrackFeature Firefly grass render prepass. Inheritance Object FireflyGrassTrackFeature Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class FireflyGrassTrackFeature : ScriptableRendererFeature Methods AddRenderPasses(ScriptableRenderer, ref RenderingData) Declaration public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData) Parameters Type Name Description ScriptableRenderer renderer RenderingData renderingData Create() Declaration public override void Create()"
+  },
+  "api/Firefly.Rendering.FireflyHalfTransparentRenderFeature.html": {
+    "href": "api/Firefly.Rendering.FireflyHalfTransparentRenderFeature.html",
+    "title": "Class FireflyHalfTransparentRenderFeature | Firefly documentation",
+    "keywords": "Class FireflyHalfTransparentRenderFeature Inheritance Object FireflyHalfTransparentRenderFeature Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class FireflyHalfTransparentRenderFeature : ScriptableRendererFeature Methods AddRenderPasses(ScriptableRenderer, ref RenderingData) Declaration public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData) Parameters Type Name Description ScriptableRenderer renderer RenderingData renderingData Create() Declaration public override void Create()"
+  },
+  "api/Firefly.Rendering.FireflyHBAOFeature.FireflyHBAOPass.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOFeature.FireflyHBAOPass.html",
+    "title": "Class FireflyHBAOFeature.FireflyHBAOPass | Firefly documentation",
+    "keywords": "Class FireflyHBAOFeature.FireflyHBAOPass Inheritance Object FireflyHBAOFeature.FireflyHBAOPass Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class FireflyHBAOPass : ScriptableRenderPass Methods Configure(CommandBuffer, RenderTextureDescriptor) Declaration public override void Configure(CommandBuffer cmd, RenderTextureDescriptor cameraTextureDescriptor) Parameters Type Name Description CommandBuffer cmd RenderTextureDescriptor cameraTextureDescriptor Execute(ScriptableRenderContext, ref RenderingData) Declaration public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData) Parameters Type Name Description ScriptableRenderContext context RenderingData renderingData OnCameraSetup(CommandBuffer, ref RenderingData) Declaration public override void OnCameraSetup(CommandBuffer cmd, ref RenderingData renderingData) Parameters Type Name Description CommandBuffer cmd RenderingData renderingData Release() Declaration public void Release() Setup(Shader, ScriptableRenderer, RenderingData) Declaration public void Setup(Shader shader, ScriptableRenderer renderer, RenderingData renderingData) Parameters Type Name Description Shader shader ScriptableRenderer renderer RenderingData renderingData"
+  },
+  "api/Firefly.Rendering.FireflyHBAOFeature.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOFeature.html",
+    "title": "Class FireflyHBAOFeature | Firefly documentation",
+    "keywords": "Class FireflyHBAOFeature Inheritance Object FireflyHBAOFeature Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class FireflyHBAOFeature : ScriptableRendererFeature Methods AddRenderPasses(ScriptableRenderer, ref RenderingData) Declaration public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData) Parameters Type Name Description ScriptableRenderer renderer RenderingData renderingData Create() Declaration public override void Create()"
+  },
+  "api/Firefly.Rendering.FireflyHBAOVolume.AOSettings.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOVolume.AOSettings.html",
+    "title": "Class FireflyHBAOVolume.AOSettings | Firefly documentation",
+    "keywords": "Class FireflyHBAOVolume.AOSettings Inheritance Object SettingsGroupAttribute FireflyHBAOVolume.AOSettings Inherited Members SettingsGroupAttribute.isExpanded Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class AOSettings : SettingsGroupAttribute"
+  },
+  "api/Firefly.Rendering.FireflyHBAOVolume.BlurSettings.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOVolume.BlurSettings.html",
+    "title": "Class FireflyHBAOVolume.BlurSettings | Firefly documentation",
+    "keywords": "Class FireflyHBAOVolume.BlurSettings Inheritance Object SettingsGroupAttribute FireflyHBAOVolume.BlurSettings Inherited Members SettingsGroupAttribute.isExpanded Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class BlurSettings : SettingsGroupAttribute"
+  },
+  "api/Firefly.Rendering.FireflyHBAOVolume.BlurType.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOVolume.BlurType.html",
+    "title": "Enum FireflyHBAOVolume.BlurType | Firefly documentation",
+    "keywords": "Enum FireflyHBAOVolume.BlurType Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public enum BlurType Fields Name Description Medium Narrow None Wide"
+  },
+  "api/Firefly.Rendering.FireflyHBAOVolume.BlurTypeParameter.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOVolume.BlurTypeParameter.html",
+    "title": "Class FireflyHBAOVolume.BlurTypeParameter | Firefly documentation",
+    "keywords": "Class FireflyHBAOVolume.BlurTypeParameter Inheritance Object FireflyHBAOVolume.BlurTypeParameter Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public sealed class BlurTypeParameter : VolumeParameter<FireflyHBAOVolume.BlurType> Constructors BlurTypeParameter(FireflyHBAOVolume.BlurType, Boolean) Declaration public BlurTypeParameter(FireflyHBAOVolume.BlurType value, bool overrideState = false) Parameters Type Name Description FireflyHBAOVolume.BlurType value Boolean overrideState"
+  },
+  "api/Firefly.Rendering.FireflyHBAOVolume.DebugMode.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOVolume.DebugMode.html",
+    "title": "Enum FireflyHBAOVolume.DebugMode | Firefly documentation",
+    "keywords": "Enum FireflyHBAOVolume.DebugMode Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public enum DebugMode Fields Name Description AO None"
+  },
+  "api/Firefly.Rendering.FireflyHBAOVolume.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOVolume.html",
+    "title": "Class FireflyHBAOVolume | Firefly documentation",
+    "keywords": "Class FireflyHBAOVolume Inheritance Object FireflyHBAOVolume Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public sealed class FireflyHBAOVolume : VolumeComponent Fields aoColor Declaration public ColorParameter aoColor Field Value Type Description ColorParameter bias Declaration public ClampedFloatParameter bias Field Value Type Description ClampedFloatParameter blurSharpness Declaration public ClampedFloatParameter blurSharpness Field Value Type Description ClampedFloatParameter blurType Declaration public FireflyHBAOVolume.BlurTypeParameter blurType Field Value Type Description FireflyHBAOVolume.BlurTypeParameter distanceFalloff Declaration public FloatParameter distanceFalloff Field Value Type Description FloatParameter intensity Declaration public ClampedFloatParameter intensity Field Value Type Description ClampedFloatParameter maxDistance Declaration public FloatParameter maxDistance Field Value Type Description FloatParameter maxRadiusPixels Declaration public ClampedFloatParameter maxRadiusPixels Field Value Type Description ClampedFloatParameter noiseType Declaration public FireflyHBAOVolume.NoiseTypeParameter noiseType Field Value Type Description FireflyHBAOVolume.NoiseTypeParameter radius Declaration public ClampedFloatParameter radius Field Value Type Description ClampedFloatParameter resolution Declaration public FireflyHBAOVolume.ResolutionParameter resolution Field Value Type Description FireflyHBAOVolume.ResolutionParameter Methods IsActive() Declaration public bool IsActive() Returns Type Description Boolean IsTileCompatible() Declaration public bool IsTileCompatible() Returns Type Description Boolean"
+  },
+  "api/Firefly.Rendering.FireflyHBAOVolume.NoiseType.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOVolume.NoiseType.html",
+    "title": "Enum FireflyHBAOVolume.NoiseType | Firefly documentation",
+    "keywords": "Enum FireflyHBAOVolume.NoiseType Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public enum NoiseType Fields Name Description Dither InterleavedGradientNoise"
+  },
+  "api/Firefly.Rendering.FireflyHBAOVolume.NoiseTypeParameter.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOVolume.NoiseTypeParameter.html",
+    "title": "Class FireflyHBAOVolume.NoiseTypeParameter | Firefly documentation",
+    "keywords": "Class FireflyHBAOVolume.NoiseTypeParameter Inheritance Object FireflyHBAOVolume.NoiseTypeParameter Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public sealed class NoiseTypeParameter : VolumeParameter<FireflyHBAOVolume.NoiseType> Constructors NoiseTypeParameter(FireflyHBAOVolume.NoiseType, Boolean) Declaration public NoiseTypeParameter(FireflyHBAOVolume.NoiseType value, bool overrideState = false) Parameters Type Name Description FireflyHBAOVolume.NoiseType value Boolean overrideState"
+  },
+  "api/Firefly.Rendering.FireflyHBAOVolume.QualitySettings.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOVolume.QualitySettings.html",
+    "title": "Class FireflyHBAOVolume.QualitySettings | Firefly documentation",
+    "keywords": "Class FireflyHBAOVolume.QualitySettings Inheritance Object SettingsGroupAttribute FireflyHBAOVolume.QualitySettings Inherited Members SettingsGroupAttribute.isExpanded Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class QualitySettings : SettingsGroupAttribute"
+  },
+  "api/Firefly.Rendering.FireflyHBAOVolume.Resolution.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOVolume.Resolution.html",
+    "title": "Enum FireflyHBAOVolume.Resolution | Firefly documentation",
+    "keywords": "Enum FireflyHBAOVolume.Resolution Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public enum Resolution Fields Name Description Full Half"
+  },
+  "api/Firefly.Rendering.FireflyHBAOVolume.ResolutionParameter.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOVolume.ResolutionParameter.html",
+    "title": "Class FireflyHBAOVolume.ResolutionParameter | Firefly documentation",
+    "keywords": "Class FireflyHBAOVolume.ResolutionParameter Inheritance Object FireflyHBAOVolume.ResolutionParameter Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public sealed class ResolutionParameter : VolumeParameter<FireflyHBAOVolume.Resolution> Constructors ResolutionParameter(FireflyHBAOVolume.Resolution, Boolean) Declaration public ResolutionParameter(FireflyHBAOVolume.Resolution value, bool overrideState = false) Parameters Type Name Description FireflyHBAOVolume.Resolution value Boolean overrideState"
+  },
+  "api/Firefly.Rendering.FireflyHBAOVolume.TemporalFilterSettings.html": {
+    "href": "api/Firefly.Rendering.FireflyHBAOVolume.TemporalFilterSettings.html",
+    "title": "Class FireflyHBAOVolume.TemporalFilterSettings | Firefly documentation",
+    "keywords": "Class FireflyHBAOVolume.TemporalFilterSettings Inheritance Object SettingsGroupAttribute FireflyHBAOVolume.TemporalFilterSettings Inherited Members SettingsGroupAttribute.isExpanded Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class TemporalFilterSettings : SettingsGroupAttribute"
+  },
+  "api/Firefly.Rendering.FireflyMotionVectorFeature.html": {
+    "href": "api/Firefly.Rendering.FireflyMotionVectorFeature.html",
+    "title": "Class FireflyMotionVectorFeature | Firefly documentation",
+    "keywords": "Class FireflyMotionVectorFeature Inheritance Object FireflyMotionVectorFeature Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class FireflyMotionVectorFeature : ScriptableRendererFeature Methods AddRenderPasses(ScriptableRenderer, ref RenderingData) Declaration public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData) Parameters Type Name Description ScriptableRenderer renderer RenderingData renderingData Create() Declaration public override void Create()"
+  },
+  "api/Firefly.Rendering.FireflyPostprocessFeature.html": {
+    "href": "api/Firefly.Rendering.FireflyPostprocessFeature.html",
+    "title": "Class FireflyPostprocessFeature | Firefly documentation",
+    "keywords": "Class FireflyPostprocessFeature Inheritance Object FireflyPostprocessFeature Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class FireflyPostprocessFeature : ScriptableRendererFeature Fields settings Declaration public FireflyPostprocessFeature.PostProcessSettings settings Field Value Type Description FireflyPostprocessFeature.PostProcessSettings Methods AddRenderPasses(ScriptableRenderer, ref RenderingData) Declaration public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData) Parameters Type Name Description ScriptableRenderer renderer RenderingData renderingData Create() Declaration public override void Create()"
+  },
+  "api/Firefly.Rendering.FireflyPostprocessFeature.PostProcessSettings.html": {
+    "href": "api/Firefly.Rendering.FireflyPostprocessFeature.PostProcessSettings.html",
+    "title": "Class FireflyPostprocessFeature.PostProcessSettings | Firefly documentation",
+    "keywords": "Class FireflyPostprocessFeature.PostProcessSettings Inheritance Object FireflyPostprocessFeature.PostProcessSettings Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax [Serializable] public class PostProcessSettings Fields uberMat Declaration public Material uberMat Field Value Type Description Material"
+  },
+  "api/Firefly.Rendering.FireflyPostprocessVolume.html": {
+    "href": "api/Firefly.Rendering.FireflyPostprocessVolume.html",
+    "title": "Class FireflyPostprocessVolume | Firefly documentation",
+    "keywords": "Class FireflyPostprocessVolume Inheritance Object FireflyPostprocessVolume Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public sealed class FireflyPostprocessVolume : VolumeComponent Fields debugDepth Declaration public BoolParameter debugDepth Field Value Type Description BoolParameter splitScreen Declaration public BoolParameter splitScreen Field Value Type Description BoolParameter splitValue Declaration public ClampedFloatParameter splitValue Field Value Type Description ClampedFloatParameter Methods IsActive() Declaration public bool IsActive() Returns Type Description Boolean IsTileCompatible() Declaration public bool IsTileCompatible() Returns Type Description Boolean"
+  },
+  "api/Firefly.Rendering.FireflyRenderingCore.html": {
+    "href": "api/Firefly.Rendering.FireflyRenderingCore.html",
+    "title": "Class FireflyRenderingCore | Firefly documentation",
+    "keywords": "Class FireflyRenderingCore Inheritance Object FireflyRenderingCore Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class FireflyRenderingCore"
+  },
+  "api/Firefly.Rendering.FireflyTAAFeature.html": {
+    "href": "api/Firefly.Rendering.FireflyTAAFeature.html",
+    "title": "Class FireflyTAAFeature | Firefly documentation",
+    "keywords": "Class FireflyTAAFeature Inheritance Object FireflyTAAFeature Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class FireflyTAAFeature : ScriptableRendererFeature Methods AddRenderPasses(ScriptableRenderer, ref RenderingData) Declaration public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData) Parameters Type Name Description ScriptableRenderer renderer RenderingData renderingData Create() Declaration public override void Create()"
+  },
+  "api/Firefly.Rendering.FireflyTAAVolume.html": {
+    "href": "api/Firefly.Rendering.FireflyTAAVolume.html",
+    "title": "Class FireflyTAAVolume | Firefly documentation",
+    "keywords": "Class FireflyTAAVolume Inheritance Object FireflyTAAVolume Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public sealed class FireflyTAAVolume : VolumeComponent Fields feedback Declaration public ClampedFloatParameter feedback Field Value Type Description ClampedFloatParameter spread Declaration public ClampedFloatParameter spread Field Value Type Description ClampedFloatParameter useMotionVector Declaration public BoolParameter useMotionVector Field Value Type Description BoolParameter Methods IsActive() Declaration public bool IsActive() Returns Type Description Boolean IsTileCompatible() Declaration public bool IsTileCompatible() Returns Type Description Boolean"
+  },
+  "api/Firefly.Rendering.FrustumJitterUtil.html": {
+    "href": "api/Firefly.Rendering.FrustumJitterUtil.html",
+    "title": "Class FrustumJitterUtil | Firefly documentation",
+    "keywords": "Class FrustumJitterUtil Inheritance Object FrustumJitterUtil Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public static class FrustumJitterUtil Fields activeIndex Declaration public static int activeIndex Field Value Type Description Int32 activeSample Declaration public static Vector4 activeSample Field Value Type Description Vector4 pattern Declaration public static FrustumJitterUtil.Pattern pattern Field Value Type Description FrustumJitterUtil.Pattern patternScale Declaration public static float patternScale Field Value Type Description Single Methods AccessLength(FrustumJitterUtil.Pattern) Declaration public static int AccessLength(FrustumJitterUtil.Pattern pattern) Parameters Type Name Description FrustumJitterUtil.Pattern pattern Returns Type Description Int32 GetJitteredProjectionMatrix(Camera, Single) Declaration public static Matrix4x4 GetJitteredProjectionMatrix(Camera camera, float scale) Parameters Type Name Description Camera camera Single scale Returns Type Description Matrix4x4 GetSample(Single) Declaration public static Vector2 GetSample(float scale = 1F) Parameters Type Name Description Single scale Returns Type Description Vector2 Sample(FrustumJitterUtil.Pattern, Int32) Declaration public static Vector2 Sample(FrustumJitterUtil.Pattern pattern, int index) Parameters Type Name Description FrustumJitterUtil.Pattern pattern Int32 index Returns Type Description Vector2"
+  },
+  "api/Firefly.Rendering.FrustumJitterUtil.Pattern.html": {
+    "href": "api/Firefly.Rendering.FrustumJitterUtil.Pattern.html",
+    "title": "Enum FrustumJitterUtil.Pattern | Firefly documentation",
+    "keywords": "Enum FrustumJitterUtil.Pattern Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public enum Pattern Fields Name Description Halton_2_3_X16 Halton_2_3_X256 Halton_2_3_X32 Halton_2_3_X8 MotionPerp2 Pentagram Poisson10 Rotated4 Rotated4_Helix Rotated4_Helix2 SkewButterfly Still Uniform2 Uniform4 Uniform4_DoubleHelix Uniform4_Helix"
+  },
+  "api/Firefly.Rendering.GlobalWind.html": {
+    "href": "api/Firefly.Rendering.GlobalWind.html",
+    "title": "Class GlobalWind | Firefly documentation",
+    "keywords": "Class GlobalWind Inheritance Object GlobalWind Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class GlobalWind : MonoBehaviour Fields _windTextureRT Declaration public RenderTexture _windTextureRT Field Value Type Description RenderTexture baseWindSpeed Declaration public float baseWindSpeed Field Value Type Description Single foliageSpeed Declaration public float foliageSpeed Field Value Type Description Single grassGustSpeed Declaration public float grassGustSpeed Field Value Type Description Single grassGustTiling Declaration public int grassGustTiling Field Value Type Description Int32 grassMixMask Declaration public GustMixMask grassMixMask Field Value Type Description GustMixMask grassSpeed Declaration public float grassSpeed Field Value Type Description Single jitterFrequency Declaration public float jitterFrequency Field Value Type Description Single jitterHighFrequency Declaration public float jitterHighFrequency Field Value Type Description Single sizeInWorldSpace Declaration public float sizeInWorldSpace Field Value Type Description Single speedLayer0 Declaration public float speedLayer0 Field Value Type Description Single speedLayer1 Declaration public float speedLayer1 Field Value Type Description Single speedLayer2 Declaration public float speedLayer2 Field Value Type Description Single windCompositeShader Declaration public Shader windCompositeShader Field Value Type Description Shader windFlowTextrue Declaration public Texture2D windFlowTextrue Field Value Type Description Texture2D windTexture Declaration public Texture2D windTexture Field Value Type Description Texture2D windTextureSize Declaration public WindTextureSize windTextureSize Field Value Type Description WindTextureSize"
+  },
+  "api/Firefly.Rendering.GraphicUtils.html": {
+    "href": "api/Firefly.Rendering.GraphicUtils.html",
+    "title": "Class GraphicUtils | Firefly documentation",
+    "keywords": "Class GraphicUtils Inheritance Object GraphicUtils Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public static class GraphicUtils Properties IsLinearColorSpace Declaration public static bool IsLinearColorSpace { get; } Property Value Type Description Boolean Methods IsInSceneView(Camera) Declaration public static bool IsInSceneView(Camera camera) Parameters Type Name Description Camera camera Returns Type Description Boolean ReCreateRenderTextureOnValidate(ref RenderTexture, RenderTextureDescriptor, FilterMode) Declaration public static bool ReCreateRenderTextureOnValidate(ref RenderTexture rt, RenderTextureDescriptor descriptor, FilterMode filterMode = null) Parameters Type Name Description RenderTexture rt RenderTextureDescriptor descriptor FilterMode filterMode Returns Type Description Boolean ReCreateRenderTextureOnValidate(ref RenderTexture, Int32, Int32, RenderTextureFormat, FilterMode, Int32, Int32) Declaration public static bool ReCreateRenderTextureOnValidate(ref RenderTexture rt, int width, int height, RenderTextureFormat format, FilterMode filterMode, int depthBits = 0, int antiAliasing = 1) Parameters Type Name Description RenderTexture rt Int32 width Int32 height RenderTextureFormat format FilterMode filterMode Int32 depthBits Int32 antiAliasing Returns Type Description Boolean ReCreateRenderTextureOnValidate_Permanent(ref RenderTexture, RenderTextureDescriptor, FilterMode) Declaration public static bool ReCreateRenderTextureOnValidate_Permanent(ref RenderTexture rt, RenderTextureDescriptor descriptor, FilterMode filterMode = null) Parameters Type Name Description RenderTexture rt RenderTextureDescriptor descriptor FilterMode filterMode Returns Type Description Boolean ReCreateRenderTextureOnValidate_Permanent(ref RenderTexture, Int32, Int32, RenderTextureFormat, FilterMode, Int32, Int32) Declaration public static bool ReCreateRenderTextureOnValidate_Permanent(ref RenderTexture rt, int width, int height, RenderTextureFormat format, FilterMode filterMode, int depthBits = 0, int antiAliasing = 1) Parameters Type Name Description RenderTexture rt Int32 width Int32 height RenderTextureFormat format FilterMode filterMode Int32 depthBits Int32 antiAliasing Returns Type Description Boolean SafeRelease(ref RenderTexture) Declaration public static void SafeRelease(ref RenderTexture rt) Parameters Type Name Description RenderTexture rt"
+  },
+  "api/Firefly.Rendering.GustMixMask.html": {
+    "href": "api/Firefly.Rendering.GustMixMask.html",
+    "title": "Enum GustMixMask | Firefly documentation",
+    "keywords": "Enum GustMixMask Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax [Serializable] public enum GustMixMask Fields Name Description B G R"
+  },
+  "api/Firefly.Rendering.HaltonSeq.html": {
+    "href": "api/Firefly.Rendering.HaltonSeq.html",
+    "title": "Class HaltonSeq | Firefly documentation",
+    "keywords": "Class HaltonSeq Inheritance Object HaltonSeq Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public static class HaltonSeq Methods Get(Int32, Int32) Gets a value from the Halton sequence for a given index and radix. Declaration public static float Get(int index, int radix) Parameters Type Name Description Int32 index The sequence index Int32 radix The sequence base Returns Type Description Single A number from the Halton sequence between 0 and 1."
+  },
+  "api/Firefly.Rendering.html": {
+    "href": "api/Firefly.Rendering.html",
+    "title": "Namespace Firefly.Rendering | Firefly documentation",
+    "keywords": "Namespace Firefly.Rendering Classes CameraExtension DebugModeParameter EtyDocsDecorator EtyHeaderDecorator EtyIndent2Drawer EtyIndentBeginDecorator EtyIndentDrawer EtyIndentEndDecorator EtySeparatorDecorator EtySetTextureDrawer EtyShaderGUIBasic EtySingleLineTextureDrawer EtySingleLineTextureKeywordDrawer EtySingleLineTextureWithScaleDrawer EtySingleLineTextureWithScaleKeywordDrawer EtyToggleBeginDecorator EtyToggleDrawer EtyToggleEndDecorator EtyToggleHeaderDrawer FireflyDepthNormalsFeature Draw Depth Normal Manully. FireflyGrassTrackFeature Firefly grass render prepass. FireflyHalfTransparentRenderFeature FireflyHBAOFeature FireflyHBAOFeature.FireflyHBAOPass FireflyHBAOVolume FireflyHBAOVolume.AOSettings FireflyHBAOVolume.BlurSettings FireflyHBAOVolume.BlurTypeParameter FireflyHBAOVolume.NoiseTypeParameter FireflyHBAOVolume.QualitySettings FireflyHBAOVolume.ResolutionParameter FireflyHBAOVolume.TemporalFilterSettings FireflyMotionVectorFeature FireflyPostprocessFeature FireflyPostprocessFeature.PostProcessSettings FireflyPostprocessVolume FireflyRenderingCore FireflyTAAFeature FireflyTAAVolume FrustumJitterUtil GlobalWind GraphicUtils HaltonSeq Matrix4x4Extension MinMaxFloatParameter ParameterDisplayNameAttribute RenderingTaskScheduler SettingsGroupAttribute Ŀǰ�汾��֧�ֺ�����չ���ȰѺ�������ݷ������� ShaderIDs ShaderKeywords Vector2Extension Enums DebugMode FireflyHBAOVolume.BlurType FireflyHBAOVolume.DebugMode FireflyHBAOVolume.NoiseType FireflyHBAOVolume.Resolution FrustumJitterUtil.Pattern GustMixMask RenderingTaskScheduler.ScheduleOrder WindTextureSize"
+  },
+  "api/Firefly.Rendering.Matrix4x4Extension.html": {
+    "href": "api/Firefly.Rendering.Matrix4x4Extension.html",
+    "title": "Class Matrix4x4Extension | Firefly documentation",
+    "keywords": "Class Matrix4x4Extension Inheritance Object Matrix4x4Extension Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public static class Matrix4x4Extension Methods GetOrthographicProjection(Single, Single, Single, Single, Single, Single) Declaration public static Matrix4x4 GetOrthographicProjection(float left, float right, float bottom, float top, float near, float far) Parameters Type Name Description Single left Single right Single bottom Single top Single near Single far Returns Type Description Matrix4x4 GetPerspectiveProjection(Single, Single, Single, Single, Single, Single) Declaration public static Matrix4x4 GetPerspectiveProjection(float left, float right, float bottom, float top, float near, float far) Parameters Type Name Description Single left Single right Single bottom Single top Single near Single far Returns Type Description Matrix4x4"
+  },
+  "api/Firefly.Rendering.MinMaxFloatParameter.html": {
+    "href": "api/Firefly.Rendering.MinMaxFloatParameter.html",
+    "title": "Class MinMaxFloatParameter | Firefly documentation",
+    "keywords": "Class MinMaxFloatParameter Inheritance Object MinMaxFloatParameter Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public sealed class MinMaxFloatParameter : VolumeParameter<Vector2> Constructors MinMaxFloatParameter(Vector2, Single, Single, Boolean) Declaration public MinMaxFloatParameter(Vector2 value, float min, float max, bool overrideState = false) Parameters Type Name Description Vector2 value Single min Single max Boolean overrideState Fields max Declaration public float max Field Value Type Description Single min Declaration public float min Field Value Type Description Single"
+  },
+  "api/Firefly.Rendering.ParameterDisplayNameAttribute.html": {
+    "href": "api/Firefly.Rendering.ParameterDisplayNameAttribute.html",
+    "title": "Class ParameterDisplayNameAttribute | Firefly documentation",
+    "keywords": "Class ParameterDisplayNameAttribute Inheritance Object ParameterDisplayNameAttribute Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class ParameterDisplayNameAttribute : Attribute Constructors ParameterDisplayNameAttribute(String) Declaration public ParameterDisplayNameAttribute(string name) Parameters Type Name Description String name Fields name Declaration public string name Field Value Type Description String"
+  },
+  "api/Firefly.Rendering.RenderingTaskScheduler.html": {
+    "href": "api/Firefly.Rendering.RenderingTaskScheduler.html",
+    "title": "Class RenderingTaskScheduler | Firefly documentation",
+    "keywords": "Class RenderingTaskScheduler Inheritance Object TaskScheduler RenderingTaskScheduler Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class RenderingTaskScheduler : TaskScheduler Constructors RenderingTaskScheduler(Int32) Declaration public RenderingTaskScheduler(int maxDegreeOfParallelism) Parameters Type Name Description Int32 maxDegreeOfParallelism Properties MaximumConcurrencyLevel Declaration public sealed override int MaximumConcurrencyLevel { get; } Property Value Type Description Int32 Overrides TaskScheduler.MaximumConcurrencyLevel Order Declaration public RenderingTaskScheduler.ScheduleOrder Order { get; set; } Property Value Type Description RenderingTaskScheduler.ScheduleOrder PendingTaskCount Declaration public int PendingTaskCount { get; } Property Value Type Description Int32 Methods Dispose() Declaration public void Dispose() GetScheduledTasks() Declaration protected override IEnumerable<Task> GetScheduledTasks() Returns Type Description IEnumerable < Task > Overrides TaskScheduler.GetScheduledTasks() QueueTask(Task) Declaration protected override void QueueTask(Task task) Parameters Type Name Description Task task Overrides TaskScheduler.QueueTask(Task) TryDequeue(Task) Attempt to remove a previously scheduled task from the scheduler. Declaration protected sealed override bool TryDequeue(Task task) Parameters Type Name Description Task task Returns Type Description Boolean Overrides TaskScheduler.TryDequeue(Task) TryExecuteTaskInline(Task, Boolean) Declaration protected override bool TryExecuteTaskInline(Task task, bool taskWasPreviouslyQueued) Parameters Type Name Description Task task Boolean taskWasPreviouslyQueued Returns Type Description Boolean Overrides TaskScheduler.TryExecuteTaskInline(Task, Boolean)"
+  },
+  "api/Firefly.Rendering.RenderingTaskScheduler.ScheduleOrder.html": {
+    "href": "api/Firefly.Rendering.RenderingTaskScheduler.ScheduleOrder.html",
+    "title": "Enum RenderingTaskScheduler.ScheduleOrder | Firefly documentation",
+    "keywords": "Enum RenderingTaskScheduler.ScheduleOrder Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public enum ScheduleOrder Fields Name Description EndQueue FrontQueue"
+  },
+  "api/Firefly.Rendering.SettingsGroupAttribute.html": {
+    "href": "api/Firefly.Rendering.SettingsGroupAttribute.html",
+    "title": "Class SettingsGroupAttribute | Firefly documentation",
+    "keywords": "Class SettingsGroupAttribute Ŀǰ�汾��֧�ֺ�����չ���ȰѺ�������ݷ������� Inheritance Object SettingsGroupAttribute FireflyHBAOVolume.AOSettings FireflyHBAOVolume.BlurSettings FireflyHBAOVolume.QualitySettings FireflyHBAOVolume.TemporalFilterSettings Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public class SettingsGroupAttribute : Attribute Fields isExpanded Declaration public bool isExpanded Field Value Type Description Boolean"
+  },
+  "api/Firefly.Rendering.ShaderIDs.html": {
+    "href": "api/Firefly.Rendering.ShaderIDs.html",
+    "title": "Class ShaderIDs | Firefly documentation",
+    "keywords": "Class ShaderIDs Inheritance Object ShaderIDs Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public static class ShaderIDs Fields k_BaseMap Declaration public static readonly int k_BaseMap Field Value Type Description Int32 k_CameraDepthNormalTexture Declaration public static readonly int k_CameraDepthNormalTexture Field Value Type Description Int32 k_CameraDepthTexture Declaration public static readonly int k_CameraDepthTexture Field Value Type Description Int32 k_Color Declaration public static readonly int k_Color Field Value Type Description Int32 k_FireflyMixMask Declaration public static readonly int k_FireflyMixMask Field Value Type Description Int32 k_FireflyWindDirAndSize Declaration public static readonly int k_FireflyWindDirAndSize Field Value Type Description Int32 k_FireflyWindFlowTexture Declaration public static readonly int k_FireflyWindFlowTexture Field Value Type Description Int32 k_FireflyWindParams Declaration public static readonly int k_FireflyWindParams Field Value Type Description Int32 k_FireflyWindTexture Declaration public static readonly int k_FireflyWindTexture Field Value Type Description Int32 k_FireflyWindUVs1 Declaration public static readonly int k_FireflyWindUVs1 Field Value Type Description Int32 k_FireflyWindUVs2 Declaration public static readonly int k_FireflyWindUVs2 Field Value Type Description Int32 k_HalfTransparentTexture Declaration public static readonly int k_HalfTransparentTexture Field Value Type Description Int32 k_MainTex Declaration public static readonly int k_MainTex Field Value Type Description Int32 k_SourceTex Declaration public static readonly int k_SourceTex Field Value Type Description Int32 k_SplitScreenValue Declaration public static readonly int k_SplitScreenValue Field Value Type Description Int32 k_WindSinTime Declaration public static readonly int k_WindSinTime Field Value Type Description Int32 k_WindStrengths Declaration public static readonly int k_WindStrengths Field Value Type Description Int32"
+  },
+  "api/Firefly.Rendering.ShaderKeywords.html": {
+    "href": "api/Firefly.Rendering.ShaderKeywords.html",
+    "title": "Class ShaderKeywords | Firefly documentation",
+    "keywords": "Class ShaderKeywords Inheritance Object ShaderKeywords Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public static class ShaderKeywords Fields k_DebugDepth Declaration public static readonly string k_DebugDepth Field Value Type Description String k_DebugHBAO Declaration public static readonly string k_DebugHBAO Field Value Type Description String k_DebugNormal Declaration public static readonly string k_DebugNormal Field Value Type Description String k_SplitScreen Declaration public static readonly string k_SplitScreen Field Value Type Description String"
+  },
+  "api/Firefly.Rendering.Vector2Extension.html": {
+    "href": "api/Firefly.Rendering.Vector2Extension.html",
+    "title": "Class Vector2Extension | Firefly documentation",
+    "keywords": "Class Vector2Extension Inheritance Object Vector2Extension Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax public static class Vector2Extension Methods Rotate(Vector2, Single) Declaration public static Vector2 Rotate(this Vector2 v, float theta) Parameters Type Name Description Vector2 v Single theta Returns Type Description Vector2 SignedAngle(Vector2, Vector2) Declaration public static float SignedAngle(this Vector2 v1, Vector2 v2) Parameters Type Name Description Vector2 v1 Vector2 v2 Returns Type Description Single"
+  },
+  "api/Firefly.Rendering.WindTextureSize.html": {
+    "href": "api/Firefly.Rendering.WindTextureSize.html",
+    "title": "Enum WindTextureSize | Firefly documentation",
+    "keywords": "Enum WindTextureSize Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax [Serializable] public enum WindTextureSize Fields Name Description _128 _256 _512"
+  },
+  "api/Firefly.SceneViewCameraSync.html": {
+    "href": "api/Firefly.SceneViewCameraSync.html",
+    "title": "Class SceneViewCameraSync | Firefly documentation",
+    "keywords": "Class SceneViewCameraSync Inheritance Object SceneViewCameraSync Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class SceneViewCameraSync Methods SetEnable(Boolean) Declaration public static void SetEnable(bool isEnable) Parameters Type Name Description Boolean isEnable"
+  },
+  "api/Firefly.ScriptableSingletonEditor-1.html": {
+    "href": "api/Firefly.ScriptableSingletonEditor-1.html",
+    "title": "Class ScriptableSingletonEditor<T> | Firefly documentation",
+    "keywords": "Class ScriptableSingletonEditor<T> Inheritance Object ScriptableSingletonEditor<T> ArtPipelineSettings Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class ScriptableSingletonEditor<T> : ScriptableObject where T : ScriptableSingletonEditor<T> Type Parameters Name Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T"
+  },
+  "api/Firefly.TemplateShaderGUI.BlendMode.html": {
+    "href": "api/Firefly.TemplateShaderGUI.BlendMode.html",
+    "title": "Enum TemplateShaderGUI.BlendMode | Firefly documentation",
+    "keywords": "Enum TemplateShaderGUI.BlendMode Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public enum BlendMode Fields Name Description Additive Alpha Multiply Premultiply"
+  },
+  "api/Firefly.TemplateShaderGUI.html": {
+    "href": "api/Firefly.TemplateShaderGUI.html",
+    "title": "Class TemplateShaderGUI | Firefly documentation",
+    "keywords": "Class TemplateShaderGUI Inheritance Object TemplateShaderGUI Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class TemplateShaderGUI : ShaderGUI Properties alphaClipProp Declaration protected MaterialProperty alphaClipProp { get; set; } Property Value Type Description MaterialProperty alphaCutoffProp Declaration protected MaterialProperty alphaCutoffProp { get; set; } Property Value Type Description MaterialProperty blendModeProp Declaration protected MaterialProperty blendModeProp { get; set; } Property Value Type Description MaterialProperty cullingProp Declaration protected MaterialProperty cullingProp { get; set; } Property Value Type Description MaterialProperty materialEditor Declaration protected MaterialEditor materialEditor { get; set; } Property Value Type Description MaterialEditor receiveShadowsProp Declaration protected MaterialProperty receiveShadowsProp { get; set; } Property Value Type Description MaterialProperty surfaceTypeProp Declaration protected MaterialProperty surfaceTypeProp { get; set; } Property Value Type Description MaterialProperty Methods DoPopup(GUIContent, MaterialProperty, String[]) Declaration public void DoPopup(GUIContent label, MaterialProperty property, string[] options) Parameters Type Name Description GUIContent label MaterialProperty property String [] options DoPopup(GUIContent, MaterialProperty, String[], MaterialEditor) Declaration public static void DoPopup(GUIContent label, MaterialProperty property, string[] options, MaterialEditor materialEditor) Parameters Type Name Description GUIContent label MaterialProperty property String [] options MaterialEditor materialEditor DrawSurfaceOptions(Material) Declaration public virtual void DrawSurfaceOptions(Material material) Parameters Type Name Description Material material FindProperties(MaterialProperty[], Material) Declaration public virtual void FindProperties(MaterialProperty[] properties, Material material) Parameters Type Name Description MaterialProperty [] properties Material material OnGUI(MaterialEditor, MaterialProperty[]) Declaration public override void OnGUI(MaterialEditor materialEditor, MaterialProperty[] properties) Parameters Type Name Description MaterialEditor materialEditor MaterialProperty [] properties SetupMaterialBlendMode(Material) Declaration public static void SetupMaterialBlendMode(Material material) Parameters Type Name Description Material material"
+  },
+  "api/Firefly.TemplateShaderGUI.RenderFace.html": {
+    "href": "api/Firefly.TemplateShaderGUI.RenderFace.html",
+    "title": "Enum TemplateShaderGUI.RenderFace | Firefly documentation",
+    "keywords": "Enum TemplateShaderGUI.RenderFace Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public enum RenderFace Fields Name Description Back Both Front"
+  },
+  "api/Firefly.TemplateShaderGUI.Styles.html": {
+    "href": "api/Firefly.TemplateShaderGUI.Styles.html",
+    "title": "Class TemplateShaderGUI.Styles | Firefly documentation",
+    "keywords": "Class TemplateShaderGUI.Styles Inheritance Object TemplateShaderGUI.Styles Namespace : Firefly Assembly : cs.temp.dll.dll Syntax protected class Styles Fields alphaClipText Declaration public static readonly GUIContent alphaClipText Field Value Type Description GUIContent alphaClipThresholdText Declaration public static readonly GUIContent alphaClipThresholdText Field Value Type Description GUIContent blendingMode Declaration public static readonly GUIContent blendingMode Field Value Type Description GUIContent cullingText Declaration public static readonly GUIContent cullingText Field Value Type Description GUIContent receiveShadowText Declaration public static readonly GUIContent receiveShadowText Field Value Type Description GUIContent surfaceType Declaration public static readonly GUIContent surfaceType Field Value Type Description GUIContent"
+  },
+  "api/Firefly.TemplateShaderGUI.SurfaceType.html": {
+    "href": "api/Firefly.TemplateShaderGUI.SurfaceType.html",
+    "title": "Enum TemplateShaderGUI.SurfaceType | Firefly documentation",
+    "keywords": "Enum TemplateShaderGUI.SurfaceType Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public enum SurfaceType Fields Name Description Opaque Transparent"
+  },
+  "api/Firefly.Utilities.ArtToolsets.html": {
+    "href": "api/Firefly.Utilities.ArtToolsets.html",
+    "title": "Class ArtToolsets | Firefly documentation",
+    "keywords": "Class ArtToolsets Inheritance Object ArtToolsets Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class ArtToolsets : OdinMenuEditorWindow Methods AlignCenter(Rect, Single, Single) Declaration public static Rect AlignCenter(Rect rect, float width, float height) Parameters Type Name Description Rect rect Single width Single height Returns Type Description Rect BuildMenuTree() Declaration protected override OdinMenuTree BuildMenuTree() Returns Type Description OdinMenuTree"
+  },
+  "api/Firefly.Utilities.ArtToolsetsResource.html": {
+    "href": "api/Firefly.Utilities.ArtToolsetsResource.html",
+    "title": "Class ArtToolsetsResource | Firefly documentation",
+    "keywords": "Class ArtToolsetsResource Inheritance Object ArtToolsetsResource Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public sealed class ArtToolsetsResource : ScriptableObject Fields showMipmap Declaration public Material showMipmap Field Value Type Description Material showVertexColor Declaration public Material showVertexColor Field Value Type Description Material Properties Instance Declaration public static ArtToolsetsResource Instance { get; } Property Value Type Description ArtToolsetsResource Methods CreateArtToolsetsResource() Declaration public static void CreateArtToolsetsResource()"
+  },
+  "api/Firefly.Utilities.BatchCommandEditor.html": {
+    "href": "api/Firefly.Utilities.BatchCommandEditor.html",
+    "title": "Class BatchCommandEditor | Firefly documentation",
+    "keywords": "Class BatchCommandEditor Inheritance Object BatchCommandEditor Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class BatchCommandEditor : OdinEditorWindow Constructors BatchCommandEditor() Declaration public BatchCommandEditor() Fields findShader Declaration public FindShaderMenu findShader Field Value Type Description FindShaderMenu replaceShader Declaration public ReplaceShaderMenu replaceShader Field Value Type Description ReplaceShaderMenu"
+  },
+  "api/Firefly.Utilities.FindShader.html": {
+    "href": "api/Firefly.Utilities.FindShader.html",
+    "title": "Class FindShader | Firefly documentation",
+    "keywords": "Class FindShader Inheritance Object FindShader Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public static class FindShader Methods FindShaderByName(String, Boolean) Declaration public static GameObject[] FindShaderByName(string shaderName, bool matchWords = false) Parameters Type Name Description String shaderName Boolean matchWords Returns Type Description GameObject []"
+  },
+  "api/Firefly.Utilities.FindShaderMenu.html": {
+    "href": "api/Firefly.Utilities.FindShaderMenu.html",
+    "title": "Class FindShaderMenu | Firefly documentation",
+    "keywords": "Class FindShaderMenu Inheritance Object FindShaderMenu Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class FindShaderMenu Fields items Declaration public GameObject[] items Field Value Type Description GameObject [] matchWords Declaration public bool matchWords Field Value Type Description Boolean shaderName Declaration public string shaderName Field Value Type Description String Methods FindShader() Declaration public void FindShader()"
+  },
+  "api/Firefly.Utilities.FireflyMenuItem.html": {
+    "href": "api/Firefly.Utilities.FireflyMenuItem.html",
+    "title": "Class FireflyMenuItem | Firefly documentation",
+    "keywords": "Class FireflyMenuItem Inheritance Object FireflyMenuItem Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class FireflyMenuItem : ScriptableObject Fields numberOfPrefabsToCreate Declaration public int numberOfPrefabsToCreate Field Value Type Description Int32 prefabName Declaration public string prefabName Field Value Type Description String spawnPoints Declaration public Vector3[] spawnPoints Field Value Type Description Vector3 []"
+  },
+  "api/Firefly.Utilities.GraphicDebugEditor.html": {
+    "href": "api/Firefly.Utilities.GraphicDebugEditor.html",
+    "title": "Class GraphicDebugEditor | Firefly documentation",
+    "keywords": "Class GraphicDebugEditor Inheritance Object GraphicDebugEditor Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class GraphicDebugEditor : OdinEditorWindow Constructors GraphicDebugEditor() Declaration public GraphicDebugEditor() Methods HideSceneMipmap() Declaration public void HideSceneMipmap() HideVertexColor() Declaration public void HideVertexColor() OnDestroy() Declaration protected override void OnDestroy() ResetSceneMaterials() Declaration public void ResetSceneMaterials() ShowSceneMipmap() Declaration public void ShowSceneMipmap() ShowVertexColor() Declaration public void ShowVertexColor()"
+  },
+  "api/Firefly.Utilities.html": {
+    "href": "api/Firefly.Utilities.html",
+    "title": "Namespace Firefly.Utilities | Firefly documentation",
+    "keywords": "Namespace Firefly.Utilities Classes ArtToolsets ArtToolsetsResource BatchCommandEditor FindShader FindShaderMenu FireflyMenuItem GraphicDebugEditor MaterialOverviewEditor MaterialOverviewEditor.MaterialInfo MaterialOverviewEditor.ShaderInfo MonoAutoRotation MonoPingpong MonoUniformDistributionGenerator RenderToolsets RenderToolsetsResource ReplaceShader ReplaceShaderMenu ShowMeshNormal TemplateEditor Enums MaterialOverviewEditor.CollectMode MaterialOverviewEditor.SearchOption"
+  },
+  "api/Firefly.Utilities.MaterialOverviewEditor.CollectMode.html": {
+    "href": "api/Firefly.Utilities.MaterialOverviewEditor.CollectMode.html",
+    "title": "Enum MaterialOverviewEditor.CollectMode | Firefly documentation",
+    "keywords": "Enum MaterialOverviewEditor.CollectMode Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public enum CollectMode Fields Name Description Scene SelectedObject"
+  },
+  "api/Firefly.Utilities.MaterialOverviewEditor.html": {
+    "href": "api/Firefly.Utilities.MaterialOverviewEditor.html",
+    "title": "Class MaterialOverviewEditor | Firefly documentation",
+    "keywords": "Class MaterialOverviewEditor Inheritance Object MaterialOverviewEditor Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class MaterialOverviewEditor : EditorWindow Constructors MaterialOverviewEditor() Declaration public MaterialOverviewEditor() Fields collectMode Declaration public MaterialOverviewEditor.CollectMode collectMode Field Value Type Description MaterialOverviewEditor.CollectMode searchContent Declaration public string searchContent Field Value Type Description String searchOption Declaration public MaterialOverviewEditor.SearchOption searchOption Field Value Type Description MaterialOverviewEditor.SearchOption shaderInfos Declaration public List<MaterialOverviewEditor.ShaderInfo> shaderInfos Field Value Type Description List < MaterialOverviewEditor.ShaderInfo > Methods Awake() Declaration public void Awake() IsBuiltInMaterial(Material) Declaration public static bool IsBuiltInMaterial(Material mat) Parameters Type Name Description Material mat Returns Type Description Boolean IsBuiltInShader(Shader) Declaration public static bool IsBuiltInShader(Shader shader) Parameters Type Name Description Shader shader Returns Type Description Boolean Refresh() Declaration public void Refresh()"
+  },
+  "api/Firefly.Utilities.MaterialOverviewEditor.MaterialInfo.html": {
+    "href": "api/Firefly.Utilities.MaterialOverviewEditor.MaterialInfo.html",
+    "title": "Class MaterialOverviewEditor.MaterialInfo | Firefly documentation",
+    "keywords": "Class MaterialOverviewEditor.MaterialInfo Inheritance Object MaterialOverviewEditor.MaterialInfo Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax [Serializable] public class MaterialInfo Constructors MaterialInfo(Material, Transform) Declaration public MaterialInfo(Material mat, Transform target) Parameters Type Name Description Material mat Transform target Fields material Declaration public Material material Field Value Type Description Material target Declaration public Transform target Field Value Type Description Transform Properties IsBuildinMaterial Declaration public bool IsBuildinMaterial { get; } Property Value Type Description Boolean"
+  },
+  "api/Firefly.Utilities.MaterialOverviewEditor.SearchOption.html": {
+    "href": "api/Firefly.Utilities.MaterialOverviewEditor.SearchOption.html",
+    "title": "Enum MaterialOverviewEditor.SearchOption | Firefly documentation",
+    "keywords": "Enum MaterialOverviewEditor.SearchOption Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public enum SearchOption Fields Name Description Keyword MaterialName ShaderName"
+  },
+  "api/Firefly.Utilities.MaterialOverviewEditor.ShaderInfo.html": {
+    "href": "api/Firefly.Utilities.MaterialOverviewEditor.ShaderInfo.html",
+    "title": "Class MaterialOverviewEditor.ShaderInfo | Firefly documentation",
+    "keywords": "Class MaterialOverviewEditor.ShaderInfo Inheritance Object MaterialOverviewEditor.ShaderInfo Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax [Serializable] public sealed class ShaderInfo Constructors ShaderInfo(Material, Transform) Declaration public ShaderInfo(Material material, Transform target) Parameters Type Name Description Material material Transform target Fields keywords Declaration public string keywords Field Value Type Description String keywordsCount Declaration public int keywordsCount Field Value Type Description Int32 shader Declaration public Shader shader Field Value Type Description Shader usedMaterials Declaration public List<MaterialOverviewEditor.MaterialInfo> usedMaterials Field Value Type Description List < MaterialOverviewEditor.MaterialInfo > Methods AddMaterial(Material, Transform) Declaration public void AddMaterial(Material mat, Transform target) Parameters Type Name Description Material mat Transform target AllMaterialsAreBuiltIn() Declaration public bool AllMaterialsAreBuiltIn() Returns Type Description Boolean ContainsSameKeywords(String[]) Declaration public bool ContainsSameKeywords(string[] keys) Parameters Type Name Description String [] keys Returns Type Description Boolean SetKeywords(String) Declaration public void SetKeywords(string keys) Parameters Type Name Description String keys"
+  },
+  "api/Firefly.Utilities.MonoAutoRotation.html": {
+    "href": "api/Firefly.Utilities.MonoAutoRotation.html",
+    "title": "Class MonoAutoRotation | Firefly documentation",
+    "keywords": "Class MonoAutoRotation Inheritance Object MonoAutoRotation Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class MonoAutoRotation : MonoBehaviour Fields rotation Declaration public Vector3 rotation Field Value Type Description Vector3"
+  },
+  "api/Firefly.Utilities.MonoPingpong.html": {
+    "href": "api/Firefly.Utilities.MonoPingpong.html",
+    "title": "Class MonoPingpong | Firefly documentation",
+    "keywords": "Class MonoPingpong Inheritance Object MonoPingpong Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class MonoPingpong : MonoBehaviour Fields offset Declaration public Vector3 offset Field Value Type Description Vector3 speed Declaration public float speed Field Value Type Description Single"
+  },
+  "api/Firefly.Utilities.MonoUniformDistributionGenerator.html": {
+    "href": "api/Firefly.Utilities.MonoUniformDistributionGenerator.html",
+    "title": "Class MonoUniformDistributionGenerator | Firefly documentation",
+    "keywords": "Class MonoUniformDistributionGenerator Inheritance Object MonoUniformDistributionGenerator Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class MonoUniformDistributionGenerator : MonoBehaviour Fields center Declaration public Vector3 center Field Value Type Description Vector3 count Declaration public uint count Field Value Type Description UInt32 prefab Declaration public GameObject prefab Field Value Type Description GameObject size Declaration public uint size Field Value Type Description UInt32 Methods Generate() Declaration public void Generate() GeneratePrefabs() Declaration public void GeneratePrefabs()"
+  },
+  "api/Firefly.Utilities.RenderToolsets.html": {
+    "href": "api/Firefly.Utilities.RenderToolsets.html",
+    "title": "Class RenderToolsets | Firefly documentation",
+    "keywords": "Class RenderToolsets Inheritance Object RenderToolsets Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class RenderToolsets : OdinMenuEditorWindow Methods BuildMenuTree() Declaration protected override OdinMenuTree BuildMenuTree() Returns Type Description OdinMenuTree"
+  },
+  "api/Firefly.Utilities.RenderToolsetsResource.html": {
+    "href": "api/Firefly.Utilities.RenderToolsetsResource.html",
+    "title": "Class RenderToolsetsResource | Firefly documentation",
+    "keywords": "Class RenderToolsetsResource Inheritance Object RenderToolsetsResource Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public sealed class RenderToolsetsResource : ScriptableObject Fields showMipmap Declaration public Material showMipmap Field Value Type Description Material showVertexColor Declaration public Material showVertexColor Field Value Type Description Material Properties Instance Declaration public static RenderToolsetsResource Instance { get; } Property Value Type Description RenderToolsetsResource Methods CreateRenderToolsetsResource() Declaration public static void CreateRenderToolsetsResource()"
+  },
+  "api/Firefly.Utilities.ReplaceShader.html": {
+    "href": "api/Firefly.Utilities.ReplaceShader.html",
+    "title": "Class ReplaceShader | Firefly documentation",
+    "keywords": "Class ReplaceShader Inheritance Object ReplaceShader Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public static class ReplaceShader Methods ReplaceShaderByName(String, String) Declaration public static void ReplaceShaderByName(string src, string dst) Parameters Type Name Description String src String dst"
+  },
+  "api/Firefly.Utilities.ReplaceShaderMenu.html": {
+    "href": "api/Firefly.Utilities.ReplaceShaderMenu.html",
+    "title": "Class ReplaceShaderMenu | Firefly documentation",
+    "keywords": "Class ReplaceShaderMenu Inheritance Object ReplaceShaderMenu Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class ReplaceShaderMenu Fields dstShaderName Declaration public string dstShaderName Field Value Type Description String srcShaderName Declaration public string srcShaderName Field Value Type Description String Methods ReplaceShader() Declaration public void ReplaceShader()"
+  },
+  "api/Firefly.Utilities.ShowMeshNormal.html": {
+    "href": "api/Firefly.Utilities.ShowMeshNormal.html",
+    "title": "Class ShowMeshNormal | Firefly documentation",
+    "keywords": "Class ShowMeshNormal Inheritance Object ShowMeshNormal Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class ShowMeshNormal : MonoBehaviour"
+  },
+  "api/Firefly.Utilities.TemplateEditor.html": {
+    "href": "api/Firefly.Utilities.TemplateEditor.html",
+    "title": "Class TemplateEditor | Firefly documentation",
+    "keywords": "Class TemplateEditor Inheritance Object TemplateEditor Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class TemplateEditor : OdinEditorWindow Constructors TemplateEditor() Declaration public TemplateEditor() Fields a Declaration public int a Field Value Type Description Int32 info Declaration public string info Field Value Type Description String"
+  },
+  "manual/Firefly.html": {
+    "href": "manual/Firefly.html",
+    "title": "Firefly Project | Firefly documentation",
+    "keywords": "Firefly Project 【先从有道上记录TODOList，这里用来记录完成稳定的内容】 <!-- <img src=\"Firefly/Art/_Common/firefly_icon_transparent.png\" alt=\"Icon\" width=\"300\"/> --> Todo: [x] URP Shader Models: - [Half Transparent Render] [x] 搭建 PBR 测试场景。 (Viking Vallage) [ ] 渲染框架。 [ ] Natura Rendering。 [ ] 动态天气展示风云。 [ ] Volumetric Lighting [ ] Standard Shader支持lightingmap [ ] ECS剔除系统 [ ] 异步场景加载 [ ] 异步实体实例化 [x] 实现移动端PBR版本。 (Version 1.0) [x] PBR 贴图右键菜单合成NormalMetalRoughness图，合并Albedo + AO图 Features: Foundation: Auto Generate Documents AssetsSetting Custom Render Pipeline: Half Transparent Render 默认渲染框架: HBAO TAA Custom Art Workflow: Auto Caculate SmoothNormal Cmd to bake SD/SP Texture Shader Models: Standard Standard_HD(Bent Normal, Shadow Bias) Digital Human: PreIntegratedSkin, Skin_HD(TODO), Cloth, Hair(TODO), Eyes(TODO) Truanslucency HeightBlend 3D Billboard Clear Coat (TODO) Glass Refraction BRDF(Google Filament) Tools: Unity Versions: Unity 2021.3.5f1 (Old: Unity 2020.1.3f1) Universal Render Pipeline version 12.1.7 or higher (available via the Package Manager) Note: If you have the experimental 2D Renderer enabled, some of the options related to 3D rendering in the Universal RP Asset will not have any impact on your final app or game."
+  }
+}
