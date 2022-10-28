@@ -10,7 +10,7 @@
     "changefreq": "weekly"
   },
   "homepages": [],
-  "source_base_path": "E:/EtySVN/Firefly/Documentation",
+  "source_base_path": "E:/Firefly/Firefly/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -24,11 +24,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Art.ArtPipelineSettings.yml",
+      "source_relative_path": "api/Firefly.Editor.ArtPipelineSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.Art.ArtPipelineSettings.html",
-          "hash": "hErJaMKskBOnoSgYkjJCbQfygDzhuGaIJ5+E06celHM="
+          "relative_path": "api/Firefly.Editor.ArtPipelineSettings.html",
+          "hash": "QsfuaSvr8k40tW50UpITT+VtM0sMFdke2TQS6Ik8rs4="
         }
       },
       "is_incremental": false,
@@ -36,11 +36,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Art.ForderPath.yml",
+      "source_relative_path": "api/Firefly.Editor.ArtToolsets.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.Art.ForderPath.html",
-          "hash": "LG8r5T1o7ZCT8GLOUfhf7VTqKBv709cRB2WBQ4T8I0k="
+          "relative_path": "api/Firefly.Editor.ArtToolsets.html",
+          "hash": "l5LEnCSO4ReJCLmZyG+V+796Mxl9dyKkiTFk3006QZM="
         }
       },
       "is_incremental": false,
@@ -48,11 +48,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Art.ModelImportUtilities.yml",
+      "source_relative_path": "api/Firefly.Editor.BatchCommandEditor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.Art.ModelImportUtilities.html",
-          "hash": "R4oojPIRBz+38VvA+R6JPC9BoQDF8qIkZgwG+B6UvR0="
+          "relative_path": "api/Firefly.Editor.BatchCommandEditor.html",
+          "hash": "nWgBUrpqE8JNXNHFfAvLWL3d8mjWxeonUXDNGt3dzEc="
         }
       },
       "is_incremental": false,
@@ -60,11 +60,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Art.ToonModelImportSetting.yml",
+      "source_relative_path": "api/Firefly.Editor.CreateFireflyTemplate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.Art.ToonModelImportSetting.html",
-          "hash": "k6mefvpCzr8FC8o1yEAgya5DTVo4jZzkQRSCmc62elY="
+          "relative_path": "api/Firefly.Editor.CreateFireflyTemplate.html",
+          "hash": "psuxjG7s154KrvDamZSwzSFToLAopShMnjft/kukV9c="
         }
       },
       "is_incremental": false,
@@ -72,11 +72,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Art.ToonModelImporter.yml",
+      "source_relative_path": "api/Firefly.Editor.CreateScriptsTemplate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.Art.ToonModelImporter.html",
-          "hash": "q9fqqHPr32qcM5SJw+LLZjG96yIKOGqyokx6EkX36DA="
+          "relative_path": "api/Firefly.Editor.CreateScriptsTemplate.html",
+          "hash": "WNIpHNANlMT+YZeJsEKcJksg6pM0CgHwe2JHFgg7kp8="
         }
       },
       "is_incremental": false,
@@ -84,11 +84,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Art.yml",
+      "source_relative_path": "api/Firefly.Editor.EditorGraphicUtilities.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.Art.html",
-          "hash": "QfcQa29WMzNN/dqtRAgYmIIeAXTDEt3QjwDmfI0iy+U="
+          "relative_path": "api/Firefly.Editor.EditorGraphicUtilities.html",
+          "hash": "kr+Wa3BWVJBKaI4n85Fwb4wYcrzFrfx+Yk00fnFrEJo="
         }
       },
       "is_incremental": false,
@@ -96,11 +96,239 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.CreateShadersTemplate.yml",
+      "source_relative_path": "api/Firefly.Editor.FindShader.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.CreateShadersTemplate.html",
-          "hash": "LN6BOcsCV8fTGBjY0jSBbqgssZa+rqLXldrIpOHjLfs="
+          "relative_path": "api/Firefly.Editor.FindShader.html",
+          "hash": "E1kJLnw3KF2s3SACuqYhaL7r8fr72RZ5kfPQew7c+nc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.FindShaderMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.FindShaderMenu.html",
+          "hash": "pcNWF0pOU9sX29JMp5ieQEzePuyRBsQ0TVi35expUZY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.FireflyEditorAssets.FireflyConfigs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.FireflyEditorAssets.FireflyConfigs.html",
+          "hash": "4pQAVyA0oaWy9cBbBT9xN+sRxU6gHWfLz30Dze8npqY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.FireflyEditorAssets.SMaterialResources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.FireflyEditorAssets.SMaterialResources.html",
+          "hash": "YWRmQBX34UfDORyFxRH0iBjeJoKVd8WuRrvMXv6kEak="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.FireflyEditorAssets.ShaderResources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.FireflyEditorAssets.ShaderResources.html",
+          "hash": "GGHfbEDRXBjZ6Q6pM4nEsUBQxnsfNFBWKDIysjQoI/s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.FireflyEditorAssets.TextureResources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.FireflyEditorAssets.TextureResources.html",
+          "hash": "N0Mf+EwMvaVAHlTot+uXmRjozn5njB0AYne/od/NvnI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.FireflyEditorAssets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.FireflyEditorAssets.html",
+          "hash": "ZkwDUTsFARylJr0uPnN7KBU4AzFQx97S3MZBWCVevIQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.FireflyMenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.FireflyMenuItem.html",
+          "hash": "cLnOSpbqe0XdeYpbMTVdTIFMsWn7KFJJD08HqjPEBQg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.FireflyPreferences.DemoOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.FireflyPreferences.DemoOption.html",
+          "hash": "c5tEhMyWBZfzjxpneQaKJ0povqDqHbBVVwi3OGkVO48="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.FireflyPreferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.FireflyPreferences.html",
+          "hash": "QjUyVTzczoLj6TrWIM9Qe6ModwO6QY6R1bVWCvMVjJ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.ForderPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.ForderPath.html",
+          "hash": "+65W2y7Dig7iQ0OVqVOY6ZTuTnt57p0RHMD2KgUHvHQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.GUIStyleEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.GUIStyleEx.html",
+          "hash": "V0BNXXNzHEZc+19NlWJBvCDsj+pAI2DEvZ9HP4CY+FU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.GraphicDebugEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.GraphicDebugEditor.html",
+          "hash": "oOcKOrNeymR4Vczyb+9Yo/uGIQw3o/2JNpjS+Ry+hIg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.InspectorUtils.SplitterStyles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.InspectorUtils.SplitterStyles.html",
+          "hash": "RiKMKtlUwjOVnla+ybav8+EVM5t+4auoC5VB+Z28omM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.InspectorUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.InspectorUtils.html",
+          "hash": "t5ewZaExvPpKYulwf0qZ9FcwMOncnXDmJgJr6Va0fLs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.MaterialOverviewEditor.CollectMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.MaterialOverviewEditor.CollectMode.html",
+          "hash": "ToIcofZmzJONedqQD4Fh86MNIgU8noi5zZ2MdA52l34="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.MaterialOverviewEditor.MaterialInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.MaterialOverviewEditor.MaterialInfo.html",
+          "hash": "kyQO6jIQRynpM9GnB9SIDnNxxa6PRzC+8bVqN0aPk1g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.MaterialOverviewEditor.SearchOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.MaterialOverviewEditor.SearchOption.html",
+          "hash": "kglcdkVLyxBArOVkIRb2+wFrRrsEMuB63R7VIOL4Bd0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.MaterialOverviewEditor.ShaderInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.MaterialOverviewEditor.ShaderInfo.html",
+          "hash": "OVrDGPmdAxKPRh/M9C1pKG8hpDwyPFmizg6r+xsyMlo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.MaterialOverviewEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.MaterialOverviewEditor.html",
+          "hash": "47/HAXjK5WIgG17vgX0ivndqpN9blHUyjxyk4MxFpAc="
         }
       },
       "is_incremental": false,
@@ -112,7 +340,127 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Editor.MeshNormalVisualizer.html",
-          "hash": "kmr/b4/Y1/wPDbPNwgBTVek3mBOo26+SNYTaeXDO3PA="
+          "hash": "WOHa3IM1bDP8WCJD6Xoc5NGL/NlhXMK3nYhSObP2SxA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.ModelImportUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.ModelImportUtilities.html",
+          "hash": "HklDjqhtt5mLqj6Ml8yTevC4OzWudGUOPlKREDDrMQY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.RenderToolsets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.RenderToolsets.html",
+          "hash": "D2DX9eYOClHCYw5w6swU4RlmptTZ16N3zeBS1PeQpsM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.RenderToolsetsResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.RenderToolsetsResource.html",
+          "hash": "ffa1/n/GCFMVvxPjUX3Rw0hNAh+4LO6KKJWjgHD8lqA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.ReplaceShader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.ReplaceShader.html",
+          "hash": "05nErEpxl6Kjdp1r4+AV7lUpQuNpSUnHBJCc3WAk0Ro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.ReplaceShaderMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.ReplaceShaderMenu.html",
+          "hash": "BP9eugKMmAdo1vuqk4YldR6iSDgG7zAQo3Wu06iMKmM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.SceneViewCameraSync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.SceneViewCameraSync.html",
+          "hash": "xsNS6Rlcty6FBbRN303b7mNrg1iFIV9JIZA2psrpu3g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.ScriptableSingletonEditor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.ScriptableSingletonEditor-1.html",
+          "hash": "U7LIOcuKE/JPIWp6XJzugqB18BzKbJhGH3I/Bdj3ci0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.TemplateEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.TemplateEditor.html",
+          "hash": "XKEAcDPsr8pEDaqkO6EEeBCrolEf11Ng5kr9GNDDFPw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.ToonModelImportSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.ToonModelImportSetting.html",
+          "hash": "4DJGHBXyDKUQM/DRJEkOksQlZIu/iWDODe/eo47t8ck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Editor.ToonModelImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Editor.ToonModelImporter.html",
+          "hash": "vlxQza2x8ZU+I/yrjJEfwnYHjd5TJWS4UBSvAqyBJ4g="
         }
       },
       "is_incremental": false,
@@ -124,7 +472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Editor.html",
-          "hash": "/J5cGXzr7LUdf4BztSKWehJ90aV7eG1zioUk2Ho7kL4="
+          "hash": "JsiyZYaXFjsNNGCyeQTqa7QnxIY20f8wR4rUNtkrzFw="
         }
       },
       "is_incremental": false,
@@ -132,11 +480,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.EditorGUIEx.EditorGUIIndentLevel.yml",
+      "source_relative_path": "api/Firefly.FireflyEditorGUI.EditorGUIIndentLevel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.EditorGUIEx.EditorGUIIndentLevel.html",
-          "hash": "A0yZ/34jx+jAQbp9sqgJq6/gBRZgb+08SVc4oveSYV4="
+          "relative_path": "api/Firefly.FireflyEditorGUI.EditorGUIIndentLevel.html",
+          "hash": "12gGSi6I2unjIx+ONQXS08bTH1VieI02+TbC5Bnnk1c="
         }
       },
       "is_incremental": false,
@@ -144,11 +492,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.EditorGUIEx.EditorGUILayoutHorizontal.yml",
+      "source_relative_path": "api/Firefly.FireflyEditorGUI.EditorGUILayoutHorizontal.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.EditorGUIEx.EditorGUILayoutHorizontal.html",
-          "hash": "66s+qarCQp49aJ8TvW+CGhp8kViTE49wagG3JxQ8Wqo="
+          "relative_path": "api/Firefly.FireflyEditorGUI.EditorGUILayoutHorizontal.html",
+          "hash": "nKIsWPPXawrHF91GUTpUlmJUn+B2SlVUt/7SsXT5l0o="
         }
       },
       "is_incremental": false,
@@ -156,11 +504,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.EditorGUIEx.EditorGUILayoutVertical.yml",
+      "source_relative_path": "api/Firefly.FireflyEditorGUI.EditorGUILayoutVertical.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.EditorGUIEx.EditorGUILayoutVertical.html",
-          "hash": "vx4zwhmNvMHE9Gmb4rdKPTpiF8zRQW7DyTixXQsR9DM="
+          "relative_path": "api/Firefly.FireflyEditorGUI.EditorGUILayoutVertical.html",
+          "hash": "/NidaVsDmIilHrSBEZe891kj1vEuDBU09gNPdrn3jg4="
         }
       },
       "is_incremental": false,
@@ -168,11 +516,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.EditorGUIEx.GUIBackgroundColor.yml",
+      "source_relative_path": "api/Firefly.FireflyEditorGUI.GUIBackgroundColor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.EditorGUIEx.GUIBackgroundColor.html",
-          "hash": "Q4CKfYKnZow+L1PDJibGgfa2EYQP1NdDHYpfgLaff7o="
+          "relative_path": "api/Firefly.FireflyEditorGUI.GUIBackgroundColor.html",
+          "hash": "xeB+q59GONxcdQNiRGB4tTcUtsSEy3TbEkIs1L4FB5o="
         }
       },
       "is_incremental": false,
@@ -180,11 +528,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.EditorGUIEx.GUIColor.yml",
+      "source_relative_path": "api/Firefly.FireflyEditorGUI.GUIColor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.EditorGUIEx.GUIColor.html",
-          "hash": "7mQqm1xdpK6UV/GwsD6CQOddF3IXjURnmjA1XLLNOys="
+          "relative_path": "api/Firefly.FireflyEditorGUI.GUIColor.html",
+          "hash": "FqhinK11UBPxxImkScfSc4B+ZrqZoVWAcIq7967HdE4="
         }
       },
       "is_incremental": false,
@@ -192,11 +540,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.EditorGUIEx.GUIEnabled.yml",
+      "source_relative_path": "api/Firefly.FireflyEditorGUI.GUIEnabled.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.EditorGUIEx.GUIEnabled.html",
-          "hash": "MEuVTWZUOciQ/sDoGcSMlMV5B6fxHviMliBoQivVvWk="
+          "relative_path": "api/Firefly.FireflyEditorGUI.GUIEnabled.html",
+          "hash": "dZHhkk4PCg2PYlVqG/rwOKk/ixKEC8BT8ikj4VjQB1k="
         }
       },
       "is_incremental": false,
@@ -204,11 +552,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.EditorGUIEx.GUILayoutHorizontal.yml",
+      "source_relative_path": "api/Firefly.FireflyEditorGUI.GUILayoutHorizontal.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.EditorGUIEx.GUILayoutHorizontal.html",
-          "hash": "+2adTX3nCofDuLI6PoLSZtmoe08Lyf4e3olgGhFRqmQ="
+          "relative_path": "api/Firefly.FireflyEditorGUI.GUILayoutHorizontal.html",
+          "hash": "LXj1I1ogS8VdWF/yaDYrDsw0HOD7SWCX6PTONJEC/O4="
         }
       },
       "is_incremental": false,
@@ -216,11 +564,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.EditorGUIEx.GUILayoutVertical.yml",
+      "source_relative_path": "api/Firefly.FireflyEditorGUI.GUILayoutVertical.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.EditorGUIEx.GUILayoutVertical.html",
-          "hash": "JFky1hfWj2sDeIdps+UMcgcp+YWxC7g5QWMVpETJ87Y="
+          "relative_path": "api/Firefly.FireflyEditorGUI.GUILayoutVertical.html",
+          "hash": "iBRgAY48qQttWpNoNkwLU6JOvK8+ACCuFLiwHWCTALw="
         }
       },
       "is_incremental": false,
@@ -228,11 +576,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.EditorGUIEx.GUISkinLabelNormalTextColor.yml",
+      "source_relative_path": "api/Firefly.FireflyEditorGUI.GUISkinLabelNormalTextColor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.EditorGUIEx.GUISkinLabelNormalTextColor.html",
-          "hash": "k+xwU+JuYeC5tkPyww4Jup50Qbad7PrzQGmh0T2yqxw="
+          "relative_path": "api/Firefly.FireflyEditorGUI.GUISkinLabelNormalTextColor.html",
+          "hash": "dFbHXAd3phnnv4OsIjWyJ5c6XPfZNQinK68M3P//cYU="
         }
       },
       "is_incremental": false,
@@ -240,95 +588,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.EditorGUIEx.yml",
+      "source_relative_path": "api/Firefly.FireflyEditorGUI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Firefly.EditorGUIEx.html",
-          "hash": "KCmMl9uD/K1DrUktLvf/fw55Kh2TFQpr+KeVYF832Jk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.EditorGraphicUtilities.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.EditorGraphicUtilities.html",
-          "hash": "c4EijuP38Bls6NDx4/RM+WJx4H8LlKwN8I1LNdfX5X0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.FireflyEditorAssets.FireflyConfigs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.FireflyEditorAssets.FireflyConfigs.html",
-          "hash": "jroKxlwYHDCCicVB1CH/WGghlhFfiU7pKHFsAKfjiCo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.FireflyEditorAssets.SMaterialResources.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.FireflyEditorAssets.SMaterialResources.html",
-          "hash": "DIemXXo7oQbama2lzRUOOWRx6P5k3UQ6VMW6JLZx5ss="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.FireflyEditorAssets.ShaderResources.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.FireflyEditorAssets.ShaderResources.html",
-          "hash": "WBFfJA/auKOtML+N9dz4/527jx4od2hivnFr4kIF7PE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.FireflyEditorAssets.TextureResources.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.FireflyEditorAssets.TextureResources.html",
-          "hash": "1ktpE7fTDeGHLxYpSPfLSq3dt5Uez9FPs9L8If47IZw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.FireflyEditorAssets.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.FireflyEditorAssets.html",
-          "hash": "r6/8xkM0fmA1bUGnG27Htrb1w/P2guWSnJCzPWV931Q="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.GUIStyleEx.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.GUIStyleEx.html",
-          "hash": "0/tpUmdw67zHLPg4Eo8hNYQPWj2LSs/8zB+S892aOdc="
+          "relative_path": "api/Firefly.FireflyEditorGUI.html",
+          "hash": "wSQX2loe5xTNla25X1l3dp6hoXIXY5vpiV2T7DofpJ0="
         }
       },
       "is_incremental": false,
@@ -340,7 +604,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.GamePlay.FireflyJoystick.html",
-          "hash": "IYchDDLu0JIQw2cvExhpctMQAmAxHArLHsd2k3SzOZg="
+          "hash": "wOia3UMNjOrkxNpWOr5i82HUCb8HZ72VpGVa5w4gNSc="
         }
       },
       "is_incremental": false,
@@ -360,35 +624,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.InspectorUtils.SplitterStyles.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.InspectorUtils.SplitterStyles.html",
-          "hash": "1/26pCrTCm1TFY9zZP2BVldUhu3O+vWDZbjOGS3QolY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.InspectorUtils.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.InspectorUtils.html",
-          "hash": "32aUqQ3opa1goU2gTak87ED0wVrRFLUAQ3aWevc4v94="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Firefly.Rendering.CameraExtension.yml",
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.CameraExtension.html",
-          "hash": "ssjpDkDkMH5NOy9t1ck2O+RNPrJKeAxAwxY7oeBxRus="
+          "hash": "Gs/ZYoMcnD8JzCMEa+OHs+GBSLITMj213PG63tbMadk="
         }
       },
       "is_incremental": false,
@@ -412,7 +652,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.DebugModeParameter.html",
-          "hash": "/bPHnp63TtBrLUy8IChwAYT4fKbYT1VKSYK9ioCmHWo="
+          "hash": "24tIMkdY39QLko+tqWofEADsvmzEVyYG+tUqBxn4oE4="
         }
       },
       "is_incremental": false,
@@ -424,7 +664,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtyDocsDecorator.html",
-          "hash": "bEpH4+1qPfB3MehLEQMljBj91Gm4bI3mVA74qNnznjc="
+          "hash": "zm0WlaqQD6ar03sh9rtwOUO/phiCQWoF5FccLTZegP8="
         }
       },
       "is_incremental": false,
@@ -436,7 +676,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtyHeaderDecorator.html",
-          "hash": "UDGbcrHf7UpcbXgVM+7lSkmhPJQyp5uLNXWxVBRLeDk="
+          "hash": "akpL1gx3AZOovZ7+kNIs9uHtooxeY63g4W91fs0I07g="
         }
       },
       "is_incremental": false,
@@ -448,7 +688,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtyIndent2Drawer.html",
-          "hash": "Sb/l1xcuNaR23s22J49foIoNA+75cgWuP5kqxvwVYS8="
+          "hash": "neWqIgULxPeVnbsTD5iJ/x3gWCXhzHFQ/WqkHtCX+48="
         }
       },
       "is_incremental": false,
@@ -460,7 +700,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtyIndentBeginDecorator.html",
-          "hash": "KidHn5DgyrSjMYC6D3UaXGWw2tYLE4Y+EVx6+xkdUp0="
+          "hash": "q2hX+H6tWHgI3/nGmaFnYGhcprQ2QFqn47ZriVrn90c="
         }
       },
       "is_incremental": false,
@@ -472,7 +712,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtyIndentDrawer.html",
-          "hash": "AanFmet2d+OT9/bLNSPQn0v3pdOsEGkp4q9PRi5ZqhI="
+          "hash": "PTBfLB5LPtudAOv/93huOdvTa9ptZMwB8jXxvA2yuWU="
         }
       },
       "is_incremental": false,
@@ -484,7 +724,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtyIndentEndDecorator.html",
-          "hash": "U4NISpCScdo2ekL2Iu8XY2CDOBYeIs2CNg/a9FSrxfs="
+          "hash": "bqmOG9j7fc/MlMzAK52sPgLcMWywyZBqpMB+Bm2SoUo="
         }
       },
       "is_incremental": false,
@@ -496,7 +736,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtySeparatorDecorator.html",
-          "hash": "lgoOFhP+7YKOJxL2fQ9Urxl1et6I6PxnvVj1ILWBFJo="
+          "hash": "G8oJJuz+DOQrXvt4Adp0oIkZnMYFh5WiZx3u+fPlZpY="
         }
       },
       "is_incremental": false,
@@ -508,7 +748,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtySetTextureDrawer.html",
-          "hash": "GIyTKli+/sm/vv5oznPp3/zDzpHIEn1XMTgxkBSj/ng="
+          "hash": "WaZGWEIxssBHNI79YI+wf0jbWSviXFFA/rEEsw4qWfw="
         }
       },
       "is_incremental": false,
@@ -520,7 +760,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtyShaderGUIBasic.html",
-          "hash": "iHSHYMf++3vYMbWHddqWUU0pHVaQvLstG0aB/McRTNw="
+          "hash": "w6Jy4cSgUmcon4T15+vfS4+//josXo5e5fzTzt+60xI="
         }
       },
       "is_incremental": false,
@@ -532,7 +772,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtySingleLineTextureDrawer.html",
-          "hash": "nN9VUcoOeZRddcDRTAXGNShy+Uj5wzDaNJmLE85l0Q0="
+          "hash": "CGztxDVaUF4u575ahVZAEPVFB6rN5vzQ/uuGd4ZgDxQ="
         }
       },
       "is_incremental": false,
@@ -544,7 +784,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtySingleLineTextureKeywordDrawer.html",
-          "hash": "sV3xe0yye4gXJVrPtCfKXB/uRAEU+cXmdKxTdTONvmM="
+          "hash": "IKnl5BiMY09DoA3/PfJK1cBYhXGsJQuf9Mo3jH8fxtM="
         }
       },
       "is_incremental": false,
@@ -556,7 +796,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtySingleLineTextureWithScaleDrawer.html",
-          "hash": "IRtBwhYKRJAFIjjb0dPnP0z9tGibDhKkmb3PEGp3zqo="
+          "hash": "vFyOfxT7TfmIDXhNVgzyfkiq5BW4+5XgdLc7nYXkAgI="
         }
       },
       "is_incremental": false,
@@ -568,7 +808,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtySingleLineTextureWithScaleKeywordDrawer.html",
-          "hash": "1+TSrSmpO9LuDmxmR7wLrsQovDNHR/3pA1LwCruacyc="
+          "hash": "bjaDXjdajrGuVR/OH6wwRTz9s2qeVv/Y6RE+5Tm9UvY="
         }
       },
       "is_incremental": false,
@@ -580,7 +820,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtyToggleBeginDecorator.html",
-          "hash": "bK20XlWsO90qZEkXrdA1PLGi9CGVKxd2FhZUKmkX7TU="
+          "hash": "qxbgdRtSsE6Ww45LnE8WUukb0k92Kt1rKXjSQw9kwpo="
         }
       },
       "is_incremental": false,
@@ -592,7 +832,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtyToggleDrawer.html",
-          "hash": "ZdlN+FVqicUPG+hlSjOrpdVBxd0/IGrXfhkHFMwT3cs="
+          "hash": "KstnTxTsjwoS9KKBcLU5w4HTfPJWe35qQCiDMXq4IUA="
         }
       },
       "is_incremental": false,
@@ -604,7 +844,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtyToggleEndDecorator.html",
-          "hash": "X6xI5cvoJH8WwBEMnzB6/dU2h0Fj4qH42MNAWlWNxYs="
+          "hash": "lcLWqBaaEWs76HURQVBwndoFvo3WxEHztMougk3/i5g="
         }
       },
       "is_incremental": false,
@@ -616,7 +856,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.EtyToggleHeaderDrawer.html",
-          "hash": "Al6OUiGW0yvyGwkUX7ZLyH14szxAB8N1HPTW8h1qI/4="
+          "hash": "VXRUF0/k+5ffluJZYBpp+sXr4Td41tWRN+atwLcYR2U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Rendering.FireflyCameraJitterPass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Rendering.FireflyCameraJitterPass.html",
+          "hash": "sYU+ugwOFyLqqFTz90Mv4NcWNPk9eJPzI0/w/MOeuBU="
         }
       },
       "is_incremental": false,
@@ -628,7 +880,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyDepthNormalsFeature.html",
-          "hash": "DHI3gUAFbHZ6MlL7Hb+CJjZplkVMzTUhwcdefB3zBfM="
+          "hash": "cQgtx9N0UcklcuiXNXBIQdlaBDs56EjMk0pIZYa0MmI="
         }
       },
       "is_incremental": false,
@@ -640,7 +892,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyGrassTrackFeature.html",
-          "hash": "nfioqWfEr0QcHgbsO/KxV46UxYvZX95cY/7mR00B2EE="
+          "hash": "tG1KUcrcTf0Un0RAC9j4/FKFGfa0pirL/kId6zh//Q8="
         }
       },
       "is_incremental": false,
@@ -652,7 +904,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyHBAOFeature.FireflyHBAOPass.html",
-          "hash": "CjaEVq4oUggW4SgQb5GWEVOZ3BCvL78dFBb/weMlA1c="
+          "hash": "Ft1ywBkct1FlvtcJuduQfcpNitKb4QoyEhy4UV+26ak="
         }
       },
       "is_incremental": false,
@@ -664,7 +916,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyHBAOFeature.html",
-          "hash": "tINMamFtH590YOIazIHaImU7qdT6qw0lzjluUoM7dRw="
+          "hash": "WgX0VzZg6td0hCShPfMdnm3FRqJlQHizajt5SwsyjW0="
         }
       },
       "is_incremental": false,
@@ -676,7 +928,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyHBAOVolume.AOSettings.html",
-          "hash": "11QRj0tYvsXZUf1PhUMKKIP/bEmiGHRDYVbXK6rcrTE="
+          "hash": "nYj3oj1R/Lj38oqA7NB22hyvbn9GZPAmzPBXFxWt504="
         }
       },
       "is_incremental": false,
@@ -688,7 +940,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyHBAOVolume.BlurSettings.html",
-          "hash": "+4iNOhITW230IMMtxq6a/XFp7s2gxyB5g9SGK93YC6M="
+          "hash": "OcezPPEA8rsoOeHuOO5UrZkGKWh/QfiNniNXuja9N94="
         }
       },
       "is_incremental": false,
@@ -712,7 +964,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyHBAOVolume.BlurTypeParameter.html",
-          "hash": "5iAmoja0cFYW/DKDWn6dU2fsczgn4AlpMyYOwuH6QoM="
+          "hash": "Q/TYarPxL+dZGqr7zCNSsgrCrr5cxsCIgQWIKID/RzA="
         }
       },
       "is_incremental": false,
@@ -748,7 +1000,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyHBAOVolume.NoiseTypeParameter.html",
-          "hash": "e3s0a0rWhPRp/DaFTlbmCCwnHnJg74fa9uoeUfmNWPI="
+          "hash": "L0bd16YPJbXxvA3ozr70Ndgy5g6cGGeeVyjywZLiugk="
         }
       },
       "is_incremental": false,
@@ -760,7 +1012,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyHBAOVolume.QualitySettings.html",
-          "hash": "l5UtOXeQ6PIF+zbliBGfcck57wv8YT/W8MaKXoL9HAo="
+          "hash": "yCvbmTn32kYvM4CunTfuESPAMsgGsgPa73uEbR3JnFM="
         }
       },
       "is_incremental": false,
@@ -784,7 +1036,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyHBAOVolume.ResolutionParameter.html",
-          "hash": "jDjSrMqF3kWyW6+aY0kG7A7EmKILK7uvsJ43844J7jI="
+          "hash": "E6FT31zcO3Yn/tRLAxAF+5OGq7x8E+VYx/10KyixDsY="
         }
       },
       "is_incremental": false,
@@ -796,7 +1048,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyHBAOVolume.TemporalFilterSettings.html",
-          "hash": "iWIYBeXqnALn8uJ9T7dfpMV3VqAxSQddzuaL+EcmnWs="
+          "hash": "EqlQEOiTHd/Z/nd2mYHMdqRchIa2ijCvRg3kNR18A4s="
         }
       },
       "is_incremental": false,
@@ -808,7 +1060,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyHBAOVolume.html",
-          "hash": "OKinM6VGHRNXRuf8JKIY8uWE/n6og3QLG23yBkjZMrM="
+          "hash": "lyiGdD6X9Ui/+WomqjWVGFA7aUcD9csSj/ex7SrsMfE="
         }
       },
       "is_incremental": false,
@@ -820,7 +1072,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyHalfTransparentRenderFeature.html",
-          "hash": "53XWvJTnGRSPUsUCh8+LO7cx/Xst+CeNHIH6YeNzxMo="
+          "hash": "8TEI5LpE/IgkrTw0hZ3UJMrhfHmFaDSVsN/WzgL7D0w="
         }
       },
       "is_incremental": false,
@@ -832,43 +1084,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyMotionVectorFeature.html",
-          "hash": "WGxydVSyVRmVWbPLEkD4E/G2+cFDDf308ozAxDgarjk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Rendering.FireflyPostprocessFeature.PostProcessSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Rendering.FireflyPostprocessFeature.PostProcessSettings.html",
-          "hash": "YyQlKCwGIivxBBHvtIHn/igt0XWNLxitjvMsZ5JAtNo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Rendering.FireflyPostprocessFeature.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Rendering.FireflyPostprocessFeature.html",
-          "hash": "5+mid1KB+jGD7d4x0R/NaAUDbrGWpjVlVY+cTTkgSs4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Rendering.FireflyPostprocessVolume.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Rendering.FireflyPostprocessVolume.html",
-          "hash": "2WTa+cdNjsb3/VtAziVUZ0UviijwA8O8/nugnO6w3I4="
+          "hash": "ruPcUB11gGNDIpuegpMJjKjP7u1kpNx9blgG3+W735w="
         }
       },
       "is_incremental": false,
@@ -880,7 +1096,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyRenderingCore.html",
-          "hash": "0Xyow0ehAPOYNlF4ydIKczBezqrpl9Dju2U3DFoYRdE="
+          "hash": "kf7wIDQ9pzye8AjnL6TdcJ262uUv5sTB5M0dSOunUqQ="
         }
       },
       "is_incremental": false,
@@ -892,7 +1108,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyTAAFeature.html",
-          "hash": "dAIVHV7X+sOhM1Ljxrw3FjpKWKjALWrCuLycuxLAhYg="
+          "hash": "lNVmaMMCXL2/3EGxPVAXaiDaFmgyiIU8RtjtcF9ubeo="
         }
       },
       "is_incremental": false,
@@ -904,7 +1120,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FireflyTAAVolume.html",
-          "hash": "vULCwPDcrMYehMLCGWmNPkrWk/YGRYjh2cAJi9xBGGw="
+          "hash": "tJCd/fwfDWeXcDrOntn04uLHFGdWOoap41rMIOZnarw="
         }
       },
       "is_incremental": false,
@@ -928,7 +1144,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.FrustumJitterUtil.html",
-          "hash": "L5Wohqi5N2oL8DuHyxwq04cjZZxgwYdSTaaFXYe8bVo="
+          "hash": "s+faZDbNKxf0DCPY5fKQwZGWvWtWvCdZ9OXC646LDJ8="
         }
       },
       "is_incremental": false,
@@ -940,7 +1156,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.GlobalWind.html",
-          "hash": "QNwNMscd8hDvCGR1i2eh4qV6j1yhV/1SQsl60j2XS2c="
+          "hash": "cZKlT45shKp1SkQKa3skZ33qv8+YIqKfXI0TpVmYfxI="
         }
       },
       "is_incremental": false,
@@ -952,7 +1168,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.GraphicUtils.html",
-          "hash": "4bUore226Zd2oovCiXqZ37UTPpxuSXtDhLzscW61M+o="
+          "hash": "NgiGVPmCRFar0CTHXCeZCViRi/WsppUfxf6JZ7SAixg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Rendering.GraphicUtilsURP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Rendering.GraphicUtilsURP.html",
+          "hash": "xk3ifFoe60dLomthPWLMyzyB3jNOVdIVdSDpiyF684o="
         }
       },
       "is_incremental": false,
@@ -976,7 +1204,43 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.HaltonSeq.html",
-          "hash": "7n700L0j9Vl8t1ZPK6l0WBhfgofWogBFUcQYNFyF4V4="
+          "hash": "MIRnrvbTGKgs+1qj0pq5SMG/lJ7eB80YwcXmiqnXFLY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Rendering.MainPostprocessFeature.PostProcessSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Rendering.MainPostprocessFeature.PostProcessSettings.html",
+          "hash": "nmJtUbSUQRKlATiqEySQ04Y9N0KmuVb915S7iEE8z0k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Rendering.MainPostprocessFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Rendering.MainPostprocessFeature.html",
+          "hash": "wL26a0yq4nLyNrfXJtlDJ/VRIX/guP0I0L5cugflLg8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Rendering.MainPostprocessVolume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Rendering.MainPostprocessVolume.html",
+          "hash": "w98/h36tm7rW292ax8vwLwxC2yudFxg+D9LxuAedxxY="
         }
       },
       "is_incremental": false,
@@ -988,7 +1252,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.Matrix4x4Extension.html",
-          "hash": "JAqiPti1GF2wgRpQabVMQPdGuuN+35JmCjv3dOijO8M="
+          "hash": "X0UM14axAL3gfvOWnMkZL5bpWhtz+uPOOe9bSN0+03o="
         }
       },
       "is_incremental": false,
@@ -1000,7 +1264,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.MinMaxFloatParameter.html",
-          "hash": "z/SaNbqUTsAv9lGPRVoWQACKXPq+KXF1DHsTYJYwAHQ="
+          "hash": "LYRT19yXgHgXW9LB1aDSUBfGBy+zMaQF3Ci8PL8l8VI="
         }
       },
       "is_incremental": false,
@@ -1012,7 +1276,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.ParameterDisplayNameAttribute.html",
-          "hash": "BruZ5t58yxqPjqNrZC3XX3Xo8SMWkYOpIZSv/6enG20="
+          "hash": "n2qnmqPK8r8oL2hMuj+DLHvihWRPzc0KMTZHK5raP+k="
         }
       },
       "is_incremental": false,
@@ -1036,7 +1300,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.RenderingTaskScheduler.html",
-          "hash": "lM9vXvU6OWBZaqmdPY3oKM51V0eBuJ15+u+pK15mYLc="
+          "hash": "u1N5tbEIgeBJHHBz54BqlsYE2wyAan6ffHbQvNdmN00="
         }
       },
       "is_incremental": false,
@@ -1048,7 +1312,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.SettingsGroupAttribute.html",
-          "hash": "rl1XQfRh/m4RlIlowiVH+TtTFAIOyzWPlD7SSzTD3C0="
+          "hash": "JLq0S8FL+v7/2rrGJ3SPNzZz69VbYE+xUsxzapZ7VWg="
         }
       },
       "is_incremental": false,
@@ -1060,7 +1324,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.ShaderIDs.html",
-          "hash": "/VJfa/dsgmex8XLPfKdS6HkDM6WojCEksH/GYoAYnU4="
+          "hash": "xYVEjlpsdQ0LcvKNm2zLl4vFiBmbvPBsL+CrEoo7VB0="
         }
       },
       "is_incremental": false,
@@ -1072,7 +1336,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.ShaderKeywords.html",
-          "hash": "R0cbIerqkLLAUYBYwFjypUJSpf8pYx5HZ6ULgh4a3ak="
+          "hash": "UU4AC21N8AQ4ThzWuGNPZIXTZvzehfOGj7YQjmM+M5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Rendering.StylesEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Rendering.StylesEx.html",
+          "hash": "5vJrtBiezP16dh31hUWMg5ZiDLidqEF77Ee77hfLpH0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Firefly.Rendering.TestCameraJitterFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Firefly.Rendering.TestCameraJitterFeature.html",
+          "hash": "pupUvwQuroKQuIW1qBh0xQPW8kItpZj1Kz3KgEA8DOI="
         }
       },
       "is_incremental": false,
@@ -1084,7 +1372,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.Vector2Extension.html",
-          "hash": "U6fosZcZsbtqJx0hbsHwbIqocAv1x/zTtvvrty0HB3w="
+          "hash": "ciPxfDYfURenGrfYLQHAV6xGId8edwew0RtWpKBy85Q="
         }
       },
       "is_incremental": false,
@@ -1108,31 +1396,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Rendering.html",
-          "hash": "A5fTOs44ziqsU9eZ/NBsWg63CRKhje8+uPehkR4lChs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.SceneViewCameraSync.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.SceneViewCameraSync.html",
-          "hash": "cRs2KaHKDp2lElKzhMHOKpaXKt/l3Jeu6/TkQGywYzM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.ScriptableSingletonEditor-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.ScriptableSingletonEditor-1.html",
-          "hash": "TpdHmzI7t2Wyz+nJkymJqubw2PHwiXELtrmfZqWdLzo="
+          "hash": "FLstSdodO24jo78ALRqyqxU8x2Qxw6pgft3MWEoH9Pc="
         }
       },
       "is_incremental": false,
@@ -1168,7 +1432,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.TemplateShaderGUI.Styles.html",
-          "hash": "VeHrRKOfbF0R4VTUTpUFy9p8BxHsdt5k8jVlR0cgrjI="
+          "hash": "ju7y1ZvsLiLyjuMSq4nmTGXlrmRKYKDzfd8ruPwhRso="
         }
       },
       "is_incremental": false,
@@ -1192,19 +1456,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.TemplateShaderGUI.html",
-          "hash": "SqZaPXozsq45Hff8BgmWQ28rsaXdhU+6kHSdsRu/gWU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.ArtToolsets.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.ArtToolsets.html",
-          "hash": "sRJzpIMnZ3cL5pCdR3P5Yydn8+R1HkOcprqRYe8vhs8="
+          "hash": "IljfjfCsJxgrANpUyRitlb0sLy8TaHNh3g7XaRLPlUM="
         }
       },
       "is_incremental": false,
@@ -1216,127 +1468,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Utilities.ArtToolsetsResource.html",
-          "hash": "HCt690vP45+001ScD6xVKSarBdp0wD0Cr8Fsjc3lmCI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.BatchCommandEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.BatchCommandEditor.html",
-          "hash": "b+kvqFHyF1gPvQ4UX1hk48XU0XdgCKjS3PAbNMUEdnQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.FindShader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.FindShader.html",
-          "hash": "WPfiBmsKYX1fpQXoZG+u1AdmrEftiJmEQ0+him3PMaw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.FindShaderMenu.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.FindShaderMenu.html",
-          "hash": "P2YjGGEJo88ADBigIGMyriEK5tWwuRy521FWE88ECMA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.FireflyMenuItem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.FireflyMenuItem.html",
-          "hash": "xuVAemkW21p5uhL+9zcbZo9/4g71DIgWXjy6XgaqIPg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.GraphicDebugEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.GraphicDebugEditor.html",
-          "hash": "2cerUCvoONlDq84oWDvcjosWF+6C1+Kd3/Ysy7K3eCg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.MaterialOverviewEditor.CollectMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.MaterialOverviewEditor.CollectMode.html",
-          "hash": "i6Rh1VS+htjtA5TurHcODMjtXlkjQdQekl6T3Cg/pqg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.MaterialOverviewEditor.MaterialInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.MaterialOverviewEditor.MaterialInfo.html",
-          "hash": "ikwhdrhubg/L0G3ogxzaM9TOeXU56pota+Rtij5Fw8g="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.MaterialOverviewEditor.SearchOption.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.MaterialOverviewEditor.SearchOption.html",
-          "hash": "qzo/Vl7vm3UtA3X7R/aoO+E5yXX7j66jmKHO8OvMwsU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.MaterialOverviewEditor.ShaderInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.MaterialOverviewEditor.ShaderInfo.html",
-          "hash": "INkpv7bf+UFMPBnKehNONYL6WLQaWRQwscpZ9AHZxPc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.MaterialOverviewEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.MaterialOverviewEditor.html",
-          "hash": "C6rjLir4f8U9rdSSK3I/BzFFkv63IwvJi5TZEqU52+I="
+          "hash": "RZYZqlYZlDX3q88Ap79PyMuJBJ/nOfNw9hPSXh9U/ek="
         }
       },
       "is_incremental": false,
@@ -1348,7 +1480,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Utilities.MonoAutoRotation.html",
-          "hash": "b6EGnnkxp6mwnfDUL9VFgNKzFMwdrF5nMvtoWL9zxOU="
+          "hash": "VSGQd4x93zvZ1Oq1sx38yNZBOS2dSr+LoaYe6LB7gAo="
         }
       },
       "is_incremental": false,
@@ -1360,7 +1492,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Utilities.MonoPingpong.html",
-          "hash": "zJ2+w9u+PV+svpXM96ttWW1uAKyuMkbXRGAUsI7LAyA="
+          "hash": "w/ebEKm/t/vTOxYretxzzrgCOvcv9Boa/2QU/tBZ+9M="
         }
       },
       "is_incremental": false,
@@ -1372,55 +1504,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Utilities.MonoUniformDistributionGenerator.html",
-          "hash": "YXjIlgwfrEi9RaN0skw4JoMYBsstE3YG2cBahefTgEA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.RenderToolsets.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.RenderToolsets.html",
-          "hash": "hoAJjYc3/OYNfA1qB/71P6Tk1pNDVoaq1XAmwnu9Uug="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.RenderToolsetsResource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.RenderToolsetsResource.html",
-          "hash": "Y8EgMVIQbgJBq81us+0Dzj6DMqW2BMOps5eQWNIMz+U="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.ReplaceShader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.ReplaceShader.html",
-          "hash": "C5pX7oOLsdN9+8/EL0Uy0U/YUYMzGo5oQPudzWnbHp4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.ReplaceShaderMenu.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.ReplaceShaderMenu.html",
-          "hash": "Bih2+IKoa4A5zKXU107gBqSFHuR35wsi4PvXMbMAjek="
+          "hash": "CWcUee7YTEhXTE8BA5oCGFpNaNHjbmpXAjhMkHOJV0I="
         }
       },
       "is_incremental": false,
@@ -1432,19 +1516,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Utilities.ShowMeshNormal.html",
-          "hash": "nt7SKwfbiObkaRT2h4BzzTSg+I43Kl9dzdlvpMB3fSo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Firefly.Utilities.TemplateEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Firefly.Utilities.TemplateEditor.html",
-          "hash": "pTZC7ZNZBHj4hxAyBImIUAZeisuTHnrg21UtaNDm2xw="
+          "hash": "eY9heR436jo6ITTvSyWRKY+f/5CdgbqFaME1uetCJjc="
         }
       },
       "is_incremental": false,
@@ -1456,7 +1528,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.Utilities.html",
-          "hash": "fg/9qlzawTHFoNLBPFKoG79pcI2JT7sYfrsMueB1ong="
+          "hash": "rXYz29GqOt0F6CMT8Mliwm9FIPB3AyBjjfn60CvGCfs="
         }
       },
       "is_incremental": false,
@@ -1468,7 +1540,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Firefly.html",
-          "hash": "NK8uYSncCo0SI6bXUnSUfRj2XAqrsJTjn0ZF4UObxtg="
+          "hash": "cREPI9XCdIm/wCPVSpNayMRTq1//+3sh62h/mD9fH9s="
         }
       },
       "is_incremental": false,
@@ -1480,7 +1552,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "rSJKmt8yrQlphQniAsOTliWsGUfaIQgZDXyiFYnPWww="
+          "hash": "a0CDMDD62CM5+BBk+Ae+0vl42zeTewYaLkuwc8A79Mg="
         }
       },
       "is_incremental": false,
@@ -1495,7 +1567,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Firefly.html",
-          "hash": "cGsyvvvLWX17+nbAn02rB9IToNPvnIrBvxnMhkVx0NA="
+          "hash": "t3z/ToK7SBduFVe5ZfEkRgL1AJ260l+35BuSC1/j3eg="
         }
       },
       "is_incremental": false,
@@ -1566,7 +1638,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 121,
+          "total_file_count": 127,
           "skipped_file_count": 2
         },
         "ResourceDocumentProcessor": {
