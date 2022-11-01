@@ -76,18 +76,6 @@ references:
   isSpec: "True"
   fullName: Firefly.Editor.BatchCommandEditor.BatchCommandEditor
   nameWithType: BatchCommandEditor.BatchCommandEditor
-- uid: Firefly.Editor.BatchCommandEditor.findShader
-  name: findShader
-  href: api/Firefly.Editor.BatchCommandEditor.html#Firefly_Editor_BatchCommandEditor_findShader
-  commentId: F:Firefly.Editor.BatchCommandEditor.findShader
-  fullName: Firefly.Editor.BatchCommandEditor.findShader
-  nameWithType: BatchCommandEditor.findShader
-- uid: Firefly.Editor.BatchCommandEditor.replaceShader
-  name: replaceShader
-  href: api/Firefly.Editor.BatchCommandEditor.html#Firefly_Editor_BatchCommandEditor_replaceShader
-  commentId: F:Firefly.Editor.BatchCommandEditor.replaceShader
-  fullName: Firefly.Editor.BatchCommandEditor.replaceShader
-  nameWithType: BatchCommandEditor.replaceShader
 - uid: Firefly.Editor.CreateFireflyTemplate
   name: CreateFireflyTemplate
   href: api/Firefly.Editor.CreateFireflyTemplate.html
@@ -125,56 +113,37 @@ references:
   commentId: T:Firefly.Editor.FindShader
   fullName: Firefly.Editor.FindShader
   nameWithType: FindShader
-- uid: Firefly.Editor.FindShader.FindShaderByName(System.String,System.Boolean)
-  name: FindShaderByName(String, Boolean)
-  href: api/Firefly.Editor.FindShader.html#Firefly_Editor_FindShader_FindShaderByName_System_String_System_Boolean_
-  commentId: M:Firefly.Editor.FindShader.FindShaderByName(System.String,System.Boolean)
-  fullName: Firefly.Editor.FindShader.FindShaderByName(System.String, System.Boolean)
-  nameWithType: FindShader.FindShaderByName(String, Boolean)
-- uid: Firefly.Editor.FindShader.FindShaderByName*
-  name: FindShaderByName
-  href: api/Firefly.Editor.FindShader.html#Firefly_Editor_FindShader_FindShaderByName_
-  commentId: Overload:Firefly.Editor.FindShader.FindShaderByName
+- uid: Firefly.Editor.FindShader.Find
+  name: Find()
+  href: api/Firefly.Editor.FindShader.html#Firefly_Editor_FindShader_Find
+  commentId: M:Firefly.Editor.FindShader.Find
+  fullName: Firefly.Editor.FindShader.Find()
+  nameWithType: FindShader.Find()
+- uid: Firefly.Editor.FindShader.Find*
+  name: Find
+  href: api/Firefly.Editor.FindShader.html#Firefly_Editor_FindShader_Find_
+  commentId: Overload:Firefly.Editor.FindShader.Find
   isSpec: "True"
-  fullName: Firefly.Editor.FindShader.FindShaderByName
-  nameWithType: FindShader.FindShaderByName
-- uid: Firefly.Editor.FindShaderMenu
-  name: FindShaderMenu
-  href: api/Firefly.Editor.FindShaderMenu.html
-  commentId: T:Firefly.Editor.FindShaderMenu
-  fullName: Firefly.Editor.FindShaderMenu
-  nameWithType: FindShaderMenu
-- uid: Firefly.Editor.FindShaderMenu.FindShader
-  name: FindShader()
-  href: api/Firefly.Editor.FindShaderMenu.html#Firefly_Editor_FindShaderMenu_FindShader
-  commentId: M:Firefly.Editor.FindShaderMenu.FindShader
-  fullName: Firefly.Editor.FindShaderMenu.FindShader()
-  nameWithType: FindShaderMenu.FindShader()
-- uid: Firefly.Editor.FindShaderMenu.FindShader*
-  name: FindShader
-  href: api/Firefly.Editor.FindShaderMenu.html#Firefly_Editor_FindShaderMenu_FindShader_
-  commentId: Overload:Firefly.Editor.FindShaderMenu.FindShader
-  isSpec: "True"
-  fullName: Firefly.Editor.FindShaderMenu.FindShader
-  nameWithType: FindShaderMenu.FindShader
-- uid: Firefly.Editor.FindShaderMenu.items
+  fullName: Firefly.Editor.FindShader.Find
+  nameWithType: FindShader.Find
+- uid: Firefly.Editor.FindShader.items
   name: items
-  href: api/Firefly.Editor.FindShaderMenu.html#Firefly_Editor_FindShaderMenu_items
-  commentId: F:Firefly.Editor.FindShaderMenu.items
-  fullName: Firefly.Editor.FindShaderMenu.items
-  nameWithType: FindShaderMenu.items
-- uid: Firefly.Editor.FindShaderMenu.matchWords
+  href: api/Firefly.Editor.FindShader.html#Firefly_Editor_FindShader_items
+  commentId: F:Firefly.Editor.FindShader.items
+  fullName: Firefly.Editor.FindShader.items
+  nameWithType: FindShader.items
+- uid: Firefly.Editor.FindShader.matchWords
   name: matchWords
-  href: api/Firefly.Editor.FindShaderMenu.html#Firefly_Editor_FindShaderMenu_matchWords
-  commentId: F:Firefly.Editor.FindShaderMenu.matchWords
-  fullName: Firefly.Editor.FindShaderMenu.matchWords
-  nameWithType: FindShaderMenu.matchWords
-- uid: Firefly.Editor.FindShaderMenu.shaderName
+  href: api/Firefly.Editor.FindShader.html#Firefly_Editor_FindShader_matchWords
+  commentId: F:Firefly.Editor.FindShader.matchWords
+  fullName: Firefly.Editor.FindShader.matchWords
+  nameWithType: FindShader.matchWords
+- uid: Firefly.Editor.FindShader.shaderName
   name: shaderName
-  href: api/Firefly.Editor.FindShaderMenu.html#Firefly_Editor_FindShaderMenu_shaderName
-  commentId: F:Firefly.Editor.FindShaderMenu.shaderName
-  fullName: Firefly.Editor.FindShaderMenu.shaderName
-  nameWithType: FindShaderMenu.shaderName
+  href: api/Firefly.Editor.FindShader.html#Firefly_Editor_FindShader_shaderName
+  commentId: F:Firefly.Editor.FindShader.shaderName
+  fullName: Firefly.Editor.FindShader.shaderName
+  nameWithType: FindShader.shaderName
 - uid: Firefly.Editor.FireflyEditorAssets
   name: FireflyEditorAssets
   href: api/Firefly.Editor.FireflyEditorAssets.html
@@ -193,18 +162,18 @@ references:
   commentId: T:Firefly.Editor.FireflyEditorAssets.FireflyConfigs
   fullName: Firefly.Editor.FireflyEditorAssets.FireflyConfigs
   nameWithType: FireflyEditorAssets.FireflyConfigs
-- uid: Firefly.Editor.FireflyEditorAssets.FireflyConfigs.artMenuItems
-  name: artMenuItems
-  href: api/Firefly.Editor.FireflyEditorAssets.FireflyConfigs.html#Firefly_Editor_FireflyEditorAssets_FireflyConfigs_artMenuItems
-  commentId: F:Firefly.Editor.FireflyEditorAssets.FireflyConfigs.artMenuItems
-  fullName: Firefly.Editor.FireflyEditorAssets.FireflyConfigs.artMenuItems
-  nameWithType: FireflyEditorAssets.FireflyConfigs.artMenuItems
-- uid: Firefly.Editor.FireflyEditorAssets.FireflyConfigs.renderMenuItems
-  name: renderMenuItems
-  href: api/Firefly.Editor.FireflyEditorAssets.FireflyConfigs.html#Firefly_Editor_FireflyEditorAssets_FireflyConfigs_renderMenuItems
-  commentId: F:Firefly.Editor.FireflyEditorAssets.FireflyConfigs.renderMenuItems
-  fullName: Firefly.Editor.FireflyEditorAssets.FireflyConfigs.renderMenuItems
-  nameWithType: FireflyEditorAssets.FireflyConfigs.renderMenuItems
+- uid: Firefly.Editor.FireflyEditorAssets.FireflyConfigs.artToolsetsRoot
+  name: artToolsetsRoot
+  href: api/Firefly.Editor.FireflyEditorAssets.FireflyConfigs.html#Firefly_Editor_FireflyEditorAssets_FireflyConfigs_artToolsetsRoot
+  commentId: F:Firefly.Editor.FireflyEditorAssets.FireflyConfigs.artToolsetsRoot
+  fullName: Firefly.Editor.FireflyEditorAssets.FireflyConfigs.artToolsetsRoot
+  nameWithType: FireflyEditorAssets.FireflyConfigs.artToolsetsRoot
+- uid: Firefly.Editor.FireflyEditorAssets.FireflyConfigs.renderToolsetsRoot
+  name: renderToolsetsRoot
+  href: api/Firefly.Editor.FireflyEditorAssets.FireflyConfigs.html#Firefly_Editor_FireflyEditorAssets_FireflyConfigs_renderToolsetsRoot
+  commentId: F:Firefly.Editor.FireflyEditorAssets.FireflyConfigs.renderToolsetsRoot
+  fullName: Firefly.Editor.FireflyEditorAssets.FireflyConfigs.renderToolsetsRoot
+  nameWithType: FireflyEditorAssets.FireflyConfigs.renderToolsetsRoot
 - uid: Firefly.Editor.FireflyEditorAssets.Instance
   name: Instance
   href: api/Firefly.Editor.FireflyEditorAssets.html#Firefly_Editor_FireflyEditorAssets_Instance
@@ -218,6 +187,18 @@ references:
   isSpec: "True"
   fullName: Firefly.Editor.FireflyEditorAssets.Instance
   nameWithType: FireflyEditorAssets.Instance
+- uid: Firefly.Editor.FireflyEditorAssets.MaterialResources
+  name: FireflyEditorAssets.MaterialResources
+  href: api/Firefly.Editor.FireflyEditorAssets.MaterialResources.html
+  commentId: T:Firefly.Editor.FireflyEditorAssets.MaterialResources
+  fullName: Firefly.Editor.FireflyEditorAssets.MaterialResources
+  nameWithType: FireflyEditorAssets.MaterialResources
+- uid: Firefly.Editor.FireflyEditorAssets.MaterialResources.mat
+  name: mat
+  href: api/Firefly.Editor.FireflyEditorAssets.MaterialResources.html#Firefly_Editor_FireflyEditorAssets_MaterialResources_mat
+  commentId: F:Firefly.Editor.FireflyEditorAssets.MaterialResources.mat
+  fullName: Firefly.Editor.FireflyEditorAssets.MaterialResources.mat
+  nameWithType: FireflyEditorAssets.MaterialResources.mat
 - uid: Firefly.Editor.FireflyEditorAssets.materials
   name: materials
   href: api/Firefly.Editor.FireflyEditorAssets.html#Firefly_Editor_FireflyEditorAssets_materials
@@ -242,18 +223,6 @@ references:
   commentId: F:Firefly.Editor.FireflyEditorAssets.shaders
   fullName: Firefly.Editor.FireflyEditorAssets.shaders
   nameWithType: FireflyEditorAssets.shaders
-- uid: Firefly.Editor.FireflyEditorAssets.SMaterialResources
-  name: FireflyEditorAssets.SMaterialResources
-  href: api/Firefly.Editor.FireflyEditorAssets.SMaterialResources.html
-  commentId: T:Firefly.Editor.FireflyEditorAssets.SMaterialResources
-  fullName: Firefly.Editor.FireflyEditorAssets.SMaterialResources
-  nameWithType: FireflyEditorAssets.SMaterialResources
-- uid: Firefly.Editor.FireflyEditorAssets.SMaterialResources.mat
-  name: mat
-  href: api/Firefly.Editor.FireflyEditorAssets.SMaterialResources.html#Firefly_Editor_FireflyEditorAssets_SMaterialResources_mat
-  commentId: F:Firefly.Editor.FireflyEditorAssets.SMaterialResources.mat
-  fullName: Firefly.Editor.FireflyEditorAssets.SMaterialResources.mat
-  nameWithType: FireflyEditorAssets.SMaterialResources.mat
 - uid: Firefly.Editor.FireflyEditorAssets.TextureResources
   name: FireflyEditorAssets.TextureResources
   href: api/Firefly.Editor.FireflyEditorAssets.TextureResources.html
@@ -272,30 +241,6 @@ references:
   commentId: F:Firefly.Editor.FireflyEditorAssets.textures
   fullName: Firefly.Editor.FireflyEditorAssets.textures
   nameWithType: FireflyEditorAssets.textures
-- uid: Firefly.Editor.FireflyMenuItem
-  name: FireflyMenuItem
-  href: api/Firefly.Editor.FireflyMenuItem.html
-  commentId: T:Firefly.Editor.FireflyMenuItem
-  fullName: Firefly.Editor.FireflyMenuItem
-  nameWithType: FireflyMenuItem
-- uid: Firefly.Editor.FireflyMenuItem.numberOfPrefabsToCreate
-  name: numberOfPrefabsToCreate
-  href: api/Firefly.Editor.FireflyMenuItem.html#Firefly_Editor_FireflyMenuItem_numberOfPrefabsToCreate
-  commentId: F:Firefly.Editor.FireflyMenuItem.numberOfPrefabsToCreate
-  fullName: Firefly.Editor.FireflyMenuItem.numberOfPrefabsToCreate
-  nameWithType: FireflyMenuItem.numberOfPrefabsToCreate
-- uid: Firefly.Editor.FireflyMenuItem.prefabName
-  name: prefabName
-  href: api/Firefly.Editor.FireflyMenuItem.html#Firefly_Editor_FireflyMenuItem_prefabName
-  commentId: F:Firefly.Editor.FireflyMenuItem.prefabName
-  fullName: Firefly.Editor.FireflyMenuItem.prefabName
-  nameWithType: FireflyMenuItem.prefabName
-- uid: Firefly.Editor.FireflyMenuItem.spawnPoints
-  name: spawnPoints
-  href: api/Firefly.Editor.FireflyMenuItem.html#Firefly_Editor_FireflyMenuItem_spawnPoints
-  commentId: F:Firefly.Editor.FireflyMenuItem.spawnPoints
-  fullName: Firefly.Editor.FireflyMenuItem.spawnPoints
-  nameWithType: FireflyMenuItem.spawnPoints
 - uid: Firefly.Editor.FireflyPreferences
   name: FireflyPreferences
   href: api/Firefly.Editor.FireflyPreferences.html
@@ -1154,6 +1099,126 @@ references:
   isSpec: "True"
   fullName: Firefly.Editor.ModelImportUtilities.SetDefaultImportSetting
   nameWithType: ModelImportUtilities.SetDefaultImportSetting
+- uid: Firefly.Editor.NoiseTexsGenerator
+  name: NoiseTexsGenerator
+  href: api/Firefly.Editor.NoiseTexsGenerator.html
+  commentId: T:Firefly.Editor.NoiseTexsGenerator
+  fullName: Firefly.Editor.NoiseTexsGenerator
+  nameWithType: NoiseTexsGenerator
+- uid: Firefly.Editor.NoiseTexsGenerator.computeShader
+  name: computeShader
+  href: api/Firefly.Editor.NoiseTexsGenerator.html#Firefly_Editor_NoiseTexsGenerator_computeShader
+  commentId: F:Firefly.Editor.NoiseTexsGenerator.computeShader
+  fullName: Firefly.Editor.NoiseTexsGenerator.computeShader
+  nameWithType: NoiseTexsGenerator.computeShader
+- uid: Firefly.Editor.NoiseTexsGenerator.generatedPreviewTex
+  name: generatedPreviewTex
+  href: api/Firefly.Editor.NoiseTexsGenerator.html#Firefly_Editor_NoiseTexsGenerator_generatedPreviewTex
+  commentId: F:Firefly.Editor.NoiseTexsGenerator.generatedPreviewTex
+  fullName: Firefly.Editor.NoiseTexsGenerator.generatedPreviewTex
+  nameWithType: NoiseTexsGenerator.generatedPreviewTex
+- uid: Firefly.Editor.NoiseTexsGenerator.GenerateNoiseTexture
+  name: GenerateNoiseTexture()
+  href: api/Firefly.Editor.NoiseTexsGenerator.html#Firefly_Editor_NoiseTexsGenerator_GenerateNoiseTexture
+  commentId: M:Firefly.Editor.NoiseTexsGenerator.GenerateNoiseTexture
+  fullName: Firefly.Editor.NoiseTexsGenerator.GenerateNoiseTexture()
+  nameWithType: NoiseTexsGenerator.GenerateNoiseTexture()
+- uid: Firefly.Editor.NoiseTexsGenerator.GenerateNoiseTexture*
+  name: GenerateNoiseTexture
+  href: api/Firefly.Editor.NoiseTexsGenerator.html#Firefly_Editor_NoiseTexsGenerator_GenerateNoiseTexture_
+  commentId: Overload:Firefly.Editor.NoiseTexsGenerator.GenerateNoiseTexture
+  isSpec: "True"
+  fullName: Firefly.Editor.NoiseTexsGenerator.GenerateNoiseTexture
+  nameWithType: NoiseTexsGenerator.GenerateNoiseTexture
+- uid: Firefly.Editor.NoiseTexsGenerator.kernelType
+  name: kernelType
+  href: api/Firefly.Editor.NoiseTexsGenerator.html#Firefly_Editor_NoiseTexsGenerator_kernelType
+  commentId: F:Firefly.Editor.NoiseTexsGenerator.kernelType
+  fullName: Firefly.Editor.NoiseTexsGenerator.kernelType
+  nameWithType: NoiseTexsGenerator.kernelType
+- uid: Firefly.Editor.NoiseTexsGenerator.KernelType
+  name: NoiseTexsGenerator.KernelType
+  href: api/Firefly.Editor.NoiseTexsGenerator.KernelType.html
+  commentId: T:Firefly.Editor.NoiseTexsGenerator.KernelType
+  fullName: Firefly.Editor.NoiseTexsGenerator.KernelType
+  nameWithType: NoiseTexsGenerator.KernelType
+- uid: Firefly.Editor.NoiseTexsGenerator.KernelType.Noise2DGen
+  name: Noise2DGen
+  href: api/Firefly.Editor.NoiseTexsGenerator.KernelType.html#Firefly_Editor_NoiseTexsGenerator_KernelType_Noise2DGen
+  commentId: F:Firefly.Editor.NoiseTexsGenerator.KernelType.Noise2DGen
+  fullName: Firefly.Editor.NoiseTexsGenerator.KernelType.Noise2DGen
+  nameWithType: NoiseTexsGenerator.KernelType.Noise2DGen
+- uid: Firefly.Editor.NoiseTexsGenerator.KernelType.Noise3D1Gen
+  name: Noise3D1Gen
+  href: api/Firefly.Editor.NoiseTexsGenerator.KernelType.html#Firefly_Editor_NoiseTexsGenerator_KernelType_Noise3D1Gen
+  commentId: F:Firefly.Editor.NoiseTexsGenerator.KernelType.Noise3D1Gen
+  fullName: Firefly.Editor.NoiseTexsGenerator.KernelType.Noise3D1Gen
+  nameWithType: NoiseTexsGenerator.KernelType.Noise3D1Gen
+- uid: Firefly.Editor.NoiseTexsGenerator.KernelType.Noise3D2Gen
+  name: Noise3D2Gen
+  href: api/Firefly.Editor.NoiseTexsGenerator.KernelType.html#Firefly_Editor_NoiseTexsGenerator_KernelType_Noise3D2Gen
+  commentId: F:Firefly.Editor.NoiseTexsGenerator.KernelType.Noise3D2Gen
+  fullName: Firefly.Editor.NoiseTexsGenerator.KernelType.Noise3D2Gen
+  nameWithType: NoiseTexsGenerator.KernelType.Noise3D2Gen
+- uid: Firefly.Editor.NoiseTexsGenerator.saveFolder
+  name: saveFolder
+  href: api/Firefly.Editor.NoiseTexsGenerator.html#Firefly_Editor_NoiseTexsGenerator_saveFolder
+  commentId: F:Firefly.Editor.NoiseTexsGenerator.saveFolder
+  fullName: Firefly.Editor.NoiseTexsGenerator.saveFolder
+  nameWithType: NoiseTexsGenerator.saveFolder
+- uid: Firefly.Editor.NoiseTexsGenerator.saveName
+  name: saveName
+  href: api/Firefly.Editor.NoiseTexsGenerator.html#Firefly_Editor_NoiseTexsGenerator_saveName
+  commentId: F:Firefly.Editor.NoiseTexsGenerator.saveName
+  fullName: Firefly.Editor.NoiseTexsGenerator.saveName
+  nameWithType: NoiseTexsGenerator.saveName
+- uid: Firefly.Editor.NoiseTexsGenerator.squareResolution
+  name: squareResolution
+  href: api/Firefly.Editor.NoiseTexsGenerator.html#Firefly_Editor_NoiseTexsGenerator_squareResolution
+  commentId: F:Firefly.Editor.NoiseTexsGenerator.squareResolution
+  fullName: Firefly.Editor.NoiseTexsGenerator.squareResolution
+  nameWithType: NoiseTexsGenerator.squareResolution
+- uid: Firefly.Editor.NoiseTexsGenerator.texture3DSlice
+  name: texture3DSlice
+  href: api/Firefly.Editor.NoiseTexsGenerator.html#Firefly_Editor_NoiseTexsGenerator_texture3DSlice
+  commentId: F:Firefly.Editor.NoiseTexsGenerator.texture3DSlice
+  fullName: Firefly.Editor.NoiseTexsGenerator.texture3DSlice
+  nameWithType: NoiseTexsGenerator.texture3DSlice
+- uid: Firefly.Editor.PathUtils
+  name: PathUtils
+  href: api/Firefly.Editor.PathUtils.html
+  commentId: T:Firefly.Editor.PathUtils
+  fullName: Firefly.Editor.PathUtils
+  nameWithType: PathUtils
+- uid: Firefly.Editor.PathUtils.ForeachSubFolder(System.String,Action{System.String},System.Boolean)
+  name: ForeachSubFolder(String, Action<String>, Boolean)
+  href: api/Firefly.Editor.PathUtils.html#Firefly_Editor_PathUtils_ForeachSubFolder_System_String_Action_System_String__System_Boolean_
+  commentId: M:Firefly.Editor.PathUtils.ForeachSubFolder(System.String,Action{System.String},System.Boolean)
+  name.vb: ForeachSubFolder(String, Action(Of String), Boolean)
+  fullName: Firefly.Editor.PathUtils.ForeachSubFolder(System.String, Action<System.String>, System.Boolean)
+  fullName.vb: Firefly.Editor.PathUtils.ForeachSubFolder(System.String, Action(Of System.String), System.Boolean)
+  nameWithType: PathUtils.ForeachSubFolder(String, Action<String>, Boolean)
+  nameWithType.vb: PathUtils.ForeachSubFolder(String, Action(Of String), Boolean)
+- uid: Firefly.Editor.PathUtils.ForeachSubFolder*
+  name: ForeachSubFolder
+  href: api/Firefly.Editor.PathUtils.html#Firefly_Editor_PathUtils_ForeachSubFolder_
+  commentId: Overload:Firefly.Editor.PathUtils.ForeachSubFolder
+  isSpec: "True"
+  fullName: Firefly.Editor.PathUtils.ForeachSubFolder
+  nameWithType: PathUtils.ForeachSubFolder
+- uid: Firefly.Editor.PathUtils.SafePath(System.String)
+  name: SafePath(String)
+  href: api/Firefly.Editor.PathUtils.html#Firefly_Editor_PathUtils_SafePath_System_String_
+  commentId: M:Firefly.Editor.PathUtils.SafePath(System.String)
+  fullName: Firefly.Editor.PathUtils.SafePath(System.String)
+  nameWithType: PathUtils.SafePath(String)
+- uid: Firefly.Editor.PathUtils.SafePath*
+  name: SafePath
+  href: api/Firefly.Editor.PathUtils.html#Firefly_Editor_PathUtils_SafePath_
+  commentId: Overload:Firefly.Editor.PathUtils.SafePath
+  isSpec: "True"
+  fullName: Firefly.Editor.PathUtils.SafePath
+  nameWithType: PathUtils.SafePath
 - uid: Firefly.Editor.RenderToolsets
   name: RenderToolsets
   href: api/Firefly.Editor.RenderToolsets.html
@@ -1223,50 +1288,31 @@ references:
   commentId: T:Firefly.Editor.ReplaceShader
   fullName: Firefly.Editor.ReplaceShader
   nameWithType: ReplaceShader
-- uid: Firefly.Editor.ReplaceShader.ReplaceShaderByName(System.String,System.String)
-  name: ReplaceShaderByName(String, String)
-  href: api/Firefly.Editor.ReplaceShader.html#Firefly_Editor_ReplaceShader_ReplaceShaderByName_System_String_System_String_
-  commentId: M:Firefly.Editor.ReplaceShader.ReplaceShaderByName(System.String,System.String)
-  fullName: Firefly.Editor.ReplaceShader.ReplaceShaderByName(System.String, System.String)
-  nameWithType: ReplaceShader.ReplaceShaderByName(String, String)
-- uid: Firefly.Editor.ReplaceShader.ReplaceShaderByName*
-  name: ReplaceShaderByName
-  href: api/Firefly.Editor.ReplaceShader.html#Firefly_Editor_ReplaceShader_ReplaceShaderByName_
-  commentId: Overload:Firefly.Editor.ReplaceShader.ReplaceShaderByName
-  isSpec: "True"
-  fullName: Firefly.Editor.ReplaceShader.ReplaceShaderByName
-  nameWithType: ReplaceShader.ReplaceShaderByName
-- uid: Firefly.Editor.ReplaceShaderMenu
-  name: ReplaceShaderMenu
-  href: api/Firefly.Editor.ReplaceShaderMenu.html
-  commentId: T:Firefly.Editor.ReplaceShaderMenu
-  fullName: Firefly.Editor.ReplaceShaderMenu
-  nameWithType: ReplaceShaderMenu
-- uid: Firefly.Editor.ReplaceShaderMenu.dstShaderName
+- uid: Firefly.Editor.ReplaceShader.dstShaderName
   name: dstShaderName
-  href: api/Firefly.Editor.ReplaceShaderMenu.html#Firefly_Editor_ReplaceShaderMenu_dstShaderName
-  commentId: F:Firefly.Editor.ReplaceShaderMenu.dstShaderName
-  fullName: Firefly.Editor.ReplaceShaderMenu.dstShaderName
-  nameWithType: ReplaceShaderMenu.dstShaderName
-- uid: Firefly.Editor.ReplaceShaderMenu.ReplaceShader
-  name: ReplaceShader()
-  href: api/Firefly.Editor.ReplaceShaderMenu.html#Firefly_Editor_ReplaceShaderMenu_ReplaceShader
-  commentId: M:Firefly.Editor.ReplaceShaderMenu.ReplaceShader
-  fullName: Firefly.Editor.ReplaceShaderMenu.ReplaceShader()
-  nameWithType: ReplaceShaderMenu.ReplaceShader()
-- uid: Firefly.Editor.ReplaceShaderMenu.ReplaceShader*
-  name: ReplaceShader
-  href: api/Firefly.Editor.ReplaceShaderMenu.html#Firefly_Editor_ReplaceShaderMenu_ReplaceShader_
-  commentId: Overload:Firefly.Editor.ReplaceShaderMenu.ReplaceShader
+  href: api/Firefly.Editor.ReplaceShader.html#Firefly_Editor_ReplaceShader_dstShaderName
+  commentId: F:Firefly.Editor.ReplaceShader.dstShaderName
+  fullName: Firefly.Editor.ReplaceShader.dstShaderName
+  nameWithType: ReplaceShader.dstShaderName
+- uid: Firefly.Editor.ReplaceShader.Replace
+  name: Replace()
+  href: api/Firefly.Editor.ReplaceShader.html#Firefly_Editor_ReplaceShader_Replace
+  commentId: M:Firefly.Editor.ReplaceShader.Replace
+  fullName: Firefly.Editor.ReplaceShader.Replace()
+  nameWithType: ReplaceShader.Replace()
+- uid: Firefly.Editor.ReplaceShader.Replace*
+  name: Replace
+  href: api/Firefly.Editor.ReplaceShader.html#Firefly_Editor_ReplaceShader_Replace_
+  commentId: Overload:Firefly.Editor.ReplaceShader.Replace
   isSpec: "True"
-  fullName: Firefly.Editor.ReplaceShaderMenu.ReplaceShader
-  nameWithType: ReplaceShaderMenu.ReplaceShader
-- uid: Firefly.Editor.ReplaceShaderMenu.srcShaderName
+  fullName: Firefly.Editor.ReplaceShader.Replace
+  nameWithType: ReplaceShader.Replace
+- uid: Firefly.Editor.ReplaceShader.srcShaderName
   name: srcShaderName
-  href: api/Firefly.Editor.ReplaceShaderMenu.html#Firefly_Editor_ReplaceShaderMenu_srcShaderName
-  commentId: F:Firefly.Editor.ReplaceShaderMenu.srcShaderName
-  fullName: Firefly.Editor.ReplaceShaderMenu.srcShaderName
-  nameWithType: ReplaceShaderMenu.srcShaderName
+  href: api/Firefly.Editor.ReplaceShader.html#Firefly_Editor_ReplaceShader_srcShaderName
+  commentId: F:Firefly.Editor.ReplaceShader.srcShaderName
+  fullName: Firefly.Editor.ReplaceShader.srcShaderName
+  nameWithType: ReplaceShader.srcShaderName
 - uid: Firefly.Editor.SceneViewCameraSync
   name: SceneViewCameraSync
   href: api/Firefly.Editor.SceneViewCameraSync.html
@@ -1361,6 +1407,62 @@ references:
   commentId: F:Firefly.Editor.ToonModelImportSetting.toonMeshFolderPath
   fullName: Firefly.Editor.ToonModelImportSetting.toonMeshFolderPath
   nameWithType: ToonModelImportSetting.toonMeshFolderPath
+- uid: Firefly.Editor.UniformDistributionGenerator
+  name: UniformDistributionGenerator
+  href: api/Firefly.Editor.UniformDistributionGenerator.html
+  commentId: T:Firefly.Editor.UniformDistributionGenerator
+  fullName: Firefly.Editor.UniformDistributionGenerator
+  nameWithType: UniformDistributionGenerator
+- uid: Firefly.Editor.UniformDistributionGenerator.center
+  name: center
+  href: api/Firefly.Editor.UniformDistributionGenerator.html#Firefly_Editor_UniformDistributionGenerator_center
+  commentId: F:Firefly.Editor.UniformDistributionGenerator.center
+  fullName: Firefly.Editor.UniformDistributionGenerator.center
+  nameWithType: UniformDistributionGenerator.center
+- uid: Firefly.Editor.UniformDistributionGenerator.count
+  name: count
+  href: api/Firefly.Editor.UniformDistributionGenerator.html#Firefly_Editor_UniformDistributionGenerator_count
+  commentId: F:Firefly.Editor.UniformDistributionGenerator.count
+  fullName: Firefly.Editor.UniformDistributionGenerator.count
+  nameWithType: UniformDistributionGenerator.count
+- uid: Firefly.Editor.UniformDistributionGenerator.Generate
+  name: Generate()
+  href: api/Firefly.Editor.UniformDistributionGenerator.html#Firefly_Editor_UniformDistributionGenerator_Generate
+  commentId: M:Firefly.Editor.UniformDistributionGenerator.Generate
+  fullName: Firefly.Editor.UniformDistributionGenerator.Generate()
+  nameWithType: UniformDistributionGenerator.Generate()
+- uid: Firefly.Editor.UniformDistributionGenerator.Generate*
+  name: Generate
+  href: api/Firefly.Editor.UniformDistributionGenerator.html#Firefly_Editor_UniformDistributionGenerator_Generate_
+  commentId: Overload:Firefly.Editor.UniformDistributionGenerator.Generate
+  isSpec: "True"
+  fullName: Firefly.Editor.UniformDistributionGenerator.Generate
+  nameWithType: UniformDistributionGenerator.Generate
+- uid: Firefly.Editor.UniformDistributionGenerator.GeneratePrefabs
+  name: GeneratePrefabs()
+  href: api/Firefly.Editor.UniformDistributionGenerator.html#Firefly_Editor_UniformDistributionGenerator_GeneratePrefabs
+  commentId: M:Firefly.Editor.UniformDistributionGenerator.GeneratePrefabs
+  fullName: Firefly.Editor.UniformDistributionGenerator.GeneratePrefabs()
+  nameWithType: UniformDistributionGenerator.GeneratePrefabs()
+- uid: Firefly.Editor.UniformDistributionGenerator.GeneratePrefabs*
+  name: GeneratePrefabs
+  href: api/Firefly.Editor.UniformDistributionGenerator.html#Firefly_Editor_UniformDistributionGenerator_GeneratePrefabs_
+  commentId: Overload:Firefly.Editor.UniformDistributionGenerator.GeneratePrefabs
+  isSpec: "True"
+  fullName: Firefly.Editor.UniformDistributionGenerator.GeneratePrefabs
+  nameWithType: UniformDistributionGenerator.GeneratePrefabs
+- uid: Firefly.Editor.UniformDistributionGenerator.prefab
+  name: prefab
+  href: api/Firefly.Editor.UniformDistributionGenerator.html#Firefly_Editor_UniformDistributionGenerator_prefab
+  commentId: F:Firefly.Editor.UniformDistributionGenerator.prefab
+  fullName: Firefly.Editor.UniformDistributionGenerator.prefab
+  nameWithType: UniformDistributionGenerator.prefab
+- uid: Firefly.Editor.UniformDistributionGenerator.size
+  name: size
+  href: api/Firefly.Editor.UniformDistributionGenerator.html#Firefly_Editor_UniformDistributionGenerator_size
+  commentId: F:Firefly.Editor.UniformDistributionGenerator.size
+  fullName: Firefly.Editor.UniformDistributionGenerator.size
+  nameWithType: UniformDistributionGenerator.size
 - uid: Firefly.FireflyEditorGUI
   name: FireflyEditorGUI
   href: api/Firefly.FireflyEditorGUI.html
@@ -1745,6 +1847,25 @@ references:
   isSpec: "True"
   fullName: Firefly.FireflyEditorGUI.GUISkinLabelNormalTextColor.Dispose
   nameWithType: FireflyEditorGUI.GUISkinLabelNormalTextColor.Dispose
+- uid: Firefly.FireflyIDCCommand
+  name: FireflyIDCCommand
+  href: api/Firefly.FireflyIDCCommand.html
+  commentId: T:Firefly.FireflyIDCCommand
+  fullName: Firefly.FireflyIDCCommand
+  nameWithType: FireflyIDCCommand
+- uid: Firefly.FireflyIDCCommand.ShowRenderInfos
+  name: ShowRenderInfos()
+  href: api/Firefly.FireflyIDCCommand.html#Firefly_FireflyIDCCommand_ShowRenderInfos
+  commentId: M:Firefly.FireflyIDCCommand.ShowRenderInfos
+  fullName: Firefly.FireflyIDCCommand.ShowRenderInfos()
+  nameWithType: FireflyIDCCommand.ShowRenderInfos()
+- uid: Firefly.FireflyIDCCommand.ShowRenderInfos*
+  name: ShowRenderInfos
+  href: api/Firefly.FireflyIDCCommand.html#Firefly_FireflyIDCCommand_ShowRenderInfos_
+  commentId: Overload:Firefly.FireflyIDCCommand.ShowRenderInfos
+  isSpec: "True"
+  fullName: Firefly.FireflyIDCCommand.ShowRenderInfos
+  nameWithType: FireflyIDCCommand.ShowRenderInfos
 - uid: Firefly.GamePlay
   name: Firefly.GamePlay
   href: api/Firefly.GamePlay.html
@@ -1775,6 +1896,42 @@ references:
   commentId: F:Firefly.GamePlay.FireflyJoystick.scaleSpeed
   fullName: Firefly.GamePlay.FireflyJoystick.scaleSpeed
   nameWithType: FireflyJoystick.scaleSpeed
+- uid: Firefly.GamePlay.SimpleCameraController
+  name: SimpleCameraController
+  href: api/Firefly.GamePlay.SimpleCameraController.html
+  commentId: T:Firefly.GamePlay.SimpleCameraController
+  fullName: Firefly.GamePlay.SimpleCameraController
+  nameWithType: SimpleCameraController
+- uid: Firefly.GamePlay.SimpleCameraController.boost
+  name: boost
+  href: api/Firefly.GamePlay.SimpleCameraController.html#Firefly_GamePlay_SimpleCameraController_boost
+  commentId: F:Firefly.GamePlay.SimpleCameraController.boost
+  fullName: Firefly.GamePlay.SimpleCameraController.boost
+  nameWithType: SimpleCameraController.boost
+- uid: Firefly.GamePlay.SimpleCameraController.invertY
+  name: invertY
+  href: api/Firefly.GamePlay.SimpleCameraController.html#Firefly_GamePlay_SimpleCameraController_invertY
+  commentId: F:Firefly.GamePlay.SimpleCameraController.invertY
+  fullName: Firefly.GamePlay.SimpleCameraController.invertY
+  nameWithType: SimpleCameraController.invertY
+- uid: Firefly.GamePlay.SimpleCameraController.mouseSensitivityCurve
+  name: mouseSensitivityCurve
+  href: api/Firefly.GamePlay.SimpleCameraController.html#Firefly_GamePlay_SimpleCameraController_mouseSensitivityCurve
+  commentId: F:Firefly.GamePlay.SimpleCameraController.mouseSensitivityCurve
+  fullName: Firefly.GamePlay.SimpleCameraController.mouseSensitivityCurve
+  nameWithType: SimpleCameraController.mouseSensitivityCurve
+- uid: Firefly.GamePlay.SimpleCameraController.positionLerpTime
+  name: positionLerpTime
+  href: api/Firefly.GamePlay.SimpleCameraController.html#Firefly_GamePlay_SimpleCameraController_positionLerpTime
+  commentId: F:Firefly.GamePlay.SimpleCameraController.positionLerpTime
+  fullName: Firefly.GamePlay.SimpleCameraController.positionLerpTime
+  nameWithType: SimpleCameraController.positionLerpTime
+- uid: Firefly.GamePlay.SimpleCameraController.rotationLerpTime
+  name: rotationLerpTime
+  href: api/Firefly.GamePlay.SimpleCameraController.html#Firefly_GamePlay_SimpleCameraController_rotationLerpTime
+  commentId: F:Firefly.GamePlay.SimpleCameraController.rotationLerpTime
+  fullName: Firefly.GamePlay.SimpleCameraController.rotationLerpTime
+  nameWithType: SimpleCameraController.rotationLerpTime
 - uid: Firefly.Rendering
   name: Firefly.Rendering
   href: api/Firefly.Rendering.html
@@ -4600,6 +4757,32 @@ references:
   commentId: F:Firefly.Rendering.WindTextureSize._512
   fullName: Firefly.Rendering.WindTextureSize._512
   nameWithType: WindTextureSize._512
+- uid: Firefly.ScriptableSingletonRuntime`1
+  name: ScriptableSingletonRuntime<T>
+  href: api/Firefly.ScriptableSingletonRuntime-1.html
+  commentId: T:Firefly.ScriptableSingletonRuntime`1
+  name.vb: ScriptableSingletonRuntime(Of T)
+  fullName: Firefly.ScriptableSingletonRuntime<T>
+  fullName.vb: Firefly.ScriptableSingletonRuntime(Of T)
+  nameWithType: ScriptableSingletonRuntime<T>
+  nameWithType.vb: ScriptableSingletonRuntime(Of T)
+- uid: Firefly.ScriptableSingletonRuntime`1.Instance
+  name: Instance
+  href: api/Firefly.ScriptableSingletonRuntime-1.html#Firefly_ScriptableSingletonRuntime_1_Instance
+  commentId: P:Firefly.ScriptableSingletonRuntime`1.Instance
+  fullName: Firefly.ScriptableSingletonRuntime<T>.Instance
+  fullName.vb: Firefly.ScriptableSingletonRuntime(Of T).Instance
+  nameWithType: ScriptableSingletonRuntime<T>.Instance
+  nameWithType.vb: ScriptableSingletonRuntime(Of T).Instance
+- uid: Firefly.ScriptableSingletonRuntime`1.Instance*
+  name: Instance
+  href: api/Firefly.ScriptableSingletonRuntime-1.html#Firefly_ScriptableSingletonRuntime_1_Instance_
+  commentId: Overload:Firefly.ScriptableSingletonRuntime`1.Instance
+  isSpec: "True"
+  fullName: Firefly.ScriptableSingletonRuntime<T>.Instance
+  fullName.vb: Firefly.ScriptableSingletonRuntime(Of T).Instance
+  nameWithType: ScriptableSingletonRuntime<T>.Instance
+  nameWithType.vb: ScriptableSingletonRuntime(Of T).Instance
 - uid: Firefly.TemplateShaderGUI
   name: TemplateShaderGUI
   href: api/Firefly.TemplateShaderGUI.html
@@ -5030,6 +5213,18 @@ references:
   commentId: F:Firefly.Utilities.MonoUniformDistributionGenerator.size
   fullName: Firefly.Utilities.MonoUniformDistributionGenerator.size
   nameWithType: MonoUniformDistributionGenerator.size
+- uid: Firefly.Utilities.SetFPS
+  name: SetFPS
+  href: api/Firefly.Utilities.SetFPS.html
+  commentId: T:Firefly.Utilities.SetFPS
+  fullName: Firefly.Utilities.SetFPS
+  nameWithType: SetFPS
+- uid: Firefly.Utilities.SetFPS.maxFPS
+  name: maxFPS
+  href: api/Firefly.Utilities.SetFPS.html#Firefly_Utilities_SetFPS_maxFPS
+  commentId: F:Firefly.Utilities.SetFPS.maxFPS
+  fullName: Firefly.Utilities.SetFPS.maxFPS
+  nameWithType: SetFPS.maxFPS
 - uid: Firefly.Utilities.ShowMeshNormal
   name: ShowMeshNormal
   href: api/Firefly.Utilities.ShowMeshNormal.html

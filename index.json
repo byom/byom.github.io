@@ -12,7 +12,7 @@
   "api/Firefly.Editor.BatchCommandEditor.html": {
     "href": "api/Firefly.Editor.BatchCommandEditor.html",
     "title": "Class BatchCommandEditor | Firefly documentation",
-    "keywords": "Class BatchCommandEditor Inheritance Object BatchCommandEditor Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public class BatchCommandEditor : OdinEditorWindow Constructors BatchCommandEditor() Declaration public BatchCommandEditor() Fields findShader Declaration public FindShaderMenu findShader Field Value Type Description FindShaderMenu replaceShader Declaration public ReplaceShaderMenu replaceShader Field Value Type Description ReplaceShaderMenu"
+    "keywords": "Class BatchCommandEditor Inheritance Object BatchCommandEditor Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public class BatchCommandEditor : OdinEditorWindow Constructors BatchCommandEditor() Declaration public BatchCommandEditor()"
   },
   "api/Firefly.Editor.CreateFireflyTemplate.html": {
     "href": "api/Firefly.Editor.CreateFireflyTemplate.html",
@@ -32,42 +32,32 @@
   "api/Firefly.Editor.FindShader.html": {
     "href": "api/Firefly.Editor.FindShader.html",
     "title": "Class FindShader | Firefly documentation",
-    "keywords": "Class FindShader Inheritance Object FindShader Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public static class FindShader Methods FindShaderByName(String, Boolean) Declaration public static GameObject[] FindShaderByName(string shaderName, bool matchWords = false) Parameters Type Name Description String shaderName Boolean matchWords Returns Type Description GameObject []"
-  },
-  "api/Firefly.Editor.FindShaderMenu.html": {
-    "href": "api/Firefly.Editor.FindShaderMenu.html",
-    "title": "Class FindShaderMenu | Firefly documentation",
-    "keywords": "Class FindShaderMenu Inheritance Object FindShaderMenu Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public class FindShaderMenu Fields items Declaration public GameObject[] items Field Value Type Description GameObject [] matchWords Declaration public bool matchWords Field Value Type Description Boolean shaderName Declaration public string shaderName Field Value Type Description String Methods FindShader() Declaration public void FindShader()"
+    "keywords": "Class FindShader Inheritance Object FindShader Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public class FindShader : ScriptableObject Fields items Declaration public GameObject[] items Field Value Type Description GameObject [] matchWords Declaration public bool matchWords Field Value Type Description Boolean shaderName Declaration public string shaderName Field Value Type Description String Methods Find() Declaration public void Find()"
   },
   "api/Firefly.Editor.FireflyEditorAssets.FireflyConfigs.html": {
     "href": "api/Firefly.Editor.FireflyEditorAssets.FireflyConfigs.html",
     "title": "Class FireflyEditorAssets.FireflyConfigs | Firefly documentation",
-    "keywords": "Class FireflyEditorAssets.FireflyConfigs Inheritance Object FireflyEditorAssets.FireflyConfigs Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public sealed class FireflyConfigs Fields artMenuItems Declaration public string artMenuItems Field Value Type Description String renderMenuItems Declaration public string renderMenuItems Field Value Type Description String"
+    "keywords": "Class FireflyEditorAssets.FireflyConfigs Inheritance Object FireflyEditorAssets.FireflyConfigs Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public sealed class FireflyConfigs Fields artToolsetsRoot Declaration public string artToolsetsRoot Field Value Type Description String renderToolsetsRoot Declaration public string renderToolsetsRoot Field Value Type Description String"
   },
   "api/Firefly.Editor.FireflyEditorAssets.html": {
     "href": "api/Firefly.Editor.FireflyEditorAssets.html",
     "title": "Class FireflyEditorAssets | Firefly documentation",
-    "keywords": "Class FireflyEditorAssets Inheritance Object FireflyEditorAssets Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public class FireflyEditorAssets : ScriptableObject Fields configs Declaration public FireflyEditorAssets.FireflyConfigs configs Field Value Type Description FireflyEditorAssets.FireflyConfigs materials Declaration public FireflyEditorAssets.SMaterialResources materials Field Value Type Description FireflyEditorAssets.SMaterialResources shaders Declaration public FireflyEditorAssets.ShaderResources shaders Field Value Type Description FireflyEditorAssets.ShaderResources textures Declaration public FireflyEditorAssets.TextureResources textures Field Value Type Description FireflyEditorAssets.TextureResources Properties Instance Declaration public static FireflyEditorAssets Instance { get; } Property Value Type Description FireflyEditorAssets"
+    "keywords": "Class FireflyEditorAssets Inheritance Object FireflyEditorAssets Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public class FireflyEditorAssets : ScriptableObject Fields configs Declaration public FireflyEditorAssets.FireflyConfigs configs Field Value Type Description FireflyEditorAssets.FireflyConfigs materials Declaration public FireflyEditorAssets.MaterialResources materials Field Value Type Description FireflyEditorAssets.MaterialResources shaders Declaration public FireflyEditorAssets.ShaderResources shaders Field Value Type Description FireflyEditorAssets.ShaderResources textures Declaration public FireflyEditorAssets.TextureResources textures Field Value Type Description FireflyEditorAssets.TextureResources Properties Instance Declaration public static FireflyEditorAssets Instance { get; } Property Value Type Description FireflyEditorAssets"
+  },
+  "api/Firefly.Editor.FireflyEditorAssets.MaterialResources.html": {
+    "href": "api/Firefly.Editor.FireflyEditorAssets.MaterialResources.html",
+    "title": "Class FireflyEditorAssets.MaterialResources | Firefly documentation",
+    "keywords": "Class FireflyEditorAssets.MaterialResources Inheritance Object FireflyEditorAssets.MaterialResources Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public sealed class MaterialResources Fields mat Declaration public Material mat Field Value Type Description Material"
   },
   "api/Firefly.Editor.FireflyEditorAssets.ShaderResources.html": {
     "href": "api/Firefly.Editor.FireflyEditorAssets.ShaderResources.html",
     "title": "Class FireflyEditorAssets.ShaderResources | Firefly documentation",
     "keywords": "Class FireflyEditorAssets.ShaderResources Inheritance Object FireflyEditorAssets.ShaderResources Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public sealed class ShaderResources Fields shader Declaration public Shader shader Field Value Type Description Shader"
   },
-  "api/Firefly.Editor.FireflyEditorAssets.SMaterialResources.html": {
-    "href": "api/Firefly.Editor.FireflyEditorAssets.SMaterialResources.html",
-    "title": "Class FireflyEditorAssets.SMaterialResources | Firefly documentation",
-    "keywords": "Class FireflyEditorAssets.SMaterialResources Inheritance Object FireflyEditorAssets.SMaterialResources Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public sealed class SMaterialResources Fields mat Declaration public Material mat Field Value Type Description Material"
-  },
   "api/Firefly.Editor.FireflyEditorAssets.TextureResources.html": {
     "href": "api/Firefly.Editor.FireflyEditorAssets.TextureResources.html",
     "title": "Class FireflyEditorAssets.TextureResources | Firefly documentation",
     "keywords": "Class FireflyEditorAssets.TextureResources Inheritance Object FireflyEditorAssets.TextureResources Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public sealed class TextureResources Fields fireflyIcon Declaration public Texture2D fireflyIcon Field Value Type Description Texture2D"
-  },
-  "api/Firefly.Editor.FireflyMenuItem.html": {
-    "href": "api/Firefly.Editor.FireflyMenuItem.html",
-    "title": "Class FireflyMenuItem | Firefly documentation",
-    "keywords": "Class FireflyMenuItem Inheritance Object FireflyMenuItem Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public class FireflyMenuItem : ScriptableObject Fields numberOfPrefabsToCreate Declaration public int numberOfPrefabsToCreate Field Value Type Description Int32 prefabName Declaration public string prefabName Field Value Type Description String spawnPoints Declaration public Vector3[] spawnPoints Field Value Type Description Vector3 []"
   },
   "api/Firefly.Editor.FireflyPreferences.DemoOption.html": {
     "href": "api/Firefly.Editor.FireflyPreferences.DemoOption.html",
@@ -97,7 +87,7 @@
   "api/Firefly.Editor.html": {
     "href": "api/Firefly.Editor.html",
     "title": "Namespace Firefly.Editor | Firefly documentation",
-    "keywords": "Namespace Firefly.Editor Classes ArtPipelineSettings ArtToolsets BatchCommandEditor CreateFireflyTemplate CreateScriptsTemplate EditorGraphicUtilities FindShader FindShaderMenu FireflyEditorAssets FireflyEditorAssets.FireflyConfigs FireflyEditorAssets.ShaderResources FireflyEditorAssets.SMaterialResources FireflyEditorAssets.TextureResources FireflyMenuItem FireflyPreferences ForderPath GraphicDebugEditor GUIStyleEx InspectorUtils InspectorUtils.SplitterStyles MaterialOverviewEditor MaterialOverviewEditor.MaterialInfo MaterialOverviewEditor.ShaderInfo MeshNormalVisualizer ModelImportUtilities RenderToolsets RenderToolsetsResource ReplaceShader ReplaceShaderMenu SceneViewCameraSync ScriptableSingletonEditor<T> TemplateEditor ToonModelImporter 对卡通风格的模型导入时自动计算平滑法线存放于UV2和UV3中。 注意并没有替换模型, 仅对生成GameObject后做处理, 存储于Library中. fbx文件无损. 临时会拷贝一份模型, 利用Unity导入自动计算平滑法线(速度比手动计算更快). 自动区分SkinedMesh还是StaticMesh ToonModelImportSetting Enums FireflyPreferences.DemoOption MaterialOverviewEditor.CollectMode MaterialOverviewEditor.SearchOption"
+    "keywords": "Namespace Firefly.Editor Classes ArtPipelineSettings ArtToolsets BatchCommandEditor CreateFireflyTemplate CreateScriptsTemplate EditorGraphicUtilities FindShader FireflyEditorAssets FireflyEditorAssets.FireflyConfigs FireflyEditorAssets.MaterialResources FireflyEditorAssets.ShaderResources FireflyEditorAssets.TextureResources FireflyPreferences ForderPath GraphicDebugEditor GUIStyleEx InspectorUtils InspectorUtils.SplitterStyles MaterialOverviewEditor MaterialOverviewEditor.MaterialInfo MaterialOverviewEditor.ShaderInfo MeshNormalVisualizer ModelImportUtilities NoiseTexsGenerator 可以通过扩展Kernel的类型增加新的噪声图. PathUtils RenderToolsets RenderToolsetsResource ReplaceShader SceneViewCameraSync ScriptableSingletonEditor<T> TemplateEditor ToonModelImporter 对卡通风格的模型导入时自动计算平滑法线存放于UV2和UV3中。 注意并没有替换模型, 仅对生成GameObject后做处理, 存储于Library中. fbx文件无损. 临时会拷贝一份模型, 利用Unity导入自动计算平滑法线(速度比手动计算更快). 自动区分SkinedMesh还是StaticMesh ToonModelImportSetting UniformDistributionGenerator Enums FireflyPreferences.DemoOption MaterialOverviewEditor.CollectMode MaterialOverviewEditor.SearchOption NoiseTexsGenerator.KernelType"
   },
   "api/Firefly.Editor.InspectorUtils.html": {
     "href": "api/Firefly.Editor.InspectorUtils.html",
@@ -144,6 +134,21 @@
     "title": "Class ModelImportUtilities | Firefly documentation",
     "keywords": "Class ModelImportUtilities Inheritance Object ModelImportUtilities Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public static class ModelImportUtilities Methods IsSkinnedMesh(String) Declaration public static bool IsSkinnedMesh(string assetPath) Parameters Type Name Description String assetPath Returns Type Description Boolean IsStaticMesh(String) Declaration public static bool IsStaticMesh(string assetPath) Parameters Type Name Description String assetPath Returns Type Description Boolean IsUseTangent(String) Declaration public static bool IsUseTangent(string assetPath) Parameters Type Name Description String assetPath Returns Type Description Boolean NeedToCaculateSmoothNormal(String) Declaration public static bool NeedToCaculateSmoothNormal(string assetPath) Parameters Type Name Description String assetPath Returns Type Description Boolean SetDefaultImportSetting(ref ModelImporter) Declaration public static void SetDefaultImportSetting(ref ModelImporter model) Parameters Type Name Description ModelImporter model"
   },
+  "api/Firefly.Editor.NoiseTexsGenerator.html": {
+    "href": "api/Firefly.Editor.NoiseTexsGenerator.html",
+    "title": "Class NoiseTexsGenerator | Firefly documentation",
+    "keywords": "Class NoiseTexsGenerator 可以通过扩展Kernel的类型增加新的噪声图. Inheritance Object NoiseTexsGenerator Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public class NoiseTexsGenerator : ScriptableObject Fields computeShader Declaration public ComputeShader computeShader Field Value Type Description ComputeShader generatedPreviewTex Declaration public Object generatedPreviewTex Field Value Type Description Object kernelType Declaration public NoiseTexsGenerator.KernelType kernelType Field Value Type Description NoiseTexsGenerator.KernelType saveFolder Declaration public string saveFolder Field Value Type Description String saveName Declaration public string saveName Field Value Type Description String squareResolution Declaration public int squareResolution Field Value Type Description Int32 texture3DSlice Declaration public ComputeShader texture3DSlice Field Value Type Description ComputeShader Methods GenerateNoiseTexture() Declaration public void GenerateNoiseTexture()"
+  },
+  "api/Firefly.Editor.NoiseTexsGenerator.KernelType.html": {
+    "href": "api/Firefly.Editor.NoiseTexsGenerator.KernelType.html",
+    "title": "Enum NoiseTexsGenerator.KernelType | Firefly documentation",
+    "keywords": "Enum NoiseTexsGenerator.KernelType Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public enum KernelType Fields Name Description Noise2DGen Noise3D1Gen Noise3D2Gen"
+  },
+  "api/Firefly.Editor.PathUtils.html": {
+    "href": "api/Firefly.Editor.PathUtils.html",
+    "title": "Class PathUtils | Firefly documentation",
+    "keywords": "Class PathUtils Inheritance Object PathUtils Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public static class PathUtils Methods ForeachSubFolder(String, Action<String>, Boolean) ?????????????????????? Declaration public static void ForeachSubFolder(string path, Action<string> callback, bool recursive = false) Parameters Type Name Description String path ???? Action < String > callback ?????????? Boolean recursive ??????????? SafePath(String) ???????????????��???. Declaration public static string SafePath(string path) Parameters Type Name Description String path Returns Type Description String"
+  },
   "api/Firefly.Editor.RenderToolsets.html": {
     "href": "api/Firefly.Editor.RenderToolsets.html",
     "title": "Class RenderToolsets | Firefly documentation",
@@ -157,12 +162,7 @@
   "api/Firefly.Editor.ReplaceShader.html": {
     "href": "api/Firefly.Editor.ReplaceShader.html",
     "title": "Class ReplaceShader | Firefly documentation",
-    "keywords": "Class ReplaceShader Inheritance Object ReplaceShader Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public static class ReplaceShader Methods ReplaceShaderByName(String, String) Declaration public static void ReplaceShaderByName(string src, string dst) Parameters Type Name Description String src String dst"
-  },
-  "api/Firefly.Editor.ReplaceShaderMenu.html": {
-    "href": "api/Firefly.Editor.ReplaceShaderMenu.html",
-    "title": "Class ReplaceShaderMenu | Firefly documentation",
-    "keywords": "Class ReplaceShaderMenu Inheritance Object ReplaceShaderMenu Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public class ReplaceShaderMenu Fields dstShaderName Declaration public string dstShaderName Field Value Type Description String srcShaderName Declaration public string srcShaderName Field Value Type Description String Methods ReplaceShader() Declaration public void ReplaceShader()"
+    "keywords": "Class ReplaceShader Inheritance Object ReplaceShader Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public class ReplaceShader : ScriptableObject Fields dstShaderName Declaration public string dstShaderName Field Value Type Description String srcShaderName Declaration public string srcShaderName Field Value Type Description String Methods Replace() Declaration public void Replace()"
   },
   "api/Firefly.Editor.SceneViewCameraSync.html": {
     "href": "api/Firefly.Editor.SceneViewCameraSync.html",
@@ -188,6 +188,11 @@
     "href": "api/Firefly.Editor.ToonModelImportSetting.html",
     "title": "Class ToonModelImportSetting | Firefly documentation",
     "keywords": "Class ToonModelImportSetting Inheritance Object ToonModelImportSetting Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public class ToonModelImportSetting : ScriptableObject Fields toonMeshFolderPath Declaration public List<ForderPath> toonMeshFolderPath Field Value Type Description List < ForderPath >"
+  },
+  "api/Firefly.Editor.UniformDistributionGenerator.html": {
+    "href": "api/Firefly.Editor.UniformDistributionGenerator.html",
+    "title": "Class UniformDistributionGenerator | Firefly documentation",
+    "keywords": "Class UniformDistributionGenerator Inheritance Object UniformDistributionGenerator Namespace : Firefly.Editor Assembly : cs.temp.dll.dll Syntax public class UniformDistributionGenerator : ScriptableObject Fields center Declaration public Vector3 center Field Value Type Description Vector3 count Declaration public uint count Field Value Type Description UInt32 prefab Declaration public GameObject prefab Field Value Type Description GameObject size Declaration public uint size Field Value Type Description UInt32 Methods Generate() Declaration public void Generate() GeneratePrefabs() Declaration public void GeneratePrefabs()"
   },
   "api/Firefly.FireflyEditorGUI.EditorGUIIndentLevel.html": {
     "href": "api/Firefly.FireflyEditorGUI.EditorGUIIndentLevel.html",
@@ -239,6 +244,11 @@
     "title": "Class FireflyEditorGUI | Firefly documentation",
     "keywords": "Class FireflyEditorGUI using (new FireflyEditorGUI.EditorGUILayoutHorizontal()) { Your GUI Layout. } EditorGUILayoutVertical EditorGUILayoutHorizontal GUILayoutVertical GUILayoutHorizontal EditorGUIIndentLevel GUIColor GUIBackgroundColor GUIEnabled Inheritance Object FireflyEditorGUI Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class FireflyEditorGUI"
   },
+  "api/Firefly.FireflyIDCCommand.html": {
+    "href": "api/Firefly.FireflyIDCCommand.html",
+    "title": "Class FireflyIDCCommand | Firefly documentation",
+    "keywords": "Class FireflyIDCCommand Inheritance Object FireflyIDCCommand Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class FireflyIDCCommand : MonoBehaviour Methods ShowRenderInfos() Declaration public static void ShowRenderInfos()"
+  },
   "api/Firefly.GamePlay.FireflyJoystick.html": {
     "href": "api/Firefly.GamePlay.FireflyJoystick.html",
     "title": "Class FireflyJoystick | Firefly documentation",
@@ -247,12 +257,17 @@
   "api/Firefly.GamePlay.html": {
     "href": "api/Firefly.GamePlay.html",
     "title": "Namespace Firefly.GamePlay | Firefly documentation",
-    "keywords": "Namespace Firefly.GamePlay Classes FireflyJoystick"
+    "keywords": "Namespace Firefly.GamePlay Classes FireflyJoystick SimpleCameraController"
+  },
+  "api/Firefly.GamePlay.SimpleCameraController.html": {
+    "href": "api/Firefly.GamePlay.SimpleCameraController.html",
+    "title": "Class SimpleCameraController | Firefly documentation",
+    "keywords": "Class SimpleCameraController Inheritance Object SimpleCameraController Namespace : Firefly.GamePlay Assembly : cs.temp.dll.dll Syntax public class SimpleCameraController : MonoBehaviour Fields boost Declaration public float boost Field Value Type Description Single invertY Declaration public bool invertY Field Value Type Description Boolean mouseSensitivityCurve Declaration public AnimationCurve mouseSensitivityCurve Field Value Type Description AnimationCurve positionLerpTime Declaration public float positionLerpTime Field Value Type Description Single rotationLerpTime Declaration public float rotationLerpTime Field Value Type Description Single"
   },
   "api/Firefly.html": {
     "href": "api/Firefly.html",
     "title": "Namespace Firefly | Firefly documentation",
-    "keywords": "Namespace Firefly Classes FireflyEditorGUI using (new FireflyEditorGUI.EditorGUILayoutHorizontal()) { Your GUI Layout. } EditorGUILayoutVertical EditorGUILayoutHorizontal GUILayoutVertical GUILayoutHorizontal EditorGUIIndentLevel GUIColor GUIBackgroundColor GUIEnabled FireflyEditorGUI.EditorGUIIndentLevel FireflyEditorGUI.EditorGUILayoutHorizontal FireflyEditorGUI.EditorGUILayoutVertical FireflyEditorGUI.GUIBackgroundColor FireflyEditorGUI.GUIColor FireflyEditorGUI.GUIEnabled FireflyEditorGUI.GUILayoutHorizontal FireflyEditorGUI.GUILayoutVertical FireflyEditorGUI.GUISkinLabelNormalTextColor TemplateShaderGUI TemplateShaderGUI.Styles Enums TemplateShaderGUI.BlendMode TemplateShaderGUI.RenderFace TemplateShaderGUI.SurfaceType"
+    "keywords": "Namespace Firefly Classes FireflyEditorGUI using (new FireflyEditorGUI.EditorGUILayoutHorizontal()) { Your GUI Layout. } EditorGUILayoutVertical EditorGUILayoutHorizontal GUILayoutVertical GUILayoutHorizontal EditorGUIIndentLevel GUIColor GUIBackgroundColor GUIEnabled FireflyEditorGUI.EditorGUIIndentLevel FireflyEditorGUI.EditorGUILayoutHorizontal FireflyEditorGUI.EditorGUILayoutVertical FireflyEditorGUI.GUIBackgroundColor FireflyEditorGUI.GUIColor FireflyEditorGUI.GUIEnabled FireflyEditorGUI.GUILayoutHorizontal FireflyEditorGUI.GUILayoutVertical FireflyEditorGUI.GUISkinLabelNormalTextColor FireflyIDCCommand ScriptableSingletonRuntime<T> ����ʱ��Singleton����, ע�����Resources·����. TemplateShaderGUI TemplateShaderGUI.Styles Enums TemplateShaderGUI.BlendMode TemplateShaderGUI.RenderFace TemplateShaderGUI.SurfaceType"
   },
   "api/Firefly.Rendering.CameraExtension.html": {
     "href": "api/Firefly.Rendering.CameraExtension.html",
@@ -579,6 +594,11 @@
     "title": "Enum WindTextureSize | Firefly documentation",
     "keywords": "Enum WindTextureSize Namespace : Firefly.Rendering Assembly : cs.temp.dll.dll Syntax [Serializable] public enum WindTextureSize Fields Name Description _128 _256 _512"
   },
+  "api/Firefly.ScriptableSingletonRuntime-1.html": {
+    "href": "api/Firefly.ScriptableSingletonRuntime-1.html",
+    "title": "Class ScriptableSingletonRuntime<T> | Firefly documentation",
+    "keywords": "Class ScriptableSingletonRuntime<T> ����ʱ��Singleton����, ע�����Resources·����. Inheritance Object ScriptableSingletonRuntime<T> Namespace : Firefly Assembly : cs.temp.dll.dll Syntax public class ScriptableSingletonRuntime<T> : ScriptableObject where T : ScriptableSingletonRuntime<T> Type Parameters Name Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T"
+  },
   "api/Firefly.TemplateShaderGUI.BlendMode.html": {
     "href": "api/Firefly.TemplateShaderGUI.BlendMode.html",
     "title": "Enum TemplateShaderGUI.BlendMode | Firefly documentation",
@@ -612,7 +632,7 @@
   "api/Firefly.Utilities.html": {
     "href": "api/Firefly.Utilities.html",
     "title": "Namespace Firefly.Utilities | Firefly documentation",
-    "keywords": "Namespace Firefly.Utilities Classes ArtToolsetsResource MonoAutoRotation MonoPingpong MonoUniformDistributionGenerator ShowMeshNormal"
+    "keywords": "Namespace Firefly.Utilities Classes ArtToolsetsResource MonoAutoRotation MonoPingpong MonoUniformDistributionGenerator SetFPS ShowMeshNormal"
   },
   "api/Firefly.Utilities.MonoAutoRotation.html": {
     "href": "api/Firefly.Utilities.MonoAutoRotation.html",
@@ -629,6 +649,11 @@
     "title": "Class MonoUniformDistributionGenerator | Firefly documentation",
     "keywords": "Class MonoUniformDistributionGenerator Inheritance Object MonoUniformDistributionGenerator Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class MonoUniformDistributionGenerator : MonoBehaviour Fields center Declaration public Vector3 center Field Value Type Description Vector3 count Declaration public uint count Field Value Type Description UInt32 prefab Declaration public GameObject prefab Field Value Type Description GameObject size Declaration public uint size Field Value Type Description UInt32 Methods Generate() Declaration public void Generate() GeneratePrefabs() Declaration public void GeneratePrefabs()"
   },
+  "api/Firefly.Utilities.SetFPS.html": {
+    "href": "api/Firefly.Utilities.SetFPS.html",
+    "title": "Class SetFPS | Firefly documentation",
+    "keywords": "Class SetFPS Inheritance Object SetFPS Namespace : Firefly.Utilities Assembly : cs.temp.dll.dll Syntax public class SetFPS : MonoBehaviour Fields maxFPS Declaration public int maxFPS Field Value Type Description Int32"
+  },
   "api/Firefly.Utilities.ShowMeshNormal.html": {
     "href": "api/Firefly.Utilities.ShowMeshNormal.html",
     "title": "Class ShowMeshNormal | Firefly documentation",
@@ -637,6 +662,11 @@
   "manual/Firefly.html": {
     "href": "manual/Firefly.html",
     "title": "Firefly Project | Firefly documentation",
-    "keywords": "Firefly Project 【先从有道上记录TODOList，这里用来记录完成稳定的内容】 <!-- <img src=\"Firefly/Art/_Common/firefly_icon_transparent.png\" alt=\"Icon\" width=\"300\"/> --> Todo: [x] URP Shader Models: - [Half Transparent Render] [x] 搭建 PBR 测试场景。 (Viking Vallage) [ ] 渲染框架。 [ ] Natura Rendering。 [ ] 动态天气展示风云。 [ ] Volumetric Lighting [ ] Standard Shader支持lightingmap [ ] ECS剔除系统 [ ] 异步场景加载 [ ] 异步实体实例化 [x] 实现移动端PBR版本。 (Version 1.0) [x] PBR 贴图右键菜单合成NormalMetalRoughness图，合并Albedo + AO图 Features: Foundation: Auto Generate Documents AssetsSetting Create Shader/RenderFeature... Template Custom Render Pipeline: Half Transparent Render 默认渲染框架: HBAO TAA Shader Models: Standard Standard_HD(Bent Normal, Shadow Bias) Digital Human: PreIntegratedSkin, Skin_HD(TODO), Cloth, Hair(TODO), Eyes(TODO) Truanslucency HeightBlend 3D Billboard Clear Coat (TODO) Glass Refraction BRDF(Google Filament) Custom Art Workflow: LookDev Live Link(SP在Unity中预览) DCC编辑在Unity中预览 Auto Caculate SmoothNormal 软件一键云安装与破解:3dsmax,Maya,Houdini,Photoshop,SP. Rez包部署(按需接入) Cmd to bake SD/SP Texture (TODO) Tools: ArtToolset RederToolset Editor Extension: Show Normal Unity Versions: Unity 2021.3.11f1 (Old: Unity 2020.1.3f1) Universal Render Pipeline version 12.1.7 or higher (available via the Package Manager) Note: 2D Renderer Disabled."
+    "keywords": "Firefly Project 【先从有道上记录TODOList，这里用来记录完成稳定的内容】 <!-- <img src=\"Firefly/Art/_Common/firefly_icon_transparent.png\" alt=\"Icon\" width=\"300\"/> --> Todo: [x] URP Shader Models: - [Half Transparent Render] [x] 搭建 PBR 测试场景。 (Viking Vallage) [ ] 渲染框架。 [ ] Natura Rendering。 [ ] 动态天气展示风云。 [ ] Volumetric Lighting [ ] Standard Shader支持lightingmap [ ] ECS剔除系统 [ ] 异步场景加载 [ ] 异步实体实例化 [x] 实现移动端PBR版本。 (Version 1.0) [x] PBR 贴图右键菜单合成NormalMetalRoughness图，合并Albedo + AO图 Features: Foundation: Auto Generate Documents AssetsSetting Create Shader/RenderFeature... Template Custom Render Pipeline: Half Transparent Render 默认渲染框架: HBAO TAA Shader Models: Standard Standard_HD(Bent Normal, Shadow Bias) Digital Human: PreIntegratedSkin, Skin_HD(TODO), Cloth, Hair(TODO), Eyes(TODO) Truanslucency HeightBlend 3D Billboard Clear Coat (TODO) Glass Refraction BRDF(Google Filament) Custom Art Workflow: LookDev Live Link(SP在Unity中预览) DCC编辑在Unity中预览 Auto Caculate SmoothNormal 软件一键云安装与破解:3dsmax,Maya,Houdini,Photoshop,SP. Rez包部署(按需接入) Cmd to bake SD/SP Texture (TODO) Tools: ArtToolset RenderToolset Editor Extension: Show Normal Memo: ProjectSettings全局配置FireflySettings 真机/运行时调试指令(FireflyIDCCommand) Singleton(MonoBehaviour)/SingletonRuntime(SO)/SingletonEditorEditor(SO) Unity Versions: Unity 2021.3.11f1 (Old: Unity 2020.1.3f1) Universal Render Pipeline version 12.1.7 or higher (available via the Package Manager) Note: 2D Renderer Disabled."
+  },
+  "manual/Memo.html": {
+    "href": "manual/Memo.html",
+    "title": "Path: | Firefly documentation",
+    "keywords": "Path: AssetDatabase.GetAssetPath: Assets/Firefly/Editor/ArtToolsets/Batch/NoiseGenerator.asset Path.GetFileNameWithoutExtension: NoiseGenerator Path.GetDirectoryName: Assets\\Firefly\\Editor\\ArtToolsets\\Batch Path.AltDirectorySeparatorChar:/ Path.DirectorySeparatorChar:\\ See: System.IO.Path Shader Attribute: UnityBuildin: [Toggle] [Toggle(ENABLE_FANCY)] [Enum(UnityEngine.Rendering.BlendMode)] [Enum(One,1,SrcAlpha,5)] [KeywordEnum(None, Add, Multiply)] [PowerSlider(3.0)] [IntRange] [Space] [Space(50)] [Header(name)] Decorator: [EtyHeader] [EtyDocs] [EtySeparator] [EtyToggleBegin] [EtyToggleEnd] [EtyToggleHeader] [EtyIndentBegin] [EtyIndentEnd] Drawer: [EtyToggle] [EtyToggleHeader] [EtySingleLineTexture] [EtySingleLineTextureWithScale] [EtySingleLineTextureKeyword] [EtySingleLineTextureWithScaleKeyword] [EtyIndent] [EtyIndent2] [EtySetTexture]"
   }
 }
