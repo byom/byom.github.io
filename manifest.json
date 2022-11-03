@@ -1651,7 +1651,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "dsSU1AhxaZ90uN/EKXpbFEQh1LP+nNwqwsPyIzabaa0="
+          "hash": "YStf4I7ZJ5jTX1V/05oO4Vou54a2Z9/kpyvzFr0RVGQ="
         }
       },
       "is_incremental": false,
@@ -1705,7 +1705,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 1
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
