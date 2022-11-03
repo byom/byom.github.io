@@ -1627,7 +1627,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Firefly.html",
-          "hash": "JXXALNBfUYDqhTjs3Vu3ebd8uoWGmizcZzezL/0tKQU="
+          "hash": "s30QDsIubCLfyDe9opMJSJ9itxN38EpC2tK/oOmj55A="
         }
       },
       "is_incremental": false,
@@ -1705,13 +1705,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
+          "skipped_file_count": 1
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 132,
-          "skipped_file_count": 6
+          "skipped_file_count": 132
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
